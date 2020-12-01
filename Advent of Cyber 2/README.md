@@ -2,10 +2,7 @@
 
 **Date:** 01, December, 2020
 
-
 **Author:** Dhilip Sanjay S
-
----
 
 Get started with Cyber Security in 25 Days - Learn the basics by doing a new, beginner friendly security challenge every day leading up to Christmas.
 
@@ -13,4 +10,4 @@ Get started with Cyber Security in 25 Days - Learn the basics by doing a new, be
 
 ---
 ## Solutions
-- [Day 1 - Web Exploitation](/Day01-WebExploitation.md)
+- [Day 1 - Web Exploitation](Day01-WebExploitation.md)
