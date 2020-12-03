@@ -1,4 +1,4 @@
-# Day 1 - Web Exploitation
+# Day 1 - Christmas Crisis
 
 **Date:** 01, December, 2020
 
@@ -17,7 +17,7 @@
 ### 1. What is the name of the cookie used for authentication?
 - **Answer:** auth
 - **Steps to reproduce:**
-	- Press ```Ctrl+Shift+I``` (or) ```F12``` in browser.
+	- Press `Ctrl+Shift+I` (or) `F12` in browser.
 	-  In chrome, go to **Application** Tab and select _Cookies_ under **Storage** section to view the cookies.
 	- In Firefox, click on **Storage** tab to view the cookies.
 
@@ -33,14 +33,14 @@
 - **Answer:** JSON
 - **Steps to reproduce:**
 	- Use [CyberChef](https://gchq.github.io/CyberChef/) and select **From Hex** option to decode.
-	- By seeing the format ```{key: value}```, you can identify it's JSON.
+	- By seeing the format `{key: value}`, you can identify it's JSON.
 
 ---
 ### 4. Figure out how to bypass the authentication. What is the value of Santa's cookie?
 - **Answer:** 7b22636f6d70616e79223a22546865204265737420466573746976616c20436f6d70616e79222c2022757365726e616d65223a2273616e7461227d
 - **Steps to reproduce:**
 	- Remember, the cookie is used to identify the user account in this web app.
-	- So, modify the ```username``` parameter in the decoded JSON format and encode back **To Hex** using CyberChef.
+	- So, modify the `username` parameter in the decoded JSON format and encode back **To Hex** using CyberChef.
 	- Your modified cookie JSON must look like this:
 	```json
 	{"company":"The Best Festival Company", "username":"santa"}
