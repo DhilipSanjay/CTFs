@@ -9,4 +9,5 @@ Get started with Cyber Security in 25 Days - Learn the basics by doing a new, be
 [Click Here](https://tryhackme.com/room/adventofcyber2) to go the TryHackMe room.
 
 ## Solutions
-- [Day 1 - Web Exploitation](Day01-WebExploitation.md)
+- [Day 1 - Christmas Crisis](Day01-ChristmasCrisis.md)
+- [Day 2 - The Elf Strikes Back!](Day02-TheElfStrikesBack.md)
