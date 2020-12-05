@@ -11,3 +11,5 @@ Get started with Cyber Security in 25 Days - Learn the basics by doing a new, be
 ## Solutions
 - [Day 1 - Christmas Crisis](Day01-ChristmasCrisis.md)
 - [Day 2 - The Elf Strikes Back!](Day02-TheElfStrikesBack.md)
+- [Day 3 - Christmas Chaos](Day03-ChristmasChaos.md)
+- [Day 4 - Santa's Watching](Day04-Santa'sWatching.md)
