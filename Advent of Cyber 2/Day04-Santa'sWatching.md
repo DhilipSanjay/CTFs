@@ -21,7 +21,7 @@ wfuzz -c -z file,big.txt http://shibes.xyz/api.php/breed=FUZZ
 ### Use GoBuster to find the API directory. What file is there?
 - **Answer:** site-log.php
 - **Steps to reproduce:** 
-- Run Go buster and save the output in a file for later reference.
+    - Run Go buster and save the output in a file for later reference.
 ```bash
 gobuster dir -u http://10.10.238.210/ -w /usr/share/wordlists/dirb/big.txt -t 50 -x php,txt,html | tee GobusterOutput.txt
 ```
