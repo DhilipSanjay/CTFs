@@ -49,8 +49,11 @@ def rgx():
         code = code[-1].lstrip('string')
         return code
 
+# Using Beautiful Soup
 code = bs()
-code = rgx()
+
+# Using Regex
+# code = rgx()
 md5sum = hashlib.md5(code.encode()).hexdigest()
 
 data = {'hash': md5sum} # dict(hash = md5sum)
