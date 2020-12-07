@@ -14,3 +14,5 @@ Get started with Cyber Security in 25 Days - Learn the basics by doing a new, be
 - [Day 03 - Christmas Chaos](Day03-ChristmasChaos.md)
 - [Day 04 - Santa's Watching](Day04-Santa'sWatching.md)
 - [Day 05 - Someone stole Santa's gift list!](Day05-SomeonestoleSanta'sgiftlist.md)
+- [Day 06 - Be careful with what you wish on a Christmas night](Day06-XSS.md)
+- [Day 07 - The Grinch Really Did Steal Christmas](Day07-Wireshark.md) 

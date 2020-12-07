@@ -13,11 +13,12 @@ Documenting TryHackMe rooms.
 - [wfuzz](https://github.com/xmendez/wfuzz)
 - [SQLMAP](https://github.com/sqlmapproject/sqlmap)
 - [OWASP ZAP](https://owasp.org/www-project-zap/)
+- [WireShark](https://www.wireshark.org/)
 
 ## Payloads & Wordlists
 - [Seclists](https://github.com/danielmiessler/SecLists)
 - rockyou.txt
 - [Payload All the Things](https://github.com/swisskyrepo/PayloadsAllTheThings)
 - [SQL Injection Payload List](https://github.com/payloadbox/sql-injection-payload-list)
- - [OWASP Cheatsheet](https://github.com/OWASP/CheatSheetSeries)
- - [XSS Payload List](https://github.com/payloadbox/xss-payload-list)
+- [OWASP Cheatsheet](https://github.com/OWASP/CheatSheetSeries)
+- [XSS Payload List](https://github.com/payloadbox/xss-payload-list)
