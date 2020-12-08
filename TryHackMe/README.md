@@ -14,6 +14,7 @@ Documenting TryHackMe rooms.
 - [SQLMAP](https://github.com/sqlmapproject/sqlmap)
 - [OWASP ZAP](https://owasp.org/www-project-zap/)
 - [WireShark](https://www.wireshark.org/)
+- [Nmap](https://nmap.org/)
 
 ## Payloads & Wordlists
 - [Seclists](https://github.com/danielmiessler/SecLists)
