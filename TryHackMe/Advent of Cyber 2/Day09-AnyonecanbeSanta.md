@@ -1,6 +1,6 @@
 # Day 9 - Anyone can be Santa!
 
-**Date:** 10, December, 2020
+**Date:** 9, December, 2020
 
 **Author:** Dhilip Sanjay S
 
