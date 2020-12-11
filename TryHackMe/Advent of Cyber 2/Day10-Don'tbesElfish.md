@@ -12,12 +12,14 @@
 
 ### 1) Using enum4linux, how many users are there on the Samba server?
 - **Answer:** 3
-- **Steps to Reproduce:** `enum4linux -S <MACHINE_IP>`
-
+- **Steps to Reproduce:** 
+    - `enum4linux -S <MACHINE_IP>`
 ---
 ### 2) Now how many "shares" are there on the Samba server?
 - **Answer:** 4
-- **Steps to Reproduce:** `enum4linux -U <MACHINE_IP>`
+- **Steps to Reproduce:** 
+    - `enum4linux -U <MACHINE_IP>`
+    - `smbclient -L 10.10.167.69`
 
 ---
 ### 3) Use smbclient to try to login to the shares on the Samba server. What share doesn't require a password?

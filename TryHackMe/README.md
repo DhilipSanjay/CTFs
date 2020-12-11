@@ -4,6 +4,7 @@ Documenting TryHackMe rooms.
 - [Advent of Cyber 2](Advent%20of%20Cyber%202)
 - [Web Fundamentals](WebFundamentals.md)
 - [OWASP Top 10](OWASP%20Top%2010)
+- [Anonymous](Anonymous.md)
 
 ## Useful Tools
 - [CyberChef](https://gchq.github.io/CyberChef/)
@@ -15,6 +16,7 @@ Documenting TryHackMe rooms.
 - [OWASP ZAP](https://owasp.org/www-project-zap/)
 - [WireShark](https://www.wireshark.org/)
 - [Nmap](https://nmap.org/)
+- [Enum4Linux - SMB Enumeration](https://tools.kali.org/information-gathering/enum4linux)
 
 ## Payloads & Wordlists
 - [Seclists](https://github.com/danielmiessler/SecLists)
