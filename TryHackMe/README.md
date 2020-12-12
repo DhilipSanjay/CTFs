@@ -17,6 +17,7 @@ Documenting TryHackMe rooms.
 - [WireShark](https://www.wireshark.org/)
 - [Nmap](https://nmap.org/)
 - [Enum4Linux - SMB Enumeration](https://tools.kali.org/information-gathering/enum4linux)
+- [Metasploit](https://www.metasploit.com/)
 
 ## Payloads & Wordlists
 - [Seclists](https://github.com/danielmiessler/SecLists)
