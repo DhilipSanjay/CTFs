@@ -8,7 +8,10 @@
 
 ## Kernel Exploits
 - Dirty COW (Copy-On-Write) - [CVE-2016-5195]( https://dirtycow.ninja/)
+    - A race condition was found in the way the Linux kernel's memory subsystem handled the copy-on-write (COW) breakage of private read-only memory mappings. 
+    - An unprivileged local user could use this flaw to gain write access to otherwise read-only memory mappings and thus increase their privileges on the system.
 - [Dirty COW - C code](https://github.com/FireFart/dirtycow/blob/master/dirty.c)
+    - To get password input using C: `getpass("<Prompt message>")` in `<unistd.h>` header.
 ---
 
 ## Solutions
