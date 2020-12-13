@@ -5,6 +5,7 @@ Documenting TryHackMe rooms.
 - [Web Fundamentals](WebFundamentals.md)
 - [OWASP Top 10](OWASP%20Top%2010)
 - [Anonymous](Anonymous.md)
+- [Printer Hacking 101](PrinterHacking101.md)
 
 ## Useful Tools
 - [CyberChef](https://gchq.github.io/CyberChef/)
@@ -18,6 +19,7 @@ Documenting TryHackMe rooms.
 - [Nmap](https://nmap.org/)
 - [Enum4Linux - SMB Enumeration](https://tools.kali.org/information-gathering/enum4linux)
 - [Metasploit](https://www.metasploit.com/)
+- [PRET - Printer Exploitation](https://github.com/RUB-NDS/PRET)
 
 ## Payloads & Wordlists
 - [Seclists](https://github.com/danielmiessler/SecLists)
