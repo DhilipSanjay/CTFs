@@ -54,4 +54,4 @@ sqlmap -r request-file --tamper=space2comment --dump-all
 - **Answer:** EhCNSWzzFP6sc7gB
 ---
 
-[Back to Advent of Cyber 2](TryHackMe/Advent%20of%20Cyber%202) 
+[Back to Advent of Cyber 2](/TryHackMe/Advent%20of%20Cyber%202) 
