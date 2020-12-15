@@ -56,7 +56,7 @@
 - **Steps to Reproduce:** 
     - He mentions about `Twitter` in one of his Reddit Comments.
     - Search for `IGuideClaus2020` in [NameCheckup](https://namecheckup.com/) (`the` is removed from username in this case).
-    - [I Guuide the Claus 2020 Twitter Profile](https://twitter.com/IGuideClaus2020)
+    - [I Guide the Claus 2020](https://twitter.com/IGuideClaus2020) Twitter Profile
 
 ---
 
@@ -103,4 +103,4 @@
 
 ---
 
-[Back to Advent of Cyber 2](/Advent%20of%20Cyber%202) 
+[Back to Advent of Cyber 2](TryHackMe/Advent%20of%20Cyber%202) 

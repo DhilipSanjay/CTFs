@@ -42,4 +42,4 @@
 - **Note:** You must listen to the connection using `netcat`. If you don't know know how to do it, refer Day02. After getting the reverse shell, you can `cat flag.txt` to get the flag.
 
 ---
-[Back to Advent of Cyber 2](/Advent%20of%20Cyber%202) 
+[Back to Advent of Cyber 2](/TryHackMe/Advent%20of%20Cyber%202) 

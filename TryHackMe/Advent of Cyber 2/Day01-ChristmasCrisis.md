@@ -53,4 +53,4 @@
 	- Turn all the options to _Active_ in the web app, the flag will be displayed at the bottom.
 ---
 
-[Back to Advent of Cyber 2](/Advent%20of%20Cyber%202) 
+[Back to Advent of Cyber 2](/TryHackMe/Advent%20of%20Cyber%202) 

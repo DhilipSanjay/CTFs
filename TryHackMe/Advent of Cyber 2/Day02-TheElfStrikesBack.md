@@ -79,4 +79,4 @@
 - [IO redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
 - [Meaning of 2>&1 (STDERR to STDOUT)](https://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean)
 
-[Back to Advent of Cyber 2](/Advent%20of%20Cyber%202) 
+[Back to Advent of Cyber 2](/TryHackMe/Advent%20of%20Cyber%202) 

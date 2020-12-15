@@ -66,4 +66,4 @@
     ```
 ---
 
-[Back to Advent of Cyber 2](/Advent%20of%20Cyber%202) 
+[Back to Advent of Cyber 2](/TryHackMe/Advent%20of%20Cyber%202) 

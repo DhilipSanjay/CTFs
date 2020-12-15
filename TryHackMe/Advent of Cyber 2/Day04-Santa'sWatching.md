@@ -44,4 +44,4 @@ curl http://MACHINE-IP/api/site-log.php?date=`wfuzz -c -z file,big.txt --hh 0 ht
 - **P.S:** Just learning how to craft one liners!
 
 ---
-[Back to Advent of Cyber 2](/Advent%20of%20Cyber%202) 
+[Back to Advent of Cyber 2](/TryHackMe/Advent%20of%20Cyber%202) 
