@@ -1,8 +1,16 @@
 # TryHackMe
 Documenting TryHackMe rooms.
 
-- [Advent of Cyber 2](Advent%20of%20Cyber%202)
-- [Web Fundamentals](WebFundamentals.md)
-- [OWASP Top 10](OWASP%20Top%2010)
-- [Anonymous](Anonymous.md)
-- [Printer Hacking 101](PrinterHacking101.md)
+1. [Advent of Cyber 2](Advent%20of%20Cyber%202)
+1. [Web Fundamentals](WebFundamentals.md)
+1. [Anonymous](Anonymous.md)
+1. [Printer Hacking 101](PrinterHacking101.md)
+1. [OWASP Top 10](OWASP%20Top%2010)
+
+## Basic Rooms (No Documentation)
+1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
+1. [Introductory Networking](https://tryhackme.com/room/introtonetworking)
+1. [Linux Fundamentals Part 1](https://tryhackme.com/room/linux1)
+1. [Linux Fundamentals Part 2](https://tryhackme.com/room/linux2)
+1. [Linux Fundamentals Part 3](https://tryhackme.com/room/linux3)
+1. [Regular Expression](https://tryhackme.com/room/catregex)
