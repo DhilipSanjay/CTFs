@@ -16,6 +16,7 @@
 - [Enum4Linux - SMB Enumeration](https://tools.kali.org/information-gathering/enum4linux)
 - [Metasploit](https://www.metasploit.com/)
 - [PRET - Printer Exploitation](https://github.com/RUB-NDS/PRET)
+- [Radare 2 - Reverse Engineering](https://github.com/radareorg/radare2)
 
 ## Payloads & Wordlists
 - [Seclists](https://github.com/danielmiessler/SecLists)

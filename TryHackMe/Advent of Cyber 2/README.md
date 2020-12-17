@@ -24,4 +24,5 @@ Get started with Cyber Security in 25 Days - Learn the basics by doing a new, be
 - [Day 13 - Coal for Christmas](Day13-CoalforChristmas.md)
 - [Day 14 - Where's Rudolph?](Day14-Where'sRudolph.md)
 - [Day 15 - There's a Python in my stocking!](Day15-There'saPythoninmystocking.md)
-- [Day 16 - ]()
+- [Day 16 - Help! Where is Santa?](Day16-Help!WhereisSanta.md)
+- [Day 17 - ReverseELFneering](Day17-ReverseELFneering.md)
