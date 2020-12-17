@@ -66,8 +66,8 @@
     - eip (IP 32 bit)
 
 ## CheatSheets
-    - [x64 Cheat Sheet](http://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
-    - [R2 Cheatsheet](https://scoding.de/uploads/r2_cs.pdf)
+- [x64 Cheat Sheet](http://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
+- [R2 Cheatsheet](https://scoding.de/uploads/r2_cs.pdf)
 
 ## Solutions
 ### Initial commands to be executed to analyze
