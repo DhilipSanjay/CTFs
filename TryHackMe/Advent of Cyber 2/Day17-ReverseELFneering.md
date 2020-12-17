@@ -16,7 +16,7 @@
 - Register size = 64 bits
 
 ## Radare 2 
-- [Radare 2 - Reverse Engineering](https://github.com/radareorg/radare2)
+- [Radare 2 - Github](https://github.com/radareorg/radare2)
     - Disassemble binaries(translate **machine code to assembly**)
     - Debug the binaries
 
@@ -31,6 +31,7 @@
     - dr (show register value)
     - ood (reopen in debugger mode)
 
+## x86-64 Assembly
 - Basic Data Types
 
     |Initial Data Type | Suffix | Size (bytes)|
@@ -60,13 +61,13 @@
     - **andq source, destination**: destination = destination & source
     - **orq source, destination**: destination = destination | source
 
-- Cheatsheets
-    - [x64 Cheat Sheet](http://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
-    - [R2 Cheatsheet](https://scoding.de/uploads/r2_cs.pdf)
-
 - IP (Instruction Pointer )
     - rip (IP 64 bit)
     - eip (IP 32 bit)
+
+## CheatSheets
+    - [x64 Cheat Sheet](http://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
+    - [R2 Cheatsheet](https://scoding.de/uploads/r2_cs.pdf)
 
 ## Solutions
 ### Initial commands to be executed to analyze
