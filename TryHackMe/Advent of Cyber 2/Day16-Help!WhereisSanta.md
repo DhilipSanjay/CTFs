@@ -90,5 +90,5 @@
     root@kali:cat output.txt | grep -v "Error"
     {"item_id":57,"q":"Winter Wonderland, Hyde Park, London."}
     ```
-    
 ---
+[Back to Advent of Cyber 2](/TryHackMe/Advent%20of%20Cyber%202) 
