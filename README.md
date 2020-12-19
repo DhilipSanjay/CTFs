@@ -17,6 +17,9 @@
 - [Metasploit](https://www.metasploit.com/)
 - [PRET - Printer Exploitation](https://github.com/RUB-NDS/PRET)
 - [Radare 2 - Reverse Engineering](https://github.com/radareorg/radare2)
+- [Rizin - Reverse Engineering](https://github.com/rizinorg/rizin)
+- [ILSpy - .NET disassembly](https://github.com/icsharpcode/ILSpy)
+- [Dotpeek - .NET disassembly](https://www.jetbrains.com/decompiler/)
 
 ## Payloads & Wordlists
 - [Seclists](https://github.com/danielmiessler/SecLists)

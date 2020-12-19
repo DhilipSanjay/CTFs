@@ -19,6 +19,7 @@
 - [Radare 2 - Github](https://github.com/radareorg/radare2)
     - Disassemble binaries(translate **machine code to assembly**)
     - Debug the binaries
+- Similar took for RE - [Rizin](https://github.com/rizinorg/rizin)
 
 - Basic commands:
     - d (debug)
