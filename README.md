@@ -2,6 +2,7 @@
 
 - [TryHackMe](TryHackMe)
 - [HackTheBox](HackTheBox)
+- [VulnCon 2020](VulnCon2020)
 
 ## Useful Tools
 - [CyberChef](https://gchq.github.io/CyberChef/)

@@ -1,4 +1,5 @@
 # NOOB ARMY - VulnCON 2020
+## Solved Challenges:
 
 - VulnCon2020
     - [Noob Bot Welcomes You!](NoobBotWelcomesYou.md)
