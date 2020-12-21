@@ -28,3 +28,4 @@ Get started with Cyber Security in 25 Days - Learn the basics by doing a new, be
 - [Day 17 - ReverseELFneering](Day17-ReverseELFneering.md)
 - [Day 18 - The Bits of Christmas](Day18-TheBitsofChristmas.md)
 - [Day 19 - The Naughty or Nice List](Day19-TheNaughtyorNiceList.md)
+- [Day 20 - PowershELlF to the rescue](Day20-PowershELlFtotherescue.md)
