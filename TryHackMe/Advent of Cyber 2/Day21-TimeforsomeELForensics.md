@@ -1,6 +1,6 @@
 # Day 21 - Time for some ELForensics
 
-**Date:** 22, December, 2020
+**Date:** 21, December, 2020
 
 **Author:** Dhilip Sanjay S
 
