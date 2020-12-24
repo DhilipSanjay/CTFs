@@ -1,6 +1,6 @@
 # Day 22 - Elf McEager becomes CyberElf
 
-**Date:** 23, December, 2020
+**Date:** 22, December, 2020
 
 **Author:** Dhilip Sanjay S
 
