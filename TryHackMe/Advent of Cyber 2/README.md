@@ -31,3 +31,4 @@ Get started with Cyber Security in 25 Days - Learn the basics by doing a new, be
 - [Day 20 - PowershELlF to the rescue](Day20-PowershELlFtotherescue.md)
 - [Day 21 - Time for some ELForensics](Day21-TimeforsomeELForensics.md)
 - [Day 22 - Elf McEager becomes CyberElf](Day22-ElfMcEagerbecomesCyberElf.md)
+- [Day 23 - The Grinch strikes again!](Day23-TheGrinchstrikesagain.md)
