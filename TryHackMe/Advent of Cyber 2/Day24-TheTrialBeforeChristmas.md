@@ -105,6 +105,8 @@
     ```bash
     www-data@light-cycle:/$ find . -type f -name web.txt 2>/dev/null
     ./var/www/web.txt
+    www-data@light-cycle:/$ cat /var/www/web.txt
+    THM{ENTER_THE_GRID}
     ```
 ---
 
@@ -207,7 +209,7 @@
 ---
 
 ### Crack the password. What is it?
-- **Answer:** 
+- **Answer:** @computer@
 - **Steps to Reproduce:** 
     - Use [Hashes decrypt](https://hashes.com/en/decrypt/hash)
     - `edc621628f6d19a13a00fd683f5e3ff7:@computer@`
