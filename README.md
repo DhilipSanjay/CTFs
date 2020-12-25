@@ -21,6 +21,9 @@
 - [Rizin - Reverse Engineering](https://github.com/rizinorg/rizin)
 - [ILSpy - .NET disassembly](https://github.com/icsharpcode/ILSpy)
 - [Dotpeek - .NET disassembly](https://www.jetbrains.com/decompiler/)
+- [CrackStation](https://crackstation.net/)
+- [MD5 Decrypt](https://md5decrypt.net/en/)
+- [Hashes](https://hashes.com/en/decrypt/hash)
 
 ## Payloads & Wordlists
 - [Seclists](https://github.com/danielmiessler/SecLists)
