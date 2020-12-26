@@ -9,7 +9,7 @@ This room breaks each OWASP topic down and includes details on what the vulnerab
 [Click Here](https://tryhackme.com/room/owasptop10) to go the TryHackMe room.
 
 ## Solutions
-- [Injection]()
+- [Injection](Injection.md)
 - [Broken Authentication]()
 - [Sensitive Data Exposure]()
 - [XML External Entity]()
