@@ -10,7 +10,7 @@ This room breaks each OWASP topic down and includes details on what the vulnerab
 
 ## Solutions
 - [Injection](Injection.md)
-- [Broken Authentication]()
+- [Broken Authentication](BrokenAuthentication.md)
 - [Sensitive Data Exposure]()
 - [XML External Entity]()
 - [Broken Access Control]()
