@@ -14,7 +14,7 @@ This room breaks each OWASP topic down and includes details on what the vulnerab
 - [Sensitive Data Exposure](SensitiveDataExposure.md)
 - [XML External Entity](XMLExternalEntity.md)
 - [Broken Access Control](BrokenAccessControl.md)
-- [Security Misconfiguration]()
+- [Security Misconfiguration](SecurityMisconfiguration.md)
 - [Cross-site Scripting]()
 - [Insecure Deserialization]()
 - [Components with Known Vulnerabilities]()
