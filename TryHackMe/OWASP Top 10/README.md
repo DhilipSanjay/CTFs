@@ -15,7 +15,7 @@ This room breaks each OWASP topic down and includes details on what the vulnerab
 - [XML External Entity](XMLExternalEntity.md)
 - [Broken Access Control](BrokenAccessControl.md)
 - [Security Misconfiguration](SecurityMisconfiguration.md)
-- [Cross-site Scripting]()
+- [Cross-Site Scripting](Cross-SiteScripting.md)
 - [Insecure Deserialization]()
 - [Components with Known Vulnerabilities]()
 - [Insufficent Logging & Monitoring]()
