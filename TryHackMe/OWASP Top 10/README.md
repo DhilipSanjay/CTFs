@@ -17,5 +17,5 @@ This room breaks each OWASP topic down and includes details on what the vulnerab
 - [Security Misconfiguration](SecurityMisconfiguration.md)
 - [Cross-Site Scripting](Cross-SiteScripting.md)
 - [Insecure Deserialization](InsecureDeserialization.md)
-- [Components with Known Vulnerabilities]()
+- [Components with Known Vulnerabilities](ComponentsWithKnownVulnerabilities.md)
 - [Insufficent Logging & Monitoring]()
