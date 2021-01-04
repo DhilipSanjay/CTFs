@@ -18,4 +18,4 @@ This room breaks each OWASP topic down and includes details on what the vulnerab
 - [Cross-Site Scripting](Cross-SiteScripting.md)
 - [Insecure Deserialization](InsecureDeserialization.md)
 - [Components with Known Vulnerabilities](ComponentsWithKnownVulnerabilities.md)
-- [Insufficent Logging & Monitoring]()
+- [Insufficent Logging & Monitoring](InsufficentLoggingMonitoring.md)
