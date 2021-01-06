@@ -1,13 +1,14 @@
 # TryHackMe
-Documenting TryHackMe rooms.
+Walkthrough of TryHackMe rooms.
 
 1. [Advent of Cyber 2](Advent%20of%20Cyber%202)
 1. [Web Fundamentals](WebFundamentals.md)
 1. [Anonymous](Anonymous.md)
 1. [Printer Hacking 101](PrinterHacking101.md)
 1. [OWASP Top 10](OWASP%20Top%2010)
+1. [Vulnversity](Vulnversity.md)
 
-## Basic Rooms (No Documentation)
+## Basic Rooms (No Walkthrough)
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
 1. [Introductory Networking](https://tryhackme.com/room/introtonetworking)
 1. [Linux Fundamentals Part 1](https://tryhackme.com/room/linux1)
