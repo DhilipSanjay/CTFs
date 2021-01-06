@@ -140,11 +140,13 @@ GoBuster flag |	Description
 - **Answer:** /internal/
 - **Steps to Reproduce:** 
     ```bash
+    gobuster dir -u http://<MACHINE_IP>:3333 -t 100 -w /usr/share/wordlists/dirb/common.txt 
+
     ===============================================================
     Gobuster v3.0.1
     by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
     ===============================================================
-    [+] Url:            http://10.10.98.217:3333
+    [+] Url:            http://<MACHINE_IP>:3333
     [+] Threads:        100
     [+] Wordlist:       /usr/share/wordlists/dirb/common.txt
     [+] Status codes:   200,204,301,302,307,401,403
