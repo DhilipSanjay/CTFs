@@ -292,4 +292,5 @@ GoBuster flag |	Description
     $ cat /tmp/output
     a58ff8579f0a9270368d33a9966c7fd5
     ```
+    - Refer [GTFO Bins](https://gtfobins.github.io/gtfobins/systemctl/)
 ---

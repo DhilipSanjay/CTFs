@@ -11,6 +11,7 @@ Walkthrough of TryHackMe rooms.
 ## Basic Rooms (No Walkthrough)
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
 1. [Introductory Networking](https://tryhackme.com/room/introtonetworking)
+1. [Networking](https://tryhackme.com/room/bpnetworking)
 1. [Linux Fundamentals Part 1](https://tryhackme.com/room/linux1)
 1. [Linux Fundamentals Part 2](https://tryhackme.com/room/linux2)
 1. [Linux Fundamentals Part 3](https://tryhackme.com/room/linux3)
