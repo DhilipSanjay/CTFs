@@ -3,7 +3,7 @@
 
 **Author:** Dhilip Sanjay S
 
-[Click Here](https://tryhackme.com/room/webfundamentals) to go the TryHackMe room.
+[Click Here](https://tryhackme.com/room/webfundamentals) to go to the TryHackMe room.
 
 ---
 ## HTTP VERBS

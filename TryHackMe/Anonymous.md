@@ -5,7 +5,7 @@
 **Author:** Dhilip Sanjay S
 
 ---
-[Click Here](https://tryhackme.com/room/anonymous) to go the TryHackMe room.
+[Click Here](https://tryhackme.com/room/anonymous) to go to the TryHackMe room.
 
 ### Enumerate the machine.  How many ports are open?
 - **Answer:** 4

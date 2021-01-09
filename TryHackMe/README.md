@@ -7,6 +7,7 @@ Walkthrough of TryHackMe rooms.
 1. [Printer Hacking 101](PrinterHacking101.md)
 1. [OWASP Top 10](OWASP%20Top%2010)
 1. [Vulnversity](Vulnversity.md)
+1. [Nmap](Nmap.md)
 
 ## Basic Rooms (No Walkthrough)
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)

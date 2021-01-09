@@ -6,7 +6,7 @@
 
 Get started with Cyber Security in 25 Days - Learn the basics by doing a new, beginner friendly security challenge every day leading up to Christmas.
 
-[Click Here](https://tryhackme.com/room/adventofcyber2) to go the TryHackMe room.
+[Click Here](https://tryhackme.com/room/adventofcyber2) to go to the TryHackMe room.
 
 ## Solutions
 - [Day 01 - Christmas Crisis](Day01-ChristmasCrisis.md)

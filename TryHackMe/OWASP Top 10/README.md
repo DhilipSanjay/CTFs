@@ -6,7 +6,7 @@
 
 This room breaks each OWASP topic down and includes details on what the vulnerability is, how it occurs and how you can exploit it. You will put the theory into practise by completing supporting challenges.
 
-[Click Here](https://tryhackme.com/room/owasptop10) to go the TryHackMe room.
+[Click Here](https://tryhackme.com/room/owasptop10) to go to the TryHackMe room.
 
 ## Solutions
 - [Injection](Injection.md)
