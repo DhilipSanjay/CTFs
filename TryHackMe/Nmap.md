@@ -301,7 +301,7 @@
 - **Answer:** N
 - **Steps to Reproduce:** 
     ```bash
-    nmap 10.10.78.135
+    nmap <MACHINE_IP>
     Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-14 15:00 IST
     Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
     Nmap done: 1 IP address (0 hosts up) scanned in 3.10 seconds
@@ -312,20 +312,20 @@
 - **Answer:** 999
 - **Steps to Reproduce:** 
 ```bash
-nmap -sX -Pn -p 0-999 --vv 10.10.78.135
+nmap -sX -Pn -p 0-999 --vv <MACHINE_IP>
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-14 15:12 IST
 Initiating Parallel DNS resolution of 1 host. at 15:12
 Completed Parallel DNS resolution of 1 host. at 15:12, 0.02s elapsed
 Initiating XMAS Scan at 15:12
-Scanning 10.10.78.135 [1000 ports]
+Scanning <MACHINE_IP> [1000 ports]
 XMAS Scan Timing: About 15.50% done; ETC: 15:16 (0:02:49 remaining)
 XMAS Scan Timing: About 30.50% done; ETC: 15:16 (0:02:19 remaining)
 XMAS Scan Timing: About 58.50% done; ETC: 15:16 (0:01:23 remaining)
 Completed XMAS Scan at 15:16, 201.25s elapsed (1000 total ports)
-Nmap scan report for 10.10.78.135
+Nmap scan report for <MACHINE_IP>
 Host is up, received user-set.
-All 1000 scanned ports on 10.10.78.135 are open|filtered because of 1000 no-responses
+All 1000 scanned ports on <MACHINE_IP> are open|filtered because of 1000 no-responses
 
 Read data files from: /usr/bin/../share/nmap
 Nmap done: 1 IP address (1 host up) scanned in 201.37 seconds
@@ -336,7 +336,7 @@ Nmap done: 1 IP address (1 host up) scanned in 201.37 seconds
 ### There is a reason given for this -- what is it?
 - **Answer:** No response
 - **Steps to Reproduce:**
-    - In the nmap output, there is a reason mentioned - All 1000 scanned ports on 10.10.78.135 are open|filtered because of 1000 **no-responses**.
+    - In the nmap output, there is a reason mentioned - All 1000 scanned ports on <MACHINE_IP> are open|filtered because of 1000 **no-responses**.
 
 ---
 
@@ -344,20 +344,20 @@ Nmap done: 1 IP address (1 host up) scanned in 201.37 seconds
 - **Answer:** 5
 - **Steps to Reproduce:** 
 ```bash
-nmap -Pn -sT -p 0-5000 --vv 10.10.78.135
+nmap -Pn -sT -p 0-5000 --vv <MACHINE_IP>
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-14 15:21 IST
 Initiating Parallel DNS resolution of 1 host. at 15:21
 Completed Parallel DNS resolution of 1 host. at 15:21, 0.01s elapsed
 Initiating Connect Scan at 15:21
-Scanning 10.10.78.135 [5001 ports]
-Discovered open port 21/tcp on 10.10.78.135
-Discovered open port 53/tcp on 10.10.78.135
-Discovered open port 3389/tcp on 10.10.78.135
-Discovered open port 80/tcp on 10.10.78.135
-Discovered open port 135/tcp on 10.10.78.135
+Scanning <MACHINE_IP> [5001 ports]
+Discovered open port 21/tcp on <MACHINE_IP>
+Discovered open port 53/tcp on <MACHINE_IP>
+Discovered open port 3389/tcp on <MACHINE_IP>
+Discovered open port 80/tcp on <MACHINE_IP>
+Discovered open port 135/tcp on <MACHINE_IP>
 Completed Connect Scan at 15:22, 33.76s elapsed (5001 total ports)
-Nmap scan report for 10.10.78.135
+Nmap scan report for <MACHINE_IP>
 Host is up, received user-set (0.20s latency).
 Scanned at 2021-01-14 15:21:41 IST for 34s
 Not shown: 4996 filtered ports
@@ -378,14 +378,14 @@ Nmap done: 1 IP address (1 host up) scanned in 33.88 seconds
 - **Answer:** Y
 - **Steps to Reproduce:** 
     ```bash
-    nmap -Pn --script ftp-anon.nse 10.10.78.135
+    nmap -Pn --script ftp-anon.nse <MACHINE_IP>
     Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
     Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-14 15:23 IST
     Stats: 0:00:31 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
     NSE Timing: About 80.00% done; ETC: 15:23 (0:00:05 remaining)
     Stats: 0:00:40 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
     NSE Timing: About 80.00% done; ETC: 15:23 (0:00:07 remaining)
-    Nmap scan report for 10.10.78.135
+    Nmap scan report for <MACHINE_IP>
     Host is up (0.18s latency).
     Not shown: 995 filtered ports
     PORT     STATE SERVICE
@@ -401,12 +401,12 @@ Nmap done: 1 IP address (1 host up) scanned in 33.88 seconds
     ```
     - Login using ftp username: `anonymous` and empty password.
     ```bash
-    ftp 10.10.78.135
-    Connected to 10.10.78.135.
+    ftp <MACHINE_IP>
+    Connected to <MACHINE_IP>.
     220-FileZilla Server 0.9.60 beta
     220-written by Tim Kosse (tim.kosse@filezilla-project.org)
     220 Please visit https://filezilla-project.org/
-    Name (10.10.78.135:root): anonymous
+    Name (<MACHINE_IP>:root): anonymous
     331 Password required for anonymous
     Password:
     230 Logged on
