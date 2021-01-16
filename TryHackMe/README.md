@@ -9,6 +9,7 @@ Walkthrough of TryHackMe rooms.
 1. [Vulnversity](Vulnversity.md)
 1. [Nmap](Nmap.md)
 1. [Google Dorking](GoogleDorking.md)
+1. [Blog](Blog.md)
 
 ## Basic Rooms (No Walkthrough)
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
