@@ -20,3 +20,4 @@ Walkthrough of TryHackMe rooms.
 1. [Linux Fundamentals Part 3](https://tryhackme.com/room/linux3)
 1. [Regular Expression](https://tryhackme.com/room/catregex)
 1. [Introductory Researching](https://tryhackme.com/room/introtoresearch)
+1. [The Hacker Methodology](https://tryhackme.com/room/hackermethodology)
