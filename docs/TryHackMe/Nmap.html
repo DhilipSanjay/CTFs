@@ -1,0 +1,1380 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Nmap · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="GoogleDorking.html" />
+    
+    
+    <link rel="prev" href="Vulnversity.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">TryHackMe</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    TryHackMe Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="AdventofCyber2/">
+            
+                <a href="AdventofCyber2/">
+            
+                    
+                    Advent of Cyber 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="AdventofCyber2/Day01-ChristmasCrisis.html">
+            
+                <a href="AdventofCyber2/Day01-ChristmasCrisis.html">
+            
+                    
+                    Day 01 - Christmas Crisis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="AdventofCyber2/Day02-TheElfStrikesBack.html">
+            
+                <a href="AdventofCyber2/Day02-TheElfStrikesBack.html">
+            
+                    
+                    Day 02 - The Elf Strikes Back!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="AdventofCyber2/Day03-ChristmasChaos.html">
+            
+                <a href="AdventofCyber2/Day03-ChristmasChaos.html">
+            
+                    
+                    Day 03 - Christmas Chaos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="AdventofCyber2/Day04-Santa'sWatching.html">
+            
+                <a href="AdventofCyber2/Day04-Santa'sWatching.html">
+            
+                    
+                    Day 04 - Santa's Watching
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="AdventofCyber2/Day05-SomeonestoleSanta'sgiftlist.html">
+            
+                <a href="AdventofCyber2/Day05-SomeonestoleSanta'sgiftlist.html">
+            
+                    
+                    Day 05 - Someone stole Santa's gift list!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="AdventofCyber2/Day06-XSS.html">
+            
+                <a href="AdventofCyber2/Day06-XSS.html">
+            
+                    
+                    Day 06 - Be careful with what you wish on a Christmas night
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="AdventofCyber2/Day07-Wireshark.html">
+            
+                <a href="AdventofCyber2/Day07-Wireshark.html">
+            
+                    
+                    Day 07 - The Grinch Really Did Steal Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="AdventofCyber2/Day08-Nmap.html">
+            
+                <a href="AdventofCyber2/Day08-Nmap.html">
+            
+                    
+                    Day 08 - What's Under the Christmas Tree?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="AdventofCyber2/Day09-AnyonecanbeSanta.html">
+            
+                <a href="AdventofCyber2/Day09-AnyonecanbeSanta.html">
+            
+                    
+                    Day 09 - Anyone can be Santa!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="AdventofCyber2/Day10-Don'tbesElfish.html">
+            
+                <a href="AdventofCyber2/Day10-Don'tbesElfish.html">
+            
+                    
+                    Day 10 - Don't be sElfish!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="AdventofCyber2/Day11-TheRogueGnome.html">
+            
+                <a href="AdventofCyber2/Day11-TheRogueGnome.html">
+            
+                    
+                    Day 11 - The Rogue Gnome
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="AdventofCyber2/Day12-Ready,set,elf.html">
+            
+                <a href="AdventofCyber2/Day12-Ready,set,elf.html">
+            
+                    
+                    Day 12 - Ready, set, elf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.13" data-path="AdventofCyber2/Day13-CoalforChristmas.html">
+            
+                <a href="AdventofCyber2/Day13-CoalforChristmas.html">
+            
+                    
+                    Day 13 - Coal for Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.14" data-path="AdventofCyber2/Day14-Where'sRudolph.html">
+            
+                <a href="AdventofCyber2/Day14-Where'sRudolph.html">
+            
+                    
+                    Day 14 - Where's Rudolph?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.15" data-path="AdventofCyber2/Day15-There'saPythoninmystocking.html">
+            
+                <a href="AdventofCyber2/Day15-There'saPythoninmystocking.html">
+            
+                    
+                    Day 15 - There's a Python in my stocking!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.16" data-path="AdventofCyber2/Day16-Help!WhereisSanta.html">
+            
+                <a href="AdventofCyber2/Day16-Help!WhereisSanta.html">
+            
+                    
+                    Day 16 - Help! Where is Santa?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.17" data-path="AdventofCyber2/Day17-ReverseELFneering.html">
+            
+                <a href="AdventofCyber2/Day17-ReverseELFneering.html">
+            
+                    
+                    Day 17 - ReverseELFneering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.18" data-path="AdventofCyber2/Day18-TheBitsofChristmas.html">
+            
+                <a href="AdventofCyber2/Day18-TheBitsofChristmas.html">
+            
+                    
+                    Day 18 - The Bits of Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.19" data-path="AdventofCyber2/Day19-TheNaughtyorNiceList.html">
+            
+                <a href="AdventofCyber2/Day19-TheNaughtyorNiceList.html">
+            
+                    
+                    Day 19 - The Naughty or Nice List
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.20" data-path="AdventofCyber2/Day20-PowershELlFtotherescue.html">
+            
+                <a href="AdventofCyber2/Day20-PowershELlFtotherescue.html">
+            
+                    
+                    Day 20 - PowershELlF to the rescue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.21" data-path="AdventofCyber2/Day21-TimeforsomeELForensics.html">
+            
+                <a href="AdventofCyber2/Day21-TimeforsomeELForensics.html">
+            
+                    
+                    Day 21 - Time for some ELForensics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.22" data-path="AdventofCyber2/Day22-ElfMcEagerbecomesCyberElf.html">
+            
+                <a href="AdventofCyber2/Day22-ElfMcEagerbecomesCyberElf.html">
+            
+                    
+                    Day 22 - Elf McEager becomes CyberElf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.23" data-path="AdventofCyber2/Day23-TheGrinchstrikesagain.html">
+            
+                <a href="AdventofCyber2/Day23-TheGrinchstrikesagain.html">
+            
+                    
+                    Day 23 - The Grinch strikes again!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.24" data-path="AdventofCyber2/Day24-TheTrialBeforeChristmas.html">
+            
+                <a href="AdventofCyber2/Day24-TheTrialBeforeChristmas.html">
+            
+                    
+                    Day 24 - The Trial Before Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="WebFundamentals.html">
+            
+                <a href="WebFundamentals.html">
+            
+                    
+                    Web Fundamentals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="Anonymous.html">
+            
+                <a href="Anonymous.html">
+            
+                    
+                    Anonymous
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="PrinterHacking101.html">
+            
+                <a href="PrinterHacking101.html">
+            
+                    
+                    Printer Hacking 101
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="OWASPTop10/">
+            
+                <a href="OWASPTop10/">
+            
+                    
+                    OWASP Top 10
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1" data-path="OWASPTop10/Injection.html">
+            
+                <a href="OWASPTop10/Injection.html">
+            
+                    
+                    Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.2" data-path="OWASPTop10/BrokenAuthentication.html">
+            
+                <a href="OWASPTop10/BrokenAuthentication.html">
+            
+                    
+                    Broken Authentication
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.3" data-path="OWASPTop10/SensitiveDataExposure.html">
+            
+                <a href="OWASPTop10/SensitiveDataExposure.html">
+            
+                    
+                    Sensitive Data Exposure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.4" data-path="OWASPTop10/XMLExternalEntity.html">
+            
+                <a href="OWASPTop10/XMLExternalEntity.html">
+            
+                    
+                    XML External Entity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.5" data-path="OWASPTop10/BrokenAccessControl.html">
+            
+                <a href="OWASPTop10/BrokenAccessControl.html">
+            
+                    
+                    Broken Access Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.6" data-path="OWASPTop10/SecurityMisconfiguration.html">
+            
+                <a href="OWASPTop10/SecurityMisconfiguration.html">
+            
+                    
+                    Security Misconfiguration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.7" data-path="OWASPTop10/Cross-SiteScripting.html">
+            
+                <a href="OWASPTop10/Cross-SiteScripting.html">
+            
+                    
+                    Cross-Site Scripting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.8" data-path="OWASPTop10/InsecureDeserialization.html">
+            
+                <a href="OWASPTop10/InsecureDeserialization.html">
+            
+                    
+                    Insecure Deserialization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.9" data-path="OWASPTop10/ComponentsWithKnownVulnerabilities.html">
+            
+                <a href="OWASPTop10/ComponentsWithKnownVulnerabilities.html">
+            
+                    
+                    Components with Known Vulnerabilities
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.10" data-path="OWASPTop10/InsufficentLoggingMonitoring.html">
+            
+                <a href="OWASPTop10/InsufficentLoggingMonitoring.html">
+            
+                    
+                    Insufficent Logging & Monitoring
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="Vulnversity.html">
+            
+                <a href="Vulnversity.html">
+            
+                    
+                    Vulnversity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.8" data-path="Nmap.html">
+            
+                <a href="Nmap.html">
+            
+                    
+                    Nmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="GoogleDorking.html">
+            
+                <a href="GoogleDorking.html">
+            
+                    
+                    Google Dorking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="Blog.html">
+            
+                <a href="Blog.html">
+            
+                    
+                    Blog
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">HackTheBox</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../HackTheBox/">
+            
+                <a href="../HackTheBox/">
+            
+                    
+                    HackTheBox Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../HackTheBox/Emdeefiveforlife.html">
+            
+                <a href="../HackTheBox/Emdeefiveforlife.html">
+            
+                    
+                    Emdee five for life
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">VulnCon2020</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../VulnCon2020/">
+            
+                <a href="../VulnCon2020/">
+            
+                    
+                    VulnCon2020 Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../VulnCon2020/NoobBotWelcomesYou.html">
+            
+                <a href="../VulnCon2020/NoobBotWelcomesYou.html">
+            
+                    
+                    Noob Bot Welcomes You!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../VulnCon2020/Maze.html">
+            
+                <a href="../VulnCon2020/Maze.html">
+            
+                    
+                    Maze
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../VulnCon2020/Pcaped.html">
+            
+                <a href="../VulnCon2020/Pcaped.html">
+            
+                    
+                    Pcaped
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Nmap</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="nmap">Nmap</h1>
+<p><strong>Date:</strong> 14, January, 2021</p>
+<p><strong>Author:</strong> Dhilip Sanjay S</p>
+<hr>
+<p><a href="https://tryhackme.com/room/furthernmap" target="_blank">Click Here</a> to go to the TryHackMe room.</p>
+<h1 id="nmap---introduction">Nmap - Introduction</h1>
+<ul>
+<li>Nmap can be used to perform many different kinds of port scan.</li>
+<li>65535 Ports available<ul>
+<li>System ports (0-1023)</li>
+<li>User Ports (0-49151)</li>
+<li>Dynamic and/or Private Ports (49152-65535)</li>
+</ul>
+</li>
+<li>Depending on how the port responds, it can be determined as being open, closed, or filtered (usually by a firewall)</li>
+</ul>
+<hr>
+<h2 id="questions">Questions</h2>
+<h3 id="what-networking-constructs-are-used-to-direct-traffic-to-the-right-application-on-a-server">What networking constructs are used to direct traffic to the right application on a server?</h3>
+<ul>
+<li><strong>Answer:</strong> Ports</li>
+</ul>
+<hr>
+<h3 id="how-many-of-these-are-available-on-any-network-enabled-computer">How many of these are available on any network-enabled computer?</h3>
+<ul>
+<li><strong>Answer:</strong> 65536</li>
+</ul>
+<hr>
+<h3 id="how-many-of-these-are-considered-well-known-these-are-the-standard-numbers-mentioned-in-the-task">How many of these are considered &quot;well-known&quot;? (These are the &quot;standard&quot; numbers mentioned in the task)</h3>
+<ul>
+<li><strong>Answer:</strong> 1024</li>
+</ul>
+<hr>
+<h1 id="nmap-switches">Nmap Switches</h1>
+<h3 id="what-is-the-first-switch-listed-in-the-help-menu-for-a-syn-scan">What is the first switch listed in the help menu for a &apos;Syn Scan&apos;</h3>
+<ul>
+<li><strong>Answer:</strong> -sS</li>
+</ul>
+<hr>
+<h3 id="which-switch-would-you-use-for-a-udp-scan">Which switch would you use for a &quot;UDP scan&quot;?</h3>
+<ul>
+<li><strong>Answer:</strong> -sU </li>
+</ul>
+<hr>
+<h3 id="if-you-wanted-to-detect-which-operating-system-the-target-is-running-on-which-switch-would-you-use">If you wanted to detect which operating system the target is running on, which switch would you use?</h3>
+<ul>
+<li><strong>Answer:</strong> -O</li>
+</ul>
+<hr>
+<h3 id="nmap-provides-a-switch-to-detect-the-version-of-the-services-running-on-the-target-what-is-this-switch">Nmap provides a switch to detect the version of the services running on the target. What is this switch?</h3>
+<ul>
+<li><strong>Answer:</strong> -sV</li>
+</ul>
+<hr>
+<h3 id="the-default-output-provided-by-nmap-often-does-not-provide-enough-information-for-a-pentester-how-would-you-increase-the-verbosity">The default output provided by nmap often does not provide enough information for a pentester. How would you increase the verbosity?</h3>
+<ul>
+<li><strong>Answer:</strong> -v</li>
+</ul>
+<hr>
+<h3 id="verbosity-level-one-is-good-but-verbosity-level-two-is-better-how-would-you-set-the-verbosity-level-to-two">Verbosity level one is good, but verbosity level two is better! How would you set the verbosity level to two?</h3>
+<ul>
+<li><strong>Answer:</strong> -vv</li>
+</ul>
+<hr>
+<h3 id="what-switch-would-you-use-to-save-the-nmap-results-in-three-major-formats">What switch would you use to save the nmap results in three major formats?</h3>
+<ul>
+<li><strong>Answer:</strong> -oA</li>
+</ul>
+<hr>
+<h3 id="what-switch-would-you-use-to-save-the-nmap-results-in-a-normal-format">What switch would you use to save the nmap results in a &quot;normal&quot; format?</h3>
+<ul>
+<li><strong>Answer:</strong> -oN</li>
+</ul>
+<hr>
+<h3 id="a-very-useful-output-format-how-would-you-save-results-in-a-grepable-format">A very useful output format: how would you save results in a &quot;grepable&quot; format?</h3>
+<ul>
+<li><strong>Answer:</strong> -oG</li>
+</ul>
+<hr>
+<h3 id="sometimes-the-results-were-getting-just-arent-enough-if-we-dont-care-about-how-loud-we-are-we-can-enable-aggressive-mode-this-is-a-shorthand-switch-that-activates-service-detection-operating-system-detection-a-traceroute-and-common-script-scanning-how-would-you-activate-this-setting">Sometimes the results we&apos;re getting just aren&apos;t enough. If we don&apos;t care about how loud we are, we can enable &quot;aggressive&quot; mode. This is a shorthand switch that activates service detection, operating system detection, a traceroute and common script scanning. How would you activate this setting?</h3>
+<ul>
+<li><strong>Answer:</strong> -A</li>
+</ul>
+<hr>
+<h3 id="how-would-you-set-the-timing-template-to-level-5">How would you set the timing template to level 5?</h3>
+<ul>
+<li><strong>Answer:</strong> -T5</li>
+</ul>
+<hr>
+<h3 id="how-would-you-tell-nmap-to-scan-port-80">How would you tell nmap to scan port 80</h3>
+<ul>
+<li><strong>Answer:</strong> -p 80</li>
+</ul>
+<hr>
+<h3 id="how-would-you-tell-nmap-to-scan-ports-1000-1500">How would you tell nmap to scan ports 1000-1500?</h3>
+<ul>
+<li><strong>Answer:</strong> -p 1000-1500</li>
+</ul>
+<hr>
+<h3 id="how-would-you-tell-nmap-to-scan-all-ports">How would you tell nmap to scan all ports?</h3>
+<ul>
+<li><strong>Answer:</strong> -p-</li>
+</ul>
+<hr>
+<h3 id="how-would-you-activate-a-script-from-the-nmap-scripting-library">How would you activate a script from the nmap scripting library</h3>
+<ul>
+<li><strong>Answer:</strong> --script</li>
+</ul>
+<hr>
+<h3 id="how-would-you-activate-all-of-the-scripts-in-the-vuln-category">How would you activate all of the scripts in the &quot;vuln&quot; category?</h3>
+<ul>
+<li><strong>Answer:</strong> --script=vuln</li>
+</ul>
+<hr>
+<h1 id="basic-scan-types">Basic Scan Types</h1>
+<ul>
+<li><p>When port scanning with Nmap, there are three basic scan types. These are:</p>
+<ul>
+<li><p><strong>TCP Connect Scans (-sT)</strong></p>
+<ul>
+<li>If Nmap sends a TCP request with the SYN flag set to a closed port, the target server will respond with a TCP packet with the RST (Reset) flag set. By this response, Nmap can establish that the port is <strong>closed</strong>.</li>
+<li>If, however, the request is sent to an open port, the target will respond with a TCP packet with the SYN/ACK flags set. Nmap then marks this port as being <strong>open</strong> (and completes the handshake by sending back a TCP packet with ACK set).</li>
+<li>Nmap sends a TCP SYN request, and receives nothing back. This indicates that the port is being protected by a firewall and thus the port is considered to be <strong>filtered</strong>.</li>
+</ul>
+</li>
+<li><p><strong>SYN &quot;Half-open&quot; Scans or &quot;Stealth&quot; scans.(-sS)</strong></p>
+<ul>
+<li>These scan require sudo permission. If nmap is not run with sudo permission, then it defaults to TCP scan.</li>
+<li>If a port is closed then the server responds with a RST TCP packet. If the port is filtered by a firewall then the TCP SYN packet is either dropped, or spoofed with a TCP reset.</li>
+</ul>
+</li>
+<li><p><strong>UDP Scans (-sU)</strong></p>
+<ul>
+<li>UDP connections are stateless.</li>
+<li>When a packet is sent, there should be no response - if this happens then Nmap refers to the port as being <strong>open|filtered</strong> (it could be firewalled).</li>
+<li>If it gets a UDP response, then the port is market as <strong>open</strong>.</li>
+<li>When a packet is sent to a <strong>closed</strong> UDP port, the target should respond with an ICMP (ping) packet containing a message that the port is unreachable.</li>
+<li>Since UDP scans are slow, the common ports are scanned:  <code>nmap -sU --top-ports 20 &lt;target&gt;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="questions">Questions</h2>
+<h3 id="there-are-two-other-names-for-a-syn-scan-what-are-they">There are two other names for a SYN scan, what are they?</h3>
+<ul>
+<li><strong>Answer:</strong> Half-Open, Stealth</li>
+</ul>
+<hr>
+<h3 id="can-nmap-use-a-syn-scan-without-sudo-permissions">Can Nmap use a SYN scan without sudo permissions?</h3>
+<ul>
+<li><strong>Answer:</strong> N</li>
+</ul>
+<hr>
+<h3 id="if-a-udp-port-doesnt-respond-to-an-nmap-scan-what-will-it-be-marked-as">If a UDP port doesn&apos;t respond to an Nmap scan, what will it be marked as?</h3>
+<ul>
+<li><strong>Answer:</strong> open|filtered</li>
+</ul>
+<hr>
+<h3 id="when-a-udp-port-is-closed-by-convention-the-target-should-send-back-a-port-unreachable-message-which-protocol-would-it-use-to-do-so">When a UDP port is closed, by convention the target should send back a &quot;port unreachable&quot; message. Which protocol would it use to do so?</h3>
+<ul>
+<li><strong>Answer:</strong> ICMP</li>
+</ul>
+<hr>
+<h1 id="less-common-scan-types">Less common scan types</h1>
+<ul>
+<li><p>Additionally there are several less common port scan types which are <strong>stealthier</strong> than SYN scan. These are:</p>
+<ul>
+<li><strong>TCP Null Scans (-sN)</strong><ul>
+<li>When the TCP request is sent with <strong>no flags</strong> set at all. As per the RFC, the target host should respond with a <code>RST</code> if the port is <strong>closed</strong>.</li>
+</ul>
+</li>
+<li><strong>TCP FIN Scans (-sF)</strong><ul>
+<li>A request is sent with the <strong>FIN flag</strong> (usually used to gracefully close an active connection). Once again, Nmap expects a <code>RST</code> if the port is <strong>closed</strong>.</li>
+</ul>
+</li>
+<li><strong>TCP Xmas Scans (-sX)</strong><ul>
+<li>Xmas scans (-sX) send a <strong>malformed TCP packet</strong> and expects a <code>RST</code> response for <strong>closed</strong> ports. </li>
+<li>It&apos;s referred to as an xmas scan as the flags that it sets (PSH, URG and FIN) give it the appearance of a <em>blinking christmas tree</em> when viewed as a packet capture in Wireshark.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>The expected response for open ports with these scans is also identical, and is very similar to that of a UDP scan. These scans will only ever identify ports as being <code>open|filtered</code>, <code>closed</code>, or <code>filtered</code>. </p>
+</li>
+<li><p>Microsoft Windows (and a lot of Cisco network devices) are known to respond with a <code>RST</code> to any <strong>malformed TCP packet</strong> -- regardless of whether the port is actually open or not. This results in <strong>all ports</strong> showing up as being <strong>closed</strong>.</p>
+</li>
+<li><p>That said, the goal here is, of course, <strong>firewall evasion</strong>. Many firewalls are configured to drop incoming TCP packets to blocked ports which have the SYN flag set (thus blocking new connection initiation requests). By sending requests which do not contain the SYN flag, we effectively bypass this kind of firewall. </p>
+</li>
+</ul>
+<hr>
+<h2 id="questions">Questions</h2>
+<h3 id="which-of-the-three-shown-scan-types-uses-the-urg-flag">Which of the three shown scan types uses the URG flag?</h3>
+<ul>
+<li><strong>Answer:</strong> Xmas</li>
+</ul>
+<hr>
+<h3 id="why-are-null-fin-and-xmas-scans-generally-used">Why are NULL, FIN and Xmas scans generally used?</h3>
+<ul>
+<li><strong>Answer:</strong> Firewall Evasion</li>
+</ul>
+<hr>
+<h3 id="which-common-os-may-respond-to-a-null-fin-or-xmas-scan-with-a-rst-for-every-port">Which common OS may respond to a NULL, FIN or Xmas scan with a RST for every port?</h3>
+<ul>
+<li><strong>Answer:</strong> Microsoft Windows</li>
+</ul>
+<hr>
+<h1 id="icmp-or-ping-scanning">ICMP (or &quot;ping&quot;) scanning</h1>
+<ul>
+<li>To see which IP addresses contain active hosts, and which do not - we use Nmap to perform <strong>ping sweep</strong>.</li>
+<li><code>nmap -sn 192.168.0.1-254</code> or <code>nmap -sn 192.168.0.0/24</code></li>
+<li>The <code>-sn</code> switch tells Nmap not to scan any ports -- forcing it to rely purely on ICMP packets (or ARP requests on a local network) to identify targets.</li>
+</ul>
+<h2 id="questions">Questions</h2>
+<h3 id="how-would-you-perform-a-ping-sweep-on-the-17216xx-network-netmask-25525500-using-nmap-cidr-notation">How would you perform a ping sweep on the 172.16.x.x network (Netmask: 255.255.0.0) using Nmap? (CIDR notation)</h3>
+<ul>
+<li><strong>Answer:</strong> nmap -sn 172.16.0.0/16</li>
+</ul>
+<hr>
+<h2 id="nse-scripts">NSE Scripts</h2>
+<ul>
+<li>Nmap Scripting Engine (NSE) scripts are written in <strong>Lua programming language</strong> - scanning for vulnerabilities, automating exploits.</li>
+<li>Categories of scripts:<ol>
+<li><strong>safe</strong> - won&apos;t affect the target.</li>
+<li><strong>intrusive</strong> - Not safe (likely to affect the target).</li>
+<li><strong>vuln</strong> - scan for vulnerabilities.</li>
+<li><strong>exploit</strong> - attempt to exploit a vulnerability</li>
+<li><strong>auth</strong> - attempt to bypass authentication for running services.</li>
+<li><strong>brute</strong> - attempt to bruteforce credentials for running services.</li>
+<li><strong>discovery</strong> - attempt to query running services for further information about the network. (query SNMP server)</li>
+</ol>
+</li>
+<li>Multiple scripts can be run simultaneously in this fashion by separating them by a comma. </li>
+<li>Some scripts requires arguments. They can be given with the <code>--script-args</code> nmap switch. </li>
+<li><p>The arguments are separated by commas, and connected to the corresponding script with periods (i.e.  <code>&lt;script-name&gt;.&lt;argument&gt;</code>).</p>
+</li>
+<li><p><strong>Searching for scripts</strong></p>
+<ul>
+<li>Search using <a href="https://nmap.org/nsedoc/" target="_blank">Nmap Website</a></li>
+<li>Search local storage - <code>/usr/share/nmap/scripts</code>. Two ways:<ul>
+<li><code>grep &quot;ftp&quot; /usr/share/nmap/scripts/script.db</code></li>
+<li><code>ls -l /usr/share/nmap/scripts/*ftp*</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Installing Scripts</strong></p>
+<ul>
+<li><code>sudo apt update &amp;&amp; sudo apt install nmap</code></li>
+<li><code>sudo wget -O /usr/share/nmap/scripts/&lt;script-name&gt;.nse https://svn.nmap.org/nmap/scripts/&lt;script-name&gt;.nse</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="questions">Questions</h2>
+<h3 id="what-language-are-nse-scripts-written-in">What language are NSE scripts written in?</h3>
+<ul>
+<li><strong>Answer:</strong> Lua</li>
+</ul>
+<hr>
+<h3 id="which-category-of-scripts-would-be-a-very-bad-idea-to-run-in-a-production-environment">Which category of scripts would be a very bad idea to run in a production environment?</h3>
+<ul>
+<li><strong>Answer:</strong> intrusive</li>
+</ul>
+<hr>
+<h3 id="what-optional-argument-can-the-ftp-anonnse-script-take">What optional argument can the ftp-anon.nse script take?</h3>
+<ul>
+<li><strong>Answer:</strong> maxlist</li>
+<li><p><strong>Steps to Reproduce:</strong> </p>
+<ul>
+<li><p>Visit the URL.</p>
+<pre><code class="lang-bash">nmap --script-help ftp-anon.nse
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-14 14:33 IST
+
+ftp-anon
+Categories: default auth safe
+https://nmap.org/nsedoc/scripts/ftp-anon.html
+Checks <span class="hljs-keyword">if</span> an FTP server allows anonymous logins.
+
+If anonymous is allowed, gets a directory listing of the root directory
+and highlights writeable files.
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="what-is-the-filename-of-the-script-which-determines-the-underlying-os-of-the-smb-server">What is the filename of the script which determines the underlying OS of the SMB server?</h3>
+<ul>
+<li><strong>Answer:</strong> smb-os-discovery.nse</li>
+<li><strong>Steps to Reproduce:</strong> <pre><code class="lang-bash">  grep smb.*os /usr/share/nmap/scripts/script.db 
+  Entry { filename = <span class="hljs-string">&quot;smb-flood.nse&quot;</span>, categories = { <span class="hljs-string">&quot;dos&quot;</span>, <span class="hljs-string">&quot;intrusive&quot;</span>, } }
+  Entry { filename = <span class="hljs-string">&quot;smb-os-discovery.nse&quot;</span>, categories = { <span class="hljs-string">&quot;default&quot;</span>, <span class="hljs-string">&quot;discovery&quot;</span>, <span class="hljs-string">&quot;safe&quot;</span>, } }
+  Entry { filename = <span class="hljs-string">&quot;smb-vuln-conficker.nse&quot;</span>, categories = { <span class="hljs-string">&quot;dos&quot;</span>, <span class="hljs-string">&quot;exploit&quot;</span>, <span class="hljs-string">&quot;intrusive&quot;</span>, <span class="hljs-string">&quot;vuln&quot;</span>, } }
+  Entry { filename = <span class="hljs-string">&quot;smb-vuln-cve2009-3103.nse&quot;</span>, categories = { <span class="hljs-string">&quot;dos&quot;</span>, <span class="hljs-string">&quot;exploit&quot;</span>, <span class="hljs-string">&quot;intrusive&quot;</span>, <span class="hljs-string">&quot;vuln&quot;</span>, } }
+  Entry { filename = <span class="hljs-string">&quot;smb-vuln-ms06-025.nse&quot;</span>, categories = { <span class="hljs-string">&quot;dos&quot;</span>, <span class="hljs-string">&quot;exploit&quot;</span>, <span class="hljs-string">&quot;intrusive&quot;</span>, <span class="hljs-string">&quot;vuln&quot;</span>, } }
+  Entry { filename = <span class="hljs-string">&quot;smb-vuln-ms07-029.nse&quot;</span>, categories = { <span class="hljs-string">&quot;dos&quot;</span>, <span class="hljs-string">&quot;exploit&quot;</span>, <span class="hljs-string">&quot;intrusive&quot;</span>, <span class="hljs-string">&quot;vuln&quot;</span>, } }
+  Entry { filename = <span class="hljs-string">&quot;smb-vuln-ms08-067.nse&quot;</span>, categories = { <span class="hljs-string">&quot;dos&quot;</span>, <span class="hljs-string">&quot;exploit&quot;</span>, <span class="hljs-string">&quot;intrusive&quot;</span>, <span class="hljs-string">&quot;vuln&quot;</span>, } }
+  Entry { filename = <span class="hljs-string">&quot;smb-vuln-ms10-054.nse&quot;</span>, categories = { <span class="hljs-string">&quot;dos&quot;</span>, <span class="hljs-string">&quot;intrusive&quot;</span>, <span class="hljs-string">&quot;vuln&quot;</span>, } }
+  Entry { filename = <span class="hljs-string">&quot;smb-vuln-regsvc-dos.nse&quot;</span>, categories = { <span class="hljs-string">&quot;dos&quot;</span>, <span class="hljs-string">&quot;exploit&quot;</span>, <span class="hljs-string">&quot;intrusive&quot;</span>, <span class="hljs-string">&quot;vuln&quot;</span>, } }
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="read-through-this-script-what-does-it-depend-on">Read through this script. What does it depend on?</h3>
+<ul>
+<li><strong>Answer:</strong> smb-brute</li>
+<li><strong>Steps to Reproduce:</strong> <pre><code class="lang-bash">  grep dependencies /usr/share/nmap/scripts/smb-os-discovery.nse 
+  dependencies = {<span class="hljs-string">&quot;smb-brute&quot;</span>}
+</code></pre>
+</li>
+</ul>
+<hr>
+<h1 id="firewall-evasion">Firewall Evasion</h1>
+<ul>
+<li>Typical Windows host will, with its default firewall, block all ICMP packets. Nmap will register a host with this firewall configuration as dead and not bother scanning it at all.</li>
+<li><code>-Pn</code> switch - tells Nmap to not bother pinging the host before scanning it.</li>
+<li>Nmap will always treat the target host as being alive. (effectively bypassing the ICMP block)</li>
+<li>If you&apos;re already directly on the local network, Nmap can also use <strong>ARP requests</strong> to determine host activity.</li>
+<li>Some useful switches:<ul>
+<li><code>-f</code> - Used to fragment the packets into smaller pieces (less likely that the packets will be detected by a firewall or IDS).</li>
+<li><code>--mtu &lt;number&gt;</code> - Accepts a maximum transmission unit size to use for the packets sent. (it must be a multiple of 8).</li>
+<li><code>--scan-delya &lt;time&gt;ms</code> - used to add delay between packets sent. Useful if the <strong>network is unstable</strong>, to evade any <strong>time-based firewall/IDS triggers</strong>.</li>
+<li><code>--badsum</code> - used to generate invalid checksum for packets. Can be used to <strong>determine the presence of a firewall/IDS</strong>. Usually this packet would be dropped, however, firewalls may potenitally respond automatically, without bothering to check the checksum of the packet.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="questions">Questions</h2>
+<h3 id="which-simple-and-frequently-relied-upon-protocol-is-often-blocked-requiring-the-use-of-the--pn-switch">Which simple (and frequently relied upon) protocol is often blocked, requiring the use of the -Pn switch?</h3>
+<ul>
+<li><strong>Answer:</strong> ICMP</li>
+</ul>
+<hr>
+<h3 id="which-nmap-switch-allows-you-to-append-an-arbitrary-length-of-random-data-to-the-end-of-packets">Which Nmap switch allows you to append an arbitrary length of random data to the end of packets?</h3>
+<ul>
+<li><strong>Answer:</strong> --data-length</li>
+<li><strong>Note:</strong> In Nmap help,  <code>--data-length &lt;num&gt;: Append random data to sent packets</code>.</li>
+</ul>
+<hr>
+<h1 id="practical">Practical</h1>
+<h3 id="does-the-target-respond-to-icmp-ping-requests">Does the target respond to ICMP ping requests?</h3>
+<ul>
+<li><strong>Answer:</strong> N</li>
+<li><strong>Steps to Reproduce:</strong> <pre><code class="lang-bash">  nmap &lt;MACHINE_IP&gt;
+  Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-14 15:00 IST
+  Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+  Nmap <span class="hljs-keyword">done</span>: 1 IP address (0 hosts up) scanned <span class="hljs-keyword">in</span> 3.10 seconds
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="perform-an-xmas-scan-on-the-first-999-ports-of-the-target----how-many-ports-are-shown-to-be-open-or-filtered">Perform an Xmas scan on the first 999 ports of the target -- how many ports are shown to be open or filtered?</h3>
+<ul>
+<li><strong>Answer:</strong> 999</li>
+<li><strong>Steps to Reproduce:</strong> 
+```bash
+nmap -sX -Pn -p 0-999 --vv <machine_ip>
+Host discovery disabled (-Pn). All addresses will be marked &apos;up&apos; and scan times will be slower.
+Starting Nmap 7.91 ( <a href="https://nmap.org" target="_blank">https://nmap.org</a> ) at 2021-01-14 15:12 IST
+Initiating Parallel DNS resolution of 1 host. at 15:12
+Completed Parallel DNS resolution of 1 host. at 15:12, 0.02s elapsed
+Initiating XMAS Scan at 15:12
+Scanning <machine_ip> [1000 ports]
+XMAS Scan Timing: About 15.50% done; ETC: 15:16 (0:02:49 remaining)
+XMAS Scan Timing: About 30.50% done; ETC: 15:16 (0:02:19 remaining)
+XMAS Scan Timing: About 58.50% done; ETC: 15:16 (0:01:23 remaining)
+Completed XMAS Scan at 15:16, 201.25s elapsed (1000 total ports)
+Nmap scan report for <machine_ip>
+Host is up, received user-set.
+All 1000 scanned ports on <machine_ip> are open|filtered because of 1000 no-responses</machine_ip></machine_ip></machine_ip></machine_ip></li>
+</ul>
+<p>Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 201.37 seconds
+           Raw packets sent: 2000 (80.000KB) | Rcvd: 0 (0B)</p>
+<pre><code>---
+
+### There is a reason given for this -- what is it?
+- **Answer:** No response
+- **Steps to Reproduce:**
+    - In the nmap output, there is a reason mentioned - All 1000 scanned ports on &lt;MACHINE_IP&gt; are open|filtered because of 1000 **no-responses**.
+
+---
+
+### Perform a TCP SYN scan on the first 5000 ports of the target -- how many ports are shown to be open?
+- **Answer:** 5
+- **Steps to Reproduce:** 
+```bash
+nmap -Pn -sT -p 0-5000 --vv &lt;MACHINE_IP&gt;
+Host discovery disabled (-Pn). All addresses will be marked &apos;up&apos; and scan times will be slower.
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-14 15:21 IST
+Initiating Parallel DNS resolution of 1 host. at 15:21
+Completed Parallel DNS resolution of 1 host. at 15:21, 0.01s elapsed
+Initiating Connect Scan at 15:21
+Scanning &lt;MACHINE_IP&gt; [5001 ports]
+Discovered open port 21/tcp on &lt;MACHINE_IP&gt;
+Discovered open port 53/tcp on &lt;MACHINE_IP&gt;
+Discovered open port 3389/tcp on &lt;MACHINE_IP&gt;
+Discovered open port 80/tcp on &lt;MACHINE_IP&gt;
+Discovered open port 135/tcp on &lt;MACHINE_IP&gt;
+Completed Connect Scan at 15:22, 33.76s elapsed (5001 total ports)
+Nmap scan report for &lt;MACHINE_IP&gt;
+Host is up, received user-set (0.20s latency).
+Scanned at 2021-01-14 15:21:41 IST for 34s
+Not shown: 4996 filtered ports
+Reason: 4996 no-responses
+PORT     STATE SERVICE       REASON
+21/tcp   open  ftp           syn-ack
+53/tcp   open  domain        syn-ack
+80/tcp   open  http          syn-ack
+135/tcp  open  msrpc         syn-ack
+3389/tcp open  ms-wbt-server syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 33.88 seconds
+</code></pre><hr>
+<h3 id="deploy-the-ftp-anon-script-against-the-box-can-nmap-login-successfully-to-the-ftp-server-on-port-21">Deploy the ftp-anon script against the box. Can Nmap login successfully to the FTP server on port 21?</h3>
+<ul>
+<li><strong>Answer:</strong> Y</li>
+<li><p><strong>Steps to Reproduce:</strong> </p>
+<pre><code class="lang-bash">  nmap -Pn --script ftp-anon.nse &lt;MACHINE_IP&gt;
+  Host discovery disabled (-Pn). All addresses will be marked <span class="hljs-string">&apos;up&apos;</span> and scan <span class="hljs-built_in">times</span> will be slower.
+  Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-14 15:23 IST
+  Stats: 0:00:31 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+  NSE Timing: About 80.00% <span class="hljs-keyword">done</span>; ETC: 15:23 (0:00:05 remaining)
+  Stats: 0:00:40 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+  NSE Timing: About 80.00% <span class="hljs-keyword">done</span>; ETC: 15:23 (0:00:07 remaining)
+  Nmap scan report <span class="hljs-keyword">for</span> &lt;MACHINE_IP&gt;
+  Host is up (0.18s latency).
+  Not shown: 995 filtered ports
+  PORT     STATE SERVICE
+  21/tcp   open  ftp
+  | ftp-anon: Anonymous FTP login allowed (FTP code 230)
+  |_Cant get directory listing: TIMEOUT
+  53/tcp   open  domain
+  80/tcp   open  http
+  135/tcp  open  msrpc
+  3389/tcp open  ms-wbt-server
+
+  Nmap <span class="hljs-keyword">done</span>: 1 IP address (1 host up) scanned <span class="hljs-keyword">in</span> 43.28 seconds
+</code></pre>
+<ul>
+<li><p>Login using ftp username: <code>anonymous</code> and empty password.</p>
+<pre><code class="lang-bash">ftp &lt;MACHINE_IP&gt;
+Connected to &lt;MACHINE_IP&gt;.
+220-FileZilla Server 0.9.60 beta
+220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+220 Please visit https://filezilla-project.org/
+Name (&lt;MACHINE_IP&gt;:root): anonymous
+331 Password required <span class="hljs-keyword">for</span> anonymous
+Password:
+230 Logged on
+Remote system <span class="hljs-built_in">type</span> is UNIX.
+ftp&gt; ls
+200 Port <span class="hljs-built_in">command</span> successful
+150 Opening data channel <span class="hljs-keyword">for</span> directory listing of <span class="hljs-string">&quot;/&quot;</span>
+226 Successfully transferred <span class="hljs-string">&quot;/&quot;</span>
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Vulnversity.html" class="navigation navigation-prev " aria-label="Previous page: Vulnversity">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="GoogleDorking.html" class="navigation navigation-next " aria-label="Next page: Google Dorking">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Nmap","level":"2.8","depth":1,"next":{"title":"Google Dorking","level":"2.9","depth":1,"path":"TryHackMe/GoogleDorking.md","ref":"TryHackMe/GoogleDorking.md","articles":[]},"previous":{"title":"Vulnversity","level":"2.7","depth":1,"path":"TryHackMe/Vulnversity.md","ref":"TryHackMe/Vulnversity.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"TryHackMe/Nmap.md","mtime":"2021-02-13T19:12:24.832Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-13T19:16:38.703Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

