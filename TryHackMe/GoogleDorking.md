@@ -12,6 +12,7 @@
     - Pure Discovery - URL visited by the crawler and information regarding the content type fo the website is returned to the **Search Engine**.
     - Following URLs found from previously crawled sites.
 
+---
 ### Name the key term of what a "Crawler" is used to do
 - **Answer:** index
 
@@ -45,7 +46,7 @@
 
 - You can use **Regex** to allow/disallow contents to be indexed by Crawlers.
 - Generally, Sitemap is located at `/sitmeap.xml`.
-
+---
 ### Where would "robots.txt" be located on the domain "ablog.com"?
 - **Answer:** ablog.com/robots.txt
 
@@ -78,12 +79,14 @@
 
 ### Name the keyword for the path taken for content on a website
 - **Answer:** route
+
 ---
 
 ## Google Dorking
 - Using google for advanced searching.
 - Refer [Google Hacking on Wikipedia](https://en.wikipedia.org/wiki/Google_hacking)
 
+---
 ### What would be the format used to query the site bbc.co.uk about flood defences?
 - **Answer:** site:bbc.co.uk flood defences
 

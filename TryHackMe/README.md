@@ -1,17 +1,18 @@
 # TryHackMe
 Walkthrough of TryHackMe rooms.
 
-1. [Advent of Cyber 2](Advent%20of%20Cyber%202)
-1. [Web Fundamentals](WebFundamentals.md)
-1. [Anonymous](Anonymous.md)
-1. [Printer Hacking 101](PrinterHacking101.md)
-1. [OWASP Top 10](OWASP%20Top%2010)
-1. [Vulnversity](Vulnversity.md)
-1. [Nmap](Nmap.md)
-1. [Google Dorking](GoogleDorking.md)
-1. [Blog](Blog.md)
+## Solved
+1. Advent of Cyber 2
+1. Web Fundamentals
+1. Anonymous
+1. Printer Hacking 101
+1. OWASP Top 10
+1. Vulnversity
+1. Nmap
+1. Google Dorking
+1. Blog
 
-## Basic Rooms (No Walkthrough)
+## Solved Basic Rooms (No Walkthrough) 
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
 1. [Introductory Networking](https://tryhackme.com/room/introtonetworking)
 1. [Networking](https://tryhackme.com/room/bpnetworking)

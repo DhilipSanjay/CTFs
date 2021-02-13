@@ -21,9 +21,11 @@
 
 ### What networking constructs are used to direct traffic to the right application on a server?
 - **Answer:** Ports
+
 ---
 ### How many of these are available on any network-enabled computer?
 - **Answer:** 65536
+
 ---
 ###  How many of these are considered "well-known"? (These are the "standard" numbers mentioned in the task)
 - **Answer:** 1024
@@ -34,6 +36,7 @@
 
 ### What is the first switch listed in the help menu for a 'Syn Scan' 
 - **Answer:** -sS
+
 ---
 
 ### Which switch would you use for a "UDP scan"?
@@ -46,6 +49,7 @@
 ---
 ### Nmap provides a switch to detect the version of the services running on the target. What is this switch?
 - **Answer:** -sV
+
 ---
 
 ### The default output provided by nmap often does not provide enough information for a pentester. How would you increase the verbosity?
@@ -70,6 +74,7 @@
 
 ### A very useful output format: how would you save results in a "grepable" format?
 - **Answer:** -oG
+
 ---
 
 ### Sometimes the results we're getting just aren't enough. If we don't care about how loud we are, we can enable "aggressive" mode. This is a shorthand switch that activates service detection, operating system detection, a traceroute and common script scanning. How would you activate this setting?
@@ -88,6 +93,7 @@
 ---
 ### How would you tell nmap to scan ports 1000-1500?
 - **Answer:** -p 1000-1500
+
 ---
 
 ### How would you tell nmap to scan all ports?
@@ -216,6 +222,7 @@
     - `sudo apt update && sudo apt install nmap`
     - `sudo wget -O /usr/share/nmap/scripts/<script-name>.nse https://svn.nmap.org/nmap/scripts/<script-name>.nse`
 
+---
 ## Questions
 ### What language are NSE scripts written in?
 - **Answer:** Lua
@@ -284,6 +291,7 @@
     - `--scan-delya <time>ms` - used to add delay between packets sent. Useful if the **network is unstable**, to evade any **time-based firewall/IDS triggers**.
     - `--badsum` - used to generate invalid checksum for packets. Can be used to **determine the presence of a firewall/IDS**. Usually this packet would be dropped, however, firewalls may potenitally respond automatically, without bothering to check the checksum of the packet.
 
+---
 ## Questions
 ### Which simple (and frequently relied upon) protocol is often blocked, requiring the use of the -Pn switch?
 - **Answer:** ICMP
@@ -400,6 +408,7 @@ Nmap done: 1 IP address (1 host up) scanned in 33.88 seconds
     Nmap done: 1 IP address (1 host up) scanned in 43.28 seconds
     ```
     - Login using ftp username: `anonymous` and empty password.
+    
     ```bash
     ftp <MACHINE_IP>
     Connected to <MACHINE_IP>.

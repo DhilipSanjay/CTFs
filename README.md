@@ -1,8 +1,9 @@
 # Capture The Flags
 
-- [TryHackMe](TryHackMe)
-- [HackTheBox](HackTheBox)
-- [VulnCon 2020](VulnCon2020)
+Hi, I'm **Dhilip Sanjay**. Here you'll find my walkthrough of the various challenges and boxes solved in the following platforms/CTFs:
+- Tryhackme
+- HackTheBox
+- VulnCon 2020
 
 ## Useful Tools
 - [CyberChef](https://gchq.github.io/CyberChef/)

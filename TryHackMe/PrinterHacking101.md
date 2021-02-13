@@ -30,7 +30,7 @@
         ```
     - Once you get a shell-like output, type `help` to see the different commands available.
     
-
+---
 ## Solutions
 ### What port does IPP run on?
 - **Answer:** 631
