@@ -1,6 +1,7 @@
 # Table of Contents
  
 - [Introduction](README.md)
+- [Tools and Payloads](ToolsPayloads.md)
 
 ## TryHackMe
 - [TryHackMe Overview](TryHackMe/README.md)
