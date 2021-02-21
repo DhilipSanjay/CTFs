@@ -232,7 +232,7 @@ GoBuster flag |	Description
 ---
 
 ### What is the user flag?
-- **Answer:** 
+- **Answer:** 8bd7992fbe8a6ad22a63361004cfcedb
 - **Steps to Reproduce:** 
     ```bash
     $ cd /home/bill
@@ -243,7 +243,7 @@ GoBuster flag |	Description
 
 ## Privilege Escalation
 ### On the system, search for all SUID files. What file stands out?
-- **Answer:** 
+- **Answer:** /bin/systemctl
 - **Steps to Reproduce:** 
     ```bash
     $ find / -type f -perm /4000 2>/dev/null
