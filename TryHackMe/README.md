@@ -11,6 +11,7 @@ Walkthrough of TryHackMe rooms.
 1. Nmap
 1. Google Dorking
 1. Blog
+1. Metasploit
 
 ## Solved Basic Rooms (No Walkthrough) 
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)

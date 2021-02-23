@@ -48,6 +48,7 @@
     - [Nmap](TryHackMe/Nmap.md)
     - [Google Dorking](TryHackMe/GoogleDorking.md)
     - [Blog](TryHackMe/Blog.md)
+    - [Metasploit](TryHackMe/Metasploit.md)
 
 ## HackTheBox
 - [HackTheBox Overview](HackTheBox/README.md)
