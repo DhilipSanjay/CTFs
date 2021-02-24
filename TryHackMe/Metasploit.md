@@ -70,16 +70,70 @@ msf6 > db_status
 ## Modules for every occassion
 - Metasploit consists of six core modules that make up the bulk of the tools
 
+### Metasploit Filesystem
+- Data
+- Documentation
+- Lib
+- Modules
+    1. Auxiliary
+    2. Encoders
+    3. Exploits
+    4. Nops
+    5. Payloads
+    6. Post
+- Plugins
+- Scripts
+- Tools
+
+## Metasploit Libraries
+- Number of MSF libraries allow us to run oru exploits without writing additional code for rudimentary tasks.
+1. **REX** - Handles sockets, protocols, text transformations.
+1. **MSF::CORE** - provies the basic API
+1. **MSF::BASE** - Provides friendly API
+
+## Metasploit modules
+1. Exploits - Modules that use payloads
+1. Auxiliary - Port scanners, fuzzers, sniffers, etc.
+1. Payloads - consists of code that runs remotely
+1. Encoders - ensure that payloads make it ot their destination intact
+1. Nops - (No OPeration) keep the payload sizes consistent across exploit attempts.
+1. Post - post exploitation module
+
+- **Loading Addition module trees**
+    1. While starting - `msfconsole -m ~/secret-modules/`
+    1. Inside msfconsole - `loadpath /path/to/modules/exploits`
+
 ### Easily the most common module utilized, which module holds all of the exploit code we will use?
 - **Answer:** exploit
 
 ### Used hand in hand with exploits, which module contains the various bits of shellcode we send to have executed following exploitation?
-- **Answer:** 
+- **Answer:** payload
+
+### Which module is most commonly used in scanning and verification machines are exploitable? This is not the same as the actual exploitation of course.
+- **Answer:** auxiliary
+
+### One of the most common activities after exploitation is looting and pivoting. Which module provides these capabilities?
+- **Answer:** post
+
+### Commonly utilized in payload obfuscation, which module allows us to modify the 'appearance' of our exploit such that we may avoid signature detection?
+- **Answer:** encoder
+
+### Last but not least, which module is used with buffer overflow and ROP attacks?
+- **Answer:** nop
+
+### Not every module is loaded in by default, what command can we use to load different modules? 
+- **Answer:** load
 
 ---
-
 ## Move that shell!
 
 ## We're in, now what?
 
 ## Makin' Cisco proud
+
+
+---
+
+## Reference Links
+- [Offensive Security - Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/metasploit-architecture/)
+- [Understanding NOPS](https://security.stackexchange.com/questions/30497/nops-in-metasploit)
