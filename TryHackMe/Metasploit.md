@@ -102,9 +102,9 @@ msf6 > db_status
 1. Nops - (No OPeration) keep the payload sizes consistent across exploit attempts.
 1. Post - post exploitation module
 
-- **Loading Addition module trees**
-    1. While starting - `msfconsole -m ~/secret-modules/`
-    1. Inside msfconsole - `loadpath /path/to/modules/exploits`
+## Loading Addition module trees
+1. While starting - `msfconsole -m ~/secret-modules/`
+1. Inside msfconsole - `loadpath /path/to/modules/exploits`
 
 ### Easily the most common module utilized, which module holds all of the exploit code we will use?
 - **Answer:** exploit
@@ -221,6 +221,7 @@ Process List
 - **Answer:** migrate
 - **Steps to Reproduce:** 
     - Note: The pid of spoolsv.exe is 1372
+
 ```ps
 meterpreter > migrate 1372
 [*] Migrating from 2284 to 1372...
@@ -364,7 +365,7 @@ C:\Program Files (x86)\Icecast2 Win32>
 ### What command do we run to add a route to the following subnet: 172.18.1.0/24? Use the -n flag in your answer.
 - **Answer:** run autoroute -s 172.18.1.0 -n 255.255.255.0
 - **Steps to Reproduce:** 
-- Subnet mask of `/24` -> 255.255.255.0
+    - Subnet mask of `/24` -> 255.255.255.0
 
 ```ps
 meterpreter > run autoroute -h
