@@ -12,25 +12,25 @@
 
 ### What is this users avatar of?
 - **Answer:** cat
-- **Steps to Reproduce:** Find the avatar of his twitter profile :-)
+- **Steps to Reproduce:** Find the avatar of his twitter profile 😃
 
 ---
 
 ### What city is this person in?
 - **Answer:** London
-- **Steps to Reproduce:** Find his github repo :-) 
+- **Steps to Reproduce:** Find his github repo 😃
 
 ---
 
 ### Whats the SSID of the WAP he connected to?
 - **Answer:** UnileverWiFi
-- **Steps to Reproduce:** Wigle.net :shushing_face:
+- **Steps to Reproduce:** Wigle.net 🤫
 
 ---
 
 ### What is his personal email address?
 - **Answer:** OWoodflint@gmail.com
-- **Steps to Reproduce:** You can find this in his github repo :-)
+- **Steps to Reproduce:** You can find this in his github repo 😃
 
 ---
 
@@ -41,7 +41,7 @@
 
 ### Where has he gone on holiday?
 - **Answer:** New York
-- **Steps to Reproduce:** Didn't I mention about his wordpress site? :thinking:
+- **Steps to Reproduce:** Didn't I mention about his wordpress site? 🤔
 
 ---
 
