@@ -49,6 +49,7 @@
     - [Google Dorking](TryHackMe/GoogleDorking.md)
     - [Blog](TryHackMe/Blog.md)
     - [Metasploit](TryHackMe/Metasploit.md)
+    - [OhSINT](TryHackMe/OhSINT.md)
 
 ## HackTheBox
 - [HackTheBox Overview](HackTheBox/README.md)
