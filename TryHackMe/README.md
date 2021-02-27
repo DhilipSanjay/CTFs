@@ -12,6 +12,7 @@ Walkthrough of TryHackMe rooms.
 1. Google Dorking
 1. Blog
 1. Metasploit
+1. OhSINT
 
 ## Solved Basic Rooms (No Walkthrough) 
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
@@ -23,3 +24,4 @@ Walkthrough of TryHackMe rooms.
 1. [Regular Expression](https://tryhackme.com/room/catregex)
 1. [Introductory Researching](https://tryhackme.com/room/introtoresearch)
 1. [The Hacker Methodology](https://tryhackme.com/room/hackermethodology)
+1. [Cryptography for Dummies](https://tryhackme.com/room/cryptographyfordummies)
