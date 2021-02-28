@@ -50,6 +50,8 @@
     - [Blog](TryHackMe/Blog.md)
     - [Metasploit](TryHackMe/Metasploit.md)
     - [OhSINT](TryHackMe/OhSINT.md)
+    - [Crack the Hash](TryHackMe/CracktheHash.md)
+    - [Crack the Hash 2](TryHackMe/CracktheHash2.md)
 
 ## HackTheBox
 - [HackTheBox Overview](HackTheBox/README.md)

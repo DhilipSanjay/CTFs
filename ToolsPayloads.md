@@ -2,7 +2,6 @@
 
 ## Useful Tools
 - [CyberChef](https://gchq.github.io/CyberChef/)
-- [Hydra](https://tools.kali.org/password-attacks/hydra)
 - [BurpSuite](https://portswigger.net/burp)
 - [Gobuster/Dirbuster](https://github.com/OJ/gobuster)
 - [wfuzz](https://github.com/xmendez/wfuzz)
@@ -18,10 +17,17 @@
 - [ILSpy - .NET disassembly](https://github.com/icsharpcode/ILSpy)
 - [Dotpeek - .NET disassembly](https://www.jetbrains.com/decompiler/)
 - Zbar-tools (for extracting QR code from image `zbarimg`)
-- [CrackStation](https://crackstation.net/)
-- [MD5 Decrypt](https://md5decrypt.net/en/)
-- [Hashes](https://hashes.com/en/decrypt/hash)
 - [Wigle Net - Wifi OSINT](https://wigle.net/)
+
+## Hash crackers
+- [John the Ripper](https://www.openwall.com/john/)
+- [Hydra](https://tools.kali.org/password-attacks/hydra)
+- [Unshadow](http://manpages.ubuntu.com/manpages/xenial/man8/unshadow.8.html#:~:text=The%20unshadow%20tool%20combines%20the,use%20the%20'%2Dshells'%20option.) - Password and Shadow files
+- [Hashcat](https://hashcat.net/hashcat/)
+- Online Tools
+    - [CrackStation](https://crackstation.net/)
+    - [MD5 Decrypt](https://md5decrypt.net/en/)
+    - [Hashes](https://hashes.com/en/decrypt/hash)
 
 ## Payloads & Wordlists
 - [Seclists](https://github.com/danielmiessler/SecLists)

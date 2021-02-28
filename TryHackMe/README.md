@@ -13,6 +13,7 @@ Walkthrough of TryHackMe rooms.
 1. Blog
 1. Metasploit
 1. OhSINT
+1. Crack the Hash
 
 ## Solved Basic Rooms (No Walkthrough) 
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
