@@ -50,6 +50,7 @@
     - [Blog](TryHackMe/Blog.md)
     - [Metasploit](TryHackMe/Metasploit.md)
     - [OhSINT](TryHackMe/OhSINT.md)
+    - [Searchlight - IMINT](SearchlightIMINT.md)
     - [Crack the Hash](TryHackMe/CracktheHash.md)
     - [Crack the Hash 2](TryHackMe/CracktheHash2.md)
 
@@ -62,3 +63,5 @@
     - [Noob Bot Welcomes You!](VulnCon2020/NoobBotWelcomesYou.md)
     - [Maze](VulnCon2020/Maze.md)
     - [Pcaped](VulnCon2020/Pcaped.md)
+
+## PortSwigger Academy
