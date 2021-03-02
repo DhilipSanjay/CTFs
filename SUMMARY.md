@@ -50,7 +50,7 @@
     - [Blog](TryHackMe/Blog.md)
     - [Metasploit](TryHackMe/Metasploit.md)
     - [OhSINT](TryHackMe/OhSINT.md)
-    - [Searchlight - IMINT](SearchlightIMINT.md)
+    - [Searchlight - IMINT](TryHackMe/SearchlightIMINT.md)
     - [Crack the Hash](TryHackMe/CracktheHash.md)
     - [Crack the Hash 2](TryHackMe/CracktheHash2.md)
 
