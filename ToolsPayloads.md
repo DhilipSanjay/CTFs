@@ -18,6 +18,7 @@
 - [Dotpeek - .NET disassembly](https://www.jetbrains.com/decompiler/)
 - Zbar-tools (for extracting QR code from image `zbarimg`)
 - [Wigle Net - Wifi OSINT](https://wigle.net/)
+- [FFmpeg - To extract audio/images from video](https://ffmpeg.org/)
 
 ## Hash crackers
 - [John the Ripper](https://www.openwall.com/john/)
