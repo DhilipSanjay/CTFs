@@ -148,15 +148,12 @@
 - [Using FFmpeg to grab stills and audio for OSINT](https://nixintel.info/osint-tools/using-ffmpeg-to-grab-stills-and-audio-for-osint/)
 - [FFmpeg](https://ffmpeg.org/)
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" >
-    <source src="Images/task9.mp4" type="video/mp4">
-  </video>
-</figure>
-
 ### What is the name of the hotel that my friend is staying in?
 - **Answer:** sl{NOVOTEL SINGAPORE CLARKE QUAY}
-- **Clue:** Use google maps and look for `Clarke Quay Central`
+
+{% hint style="info" %}
+Use google maps and look for `Clarke Quay Central`
+{% endhint %} 
 
 ---
 
@@ -165,3 +162,4 @@
 - [Tips and Tricks on Reverse Image Searches](https://osintcurio.us/2020/04/12/tips-and-tricks-on-reverse-image-searches/)
 - [RevEye Reverse Image Search Extension](https://chrome.google.com/webstore/search/RevEye%20Reverse%20Image%20Search?hl=no)
 - [A lesson on looking (Visual Intelligence)- Amy Herman](https://www.youtube.com/watch?v=_jHmjs2270A)
+
