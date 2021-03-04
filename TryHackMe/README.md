@@ -28,3 +28,4 @@ Walkthrough of TryHackMe rooms.
 1. [Introductory Researching](https://tryhackme.com/room/introtoresearch)
 1. [The Hacker Methodology](https://tryhackme.com/room/hackermethodology)
 1. [Cryptography for Dummies](https://tryhackme.com/room/cryptographyfordummies)
+1. [Encryption - Crypto 101](https://tryhackme.com/room/encryptioncrypto101)

@@ -30,6 +30,10 @@
     - [MD5 Decrypt](https://md5decrypt.net/en/)
     - [Hashes](https://hashes.com/en/decrypt/hash)
 
+## Cryptography 
+- [RSA tool](https://github.com/ius/rsatool)
+- [RSA CTF Tool](https://github.com/Ganapati/RsaCtfTool)
+
 ## Payloads & Wordlists
 - [Seclists](https://github.com/danielmiessler/SecLists)
 - rockyou.txt
