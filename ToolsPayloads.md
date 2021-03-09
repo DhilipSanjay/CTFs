@@ -27,7 +27,7 @@
 ## Hash crackers
 - [John the Ripper](https://www.openwall.com/john/)
 - [Hydra](https://tools.kali.org/password-attacks/hydra)
-- [Unshadow](http://manpages.ubuntu.com/manpages/xenial/man8/unshadow.8.html#:~:text=The%20unshadow%20tool%20combines%20the,use%20the%20'%2Dshells'%20option.) - Password and Shadow files
+- [Unshadow](http://manpages.ubuntu.com/manpages/xenial/man8/unshadow.8.html) - Password and Shadow files
 - [Hashcat](https://hashcat.net/hashcat/)
 - Online Tools
     - [CrackStation](https://crackstation.net/)

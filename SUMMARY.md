@@ -54,7 +54,7 @@
     - [Basic Pentesting](TryHackMe/BasicPentesting.md)
     - [Crack the Hash](TryHackMe/CracktheHash.md)
     - [Crack the Hash 2](TryHackMe/CracktheHash2.md)
-    - [Linux Back](TryHackMe/LinuxBackdoors.md)
+    - [Linux Backdoors](TryHackMe/LinuxBackdoors.md)
     - [Encryption 101](TryHackMe/Encryption101.md)
     - [OWASP Juice Shop](TryHackMe/OWASPJuiceShop.md)
 
