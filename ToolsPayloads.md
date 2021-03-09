@@ -20,6 +20,10 @@
 - [Wigle Net - Wifi OSINT](https://wigle.net/)
 - [FFmpeg - To extract audio/images from video](https://ffmpeg.org/)
 
+## Privilege Escalation
+- [Privilege escalation scripts](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/)
+- [Linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
+
 ## Hash crackers
 - [John the Ripper](https://www.openwall.com/john/)
 - [Hydra](https://tools.kali.org/password-attacks/hydra)
