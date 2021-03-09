@@ -14,8 +14,12 @@ Walkthrough of TryHackMe rooms.
 1. Metasploit
 1. OhSINT
 1. Searchlight - IMINT
+1. Basic Pentesting
 1. Crack the Hash
 1. Crack the Hash 2
+1. Encryption 101
+1. Linux Backdoors
+1. OWASP Juice Shop
 
 ## Solved Basic Rooms (No Walkthrough) 
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
