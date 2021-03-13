@@ -57,6 +57,7 @@
     - [Linux Backdoors](TryHackMe/LinuxBackdoors.md)
     - [Encryption 101](TryHackMe/Encryption101.md)
     - [OWASP Juice Shop](TryHackMe/OWASPJuiceShop.md)
+    - [DNS Manipulation](TryHackMe/DNSManipulation.md)
 
 ## HackTheBox
 - [HackTheBox Overview](HackTheBox/README.md)
@@ -69,3 +70,8 @@
     - [Pcaped](VulnCon2020/Pcaped.md)
 
 ## PortSwigger Academy
+
+
+## NahamCon 2021
+- [NahamCon 2021 Overview](NahamCon2021/README.md)
+    - [esab64](NahamCon2021/esab65.md)
