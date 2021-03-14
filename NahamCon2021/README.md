@@ -26,6 +26,12 @@
 
 ![Solve Percentages](Images/SolvePercentages.png)
 
+---
+
 ![Category Breakdown](Images/CategoryBreakdown.png)
 
-![Score Over Time](Images/ScoreOverTime.png)
+---
+
+![Score Over Time](Images/ScoreoverTime.png)
+
+---
