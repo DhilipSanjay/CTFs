@@ -21,3 +21,11 @@
 ## Flags found - but challenges not unlocked
 1. https://constellations.page/constellations-documents/5/ - flag {bd869e6193c27308d2fd3ad4b427e8c3}
 1. https://twitter.com/C0NST3LLAT10NS - flag{e483bffafbb0db5eabc121846b455bc7}
+
+---
+
+![Solve Percentages](Images/SolvePercentages.png)
+
+![Category Breakdown](Images/CategoryBreakdown.png)
+
+![Score Over Time](Images/ScoreOverTime.png)
