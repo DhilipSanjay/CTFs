@@ -75,3 +75,5 @@
 ## NahamCon 2021
 - [NahamCon 2021 Overview](NahamCon2021/README.md)
     - [esab64](NahamCon2021/esab65.md)
+    - [Bionic & Meet the Team](NahamCon2021/bionic-meet_the_team.md)
+    - [Gus & Hercules](Gus-Hercules.md)

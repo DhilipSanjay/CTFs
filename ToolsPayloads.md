@@ -46,6 +46,11 @@
 - [OWASP Cheatsheet](https://github.com/OWASP/CheatSheetSeries)
 - [XSS Payload List](https://github.com/payloadbox/xss-payload-list)
 
+## Git Related Tools
+- [GitHacker](https://github.com/captain-noob/GitHacker)
+- [GitHack](https://github.com/captain-noob/GitHack)
+- [GitTools](https://github.com/internetwache/GitTools)
+
 # CVEs
 - [CVE-2014-6271 (Shellshock)](https://nvd.nist.gov/vuln/detail/CVE-2014-6271)
 - [CVE-2019-0232 (Apache Tomcat - CGIServlet enableCmdLineArguments Remote Code Execution)](https://www.exploit-db.com/exploits/47073)
