@@ -13,14 +13,14 @@
 <!-- Vela, can we please stop sharing our version control software out on the public internet? -->
 ```
 
-- So immediately I went to `https://constellations.page/.git`, which showed **Forbidden**.
+- So immediately I tried to access `https://constellations.page/.git`, but it was **Forbidden**.
 
 ```html
 Forbidden
 You don't have permission to access /.git/ on this server.
 ```
 
-- But trying to access files like `/index`, `/HEAD` was successful. `/logs/HEAD` folder:
+- But the access to files like `/index`, `/HEAD` were successful. `/logs/HEAD` folder:
 ```bash
 0000000000000000000000000000000000000000 1142cc3145fdba8d9eb8f9c9e7ee79bdfda64d9a Leo Rison <leo.rison@constellations.page> 1614124430 -0500	commit (initial): Added initial assets and landing page
 1142cc3145fdba8d9eb8f9c9e7ee79bdfda64d9a 87b17a86409582c162e260795afdf104dc1d46b1 Leo Rison <leo.rison@constellations.page> 1614124968 -0500	commit: Added the Meet The Team page
