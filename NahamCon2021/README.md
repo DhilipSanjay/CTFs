@@ -23,15 +23,10 @@
 1. https://twitter.com/C0NST3LLAT10NS - flag{e483bffafbb0db5eabc121846b455bc7}
 
 ---
+![1387th Place - 700 Points](Images/PlaceandPoints.png)
 
 ![Solve Percentages](Images/SolvePercentages.png)
 
----
-
 ![Category Breakdown](Images/CategoryBreakdown.png)
 
----
-
 ![Score Over Time](Images/ScoreoverTime.png)
-
----
