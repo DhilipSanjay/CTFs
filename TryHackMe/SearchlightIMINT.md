@@ -6,6 +6,8 @@
 
 ---
 
+[Click Here](https://tryhackme.com/room/searchlightosint) to go to the TryHackMe room.
+
 ## Fundamentals
 - IMINT - Imagery Intelligence
 - GEOINT - Geospatial Intelligence

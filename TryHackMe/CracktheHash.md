@@ -6,6 +6,8 @@
 
 ---
 
+[Click Here](https://tryhackme.com/room/crackthehash) to go to the TryHackMe room.
+
 ## Level 1
 
 ### 48bb6e862e54f2a795ffc4e541caed4d
