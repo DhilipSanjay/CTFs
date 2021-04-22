@@ -33,6 +33,10 @@
     - [CrackStation](https://crackstation.net/)
     - [MD5 Decrypt](https://md5decrypt.net/en/)
     - [Hashes](https://hashes.com/en/decrypt/hash)
+- Hash Identification Tools
+    - Haiti
+    - hashid
+    - hash-identifier
 
 ## Cryptography 
 - [RSA tool](https://github.com/ius/rsatool)
@@ -45,6 +49,7 @@
 - [SQL Injection Payload List](https://github.com/payloadbox/sql-injection-payload-list)
 - [OWASP Cheatsheet](https://github.com/OWASP/CheatSheetSeries)
 - [XSS Payload List](https://github.com/payloadbox/xss-payload-list)
+- [WordList CTL](https://github.com/BlackArch/wordlistctl)
 
 ## Git Related Tools
 - [GitHacker](https://github.com/captain-noob/GitHacker)
