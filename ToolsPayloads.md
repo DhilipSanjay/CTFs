@@ -50,6 +50,15 @@
 - [OWASP Cheatsheet](https://github.com/OWASP/CheatSheetSeries)
 - [XSS Payload List](https://github.com/payloadbox/xss-payload-list)
 - [WordList CTL](https://github.com/BlackArch/wordlistctl)
+- Custom WordList Generators
+    - [Mentalist](https://github.com/sc0tfree/mentalist)
+    - [CeWL](https://github.com/digininja/CeWL)
+- Password Dictionary Generators
+    - [TTPAssGen](https://github.com/tp7309/TTPassGen)
+- Lyric based wordlist Generator
+    - [Lyricpass](https://github.com/initstring/lyricpass)
+- Phone number based wordlist Generator
+    - [Pnwgen](https://github.com/toxydose/pnwgen)
 
 ## Git Related Tools
 - [GitHacker](https://github.com/captain-noob/GitHacker)
