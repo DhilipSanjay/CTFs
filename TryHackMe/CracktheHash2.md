@@ -555,6 +555,7 @@ Session completed
 - **Answer:** !@#redrose!@#
 - **Steps to Reproduce:** Use hashcat with `17600` (SHA3-512)
 
+
 ```bash
 $ hashcat -m 17600 hash7.txt /usr/share/wordlists/rockyou.txt
 
@@ -579,9 +580,10 @@ Candidates.#1....: !J389aM544b! -> !8ZnEp
 Started: Fri Apr 23 16:40:40 2021
 Stopped: Fri Apr 23 16:41:26 2021
 ```
+
 ---
 
-### 9f7376709d3fe09b389a27876834a13c6f275ed9a806d4c8df78f0ce1aad8fb343316133e810096e0999eaf1d2bca37c336e1b7726b213e001333d636e896617
+### 8) 9f7376709d3fe09b389a27876834a13c6f275ed9a806d4c8df78f0ce1aad8fb343316133e810096e0999eaf1d2bca37c336e1b7726b213e001333d636e896617
 - **Answer:** hackinghackinghackinghacking
 - **Steps to Reproduce:**
     - Refer [Blake 2](https://www.blake2.net/) and [Wireguard](https://en.wikipedia.org/wiki/WireGuard)
