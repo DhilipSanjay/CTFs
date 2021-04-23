@@ -175,7 +175,6 @@ wordlistctl list -g usernames
    28 > usernames (1.07 Kb)
    29 > twitter_usernames (84.39 Mb)
    30 > UserPassJay (12.68 Kb)
-
 ```
 
 ---
@@ -204,7 +203,11 @@ wordlistctl list -g usernames
 - **Steps to Reproduce:** Use john
 
 ```bash
-john hash.txt --format=raw-sha1 --wordlist=/usr/share/wordlists/passwords/10k-most-common.txt --rules=THM01
+$ cat john-local.conf 
+[List.Rules:THM01]
+$[0-9]$[0-9]
+
+$ john hash.txt --format=raw-sha1 --wordlist=/usr/share/wordlists/passwords/10k-most-common.txt --rules=THM01
 Using default input encoding: UTF-8
 Loaded 1 password hash (Raw-SHA1 [SHA1 256/256 AVX2 8x])
 Press 'q' or Ctrl-C to abort, almost any other key for status
@@ -223,10 +226,6 @@ Session completed
 - **Steps to Reproduce:** 
 
 ```bash
-$ cat john-local.conf 
-[List.Rules:THM01]
-$[0-9]$[0-9]
-
 $ john md5.txt --format=Raw-MD5 --wordlist=/usr/share/wordlists/misc/dogs_custom.txt
 Using default input encoding: UTF-8
 Loaded 1 password hash (Raw-MD5 [MD5 256/256 AVX2 8x3])
@@ -239,12 +238,12 @@ Session completed
 
 ---
 
-### What is the last word of the list?
+### Use CeWL - What is the last word of the list?
 - **Answer:** Information
 - **Steps to Reproduce:** 
 
-```
-cewl -d 2 -w $(pwd)/example.txt https://example.org
+```bash
+$ cewl -d 2 -w $(pwd)/example.txt https://example.org
 CeWL 5.5.0 (Grouping) Robin Wood (robin@digi.ninja) (https://digi.ninja/)
 
 cat example.txt 
@@ -299,8 +298,9 @@ $ wc combination.txt
 - **Answer:** 1551-li
 - **Steps to Reproduce:** 
 
-```
-john combi_hash.txt --format=Raw-MD5 --wordlist=combination.txt
+```bash
+$ john combi_hash.txt --format=Raw-MD5 --wordlist=combination.txt
+
 Using default input encoding: UTF-8
 Loaded 1 password hash (Raw-MD5 [MD5 256/256 AVX2 8x3])
 Press 'q' or Ctrl-C to abort, almost any other key for status
@@ -350,7 +350,7 @@ Session completed
     ```
     
     - Run John
-    ```
+    ```bash
     $ john --format=Raw-MD5 hash1.txt --wordlist=/usr/share/wordlists/usernames/malenames-usa-top1000.txt --rules=task01
 
     Using default input encoding: UTF-8
@@ -451,9 +451,7 @@ Session completed
 
     ```bash
     cat cities.txt | sed -r 's/\s+//g' | tr '[:upper:]' '[:lower:]' > cities_final.txt
-
     ```   
-
 
     - Run john along with `l33t` rule and the newly generated wordlist.
 
@@ -549,16 +547,15 @@ Session completed
     1g 0:00:00:00 DONE (2021-04-23 20:55) 1.030g/s 5608Kp/s 5608Kc/s 5608KC/s +17215440128..+17215440511
     Use the "--show --format=Raw-MD5" options to display all of the cracked passwords reliably
     Session completed
-
     ```
-    
 
 ---
 
 ### 7) ba6e8f9cd4140ac8b8d2bf96c9acd2fb58c0827d556b78e331d1113fcbfe425ca9299fe917f6015978f7e1644382d1ea45fd581aed6298acde2fa01e7d83cdbd
 - **Answer:** !@#redrose!@#
 - **Steps to Reproduce:** Use hashcat with `17600` (SHA3-512)
-```
+
+```bash
 $ hashcat -m 17600 hash7.txt /usr/share/wordlists/rockyou.txt
 
 ba6e8f9cd4140ac8b8d2bf96c9acd2fb58c0827d556b78e331d1113fcbfe425ca9299fe917f6015978f7e1644382d1ea45fd581aed6298acde2fa01e7d83cdbd:!@#redrose!@#
@@ -581,7 +578,6 @@ Candidates.#1....: !J389aM544b! -> !8ZnEp
 
 Started: Fri Apr 23 16:40:40 2021
 Stopped: Fri Apr 23 16:41:26 2021
-
 ```
 ---
 
@@ -591,6 +587,7 @@ Stopped: Fri Apr 23 16:41:26 2021
     - Refer [Blake 2](https://www.blake2.net/) and [Wireguard](https://en.wikipedia.org/wiki/WireGuard)
 
     - Use CeWL to scrape the words from the website.
+
     ```bash
     $ cewl -d 2 -w hash8_scrapped.txt http://<MACHINE_IP>/rtfm.re/en/sponsors/index.html
     CeWL 5.4.8 (Inclusion) Robin Wood (robin@digi.ninja) (https://digi.ninja/)
@@ -600,6 +597,7 @@ Stopped: Fri Apr 23 16:41:26 2021
     ```
 
     - Generate the wordlist with 1,2,3,4 and 5 repetition of the words using python script.
+
     ```py
     file1 = open('hash8_scrapped.txt', 'r')
     file2 = open('hash8_final.txt', 'w')
@@ -617,6 +615,7 @@ Stopped: Fri Apr 23 16:41:26 2021
     ```
     
     - Use john with `Raw-Blake2`
+
     ```bash
     john --format=Raw-Blake2 hash8 -wordlist=hash8_final.txt 
     Using default input encoding: UTF-8
@@ -627,16 +626,14 @@ Stopped: Fri Apr 23 16:41:26 2021
     Use the "--show" option to display all of the cracked passwords reliably
     Session completed
     ```
-    
-
 ---
 
 ### 8) $6$kI6VJ0a31.SNRsLR$Wk30X8w8iEC2FpasTo0Z5U7wke0TpfbDtSwayrNebqKjYWC4gjKoNEJxO/DkP.YFTLVFirQ5PEh4glQIHuKfA/
 - **Answer:** kakashi1
 - **Steps to Reproduce:** Use john or HashCat with `sha512crypt`
 
-```
-john --format=sha512crypt hash9.txt --wordlist=/usr/share/wordlists/rockyou.txtUsing default input encoding: UTF-8
+```bash
+$ john --format=sha512crypt hash9.txt --wordlist=/usr/share/wordlists/rockyou.txtUsing default input encoding: UTF-8
 Loaded 1 password hash (sha512crypt, crypt(3) $6$ [SHA512 256/256 AVX2 4x])
 Cost 1 (iteration count) is 5000 for all loaded hashes
 Press 'q' or Ctrl-C to abort, almost any other key for status
