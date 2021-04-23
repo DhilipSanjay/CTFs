@@ -25,8 +25,8 @@ BigCrypt [JtR: bigcrypt]
 
 ### Launch Haiti on 1aec7a56aa08b25b596057e1ccbcb6d768b770eaa0f355ccbd56aee5040e02ee
 
-```
-haiti 1aec7a56aa08b25b596057e1ccbcb6d768b770eaa0f355ccbd56aee5040e02ee
+```bash
+$ haiti 1aec7a56aa08b25b596057e1ccbcb6d768b770eaa0f355ccbd56aee5040e02ee
 Snefru-256 [JtR: snefru-256]
 SHA-256 [HC: 1400] [JtR: raw-sha256]
 RIPEMD-256
@@ -52,7 +52,7 @@ Skein-512(256)
 ## Wordlists
 
 ### Wordlistctl
-```
+```bash
 wordlistctl search rockyou
 --==[ wordlistctl by blackarch.org ]==--
 
@@ -138,7 +138,7 @@ $ wordlistctl list -g fuzzing
 - **Answer:** CommonAdminBase64
 - **Steps to Reproduce:** 
 
-```
+```bash
 wordlistctl list -g usernames
 --==[ wordlistctl by blackarch.org ]==--
 
@@ -203,7 +203,7 @@ wordlistctl list -g usernames
 - **Answer:** moonligh56
 - **Steps to Reproduce:** Use john
 
-```
+```bash
 john hash.txt --format=raw-sha1 --wordlist=/usr/share/wordlists/passwords/10k-most-common.txt --rules=THM01
 Using default input encoding: UTF-8
 Loaded 1 password hash (Raw-SHA1 [SHA1 256/256 AVX2 8x])
@@ -222,8 +222,12 @@ Session completed
 - **Answer:** mOlo$$u$
 - **Steps to Reproduce:** 
 
-```
-john md5.txt --format=Raw-MD5 --wordlist=/usr/share/wordlists/misc/dogs_custom.txt
+```bash
+$ cat john-local.conf 
+[List.Rules:THM01]
+$[0-9]$[0-9]
+
+$ john md5.txt --format=Raw-MD5 --wordlist=/usr/share/wordlists/misc/dogs_custom.txt
 Using default input encoding: UTF-8
 Loaded 1 password hash (Raw-MD5 [MD5 256/256 AVX2 8x3])
 Press 'q' or Ctrl-C to abort, almost any other key for status
@@ -627,7 +631,7 @@ Stopped: Fri Apr 23 16:41:26 2021
 
 ---
 
-### $6$kI6VJ0a31.SNRsLR$Wk30X8w8iEC2FpasTo0Z5U7wke0TpfbDtSwayrNebqKjYWC4gjKoNEJxO/DkP.YFTLVFirQ5PEh4glQIHuKfA/
+### 8) $6$kI6VJ0a31.SNRsLR$Wk30X8w8iEC2FpasTo0Z5U7wke0TpfbDtSwayrNebqKjYWC4gjKoNEJxO/DkP.YFTLVFirQ5PEh4glQIHuKfA/
 - **Answer:** kakashi1
 - **Steps to Reproduce:** Use john or HashCat with `sha512crypt`
 
