@@ -54,6 +54,8 @@
     - [Basic Pentesting](TryHackMe/BasicPentesting.md)
     - [Crack the Hash](TryHackMe/CracktheHash.md)
     - [Crack the Hash 2](TryHackMe/CracktheHash2.md)
+    - [Year of the Jellyfish](TryHackMe/YearoftheJellyfish.md)
+    - [VulnNet - DotJar](TryHackMe/VulnNet-DotJar.md)
     - [Linux Backdoors](TryHackMe/LinuxBackdoors.md)
     - [Encryption 101](TryHackMe/Encryption101.md)
     - [OWASP Juice Shop](TryHackMe/OWASPJuiceShop.md)

@@ -17,6 +17,8 @@ Walkthrough of TryHackMe rooms.
 1. Basic Pentesting
 1. Crack the Hash
 1. Crack the Hash 2
+1. Year of the Jellyfish
+1. VulnNet - DotJar
 1. Encryption 101
 1. Linux Backdoors
 1. OWASP Juice Shop
