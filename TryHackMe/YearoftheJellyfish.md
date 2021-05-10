@@ -443,6 +443,7 @@ www-data@petshop:./linpeas.sh
 ```
 
 - Linpeas didn't give much infor. Check the upgradable softwares 
+
 ```bash
 www-data@petshop: apt list --upgradable
 
