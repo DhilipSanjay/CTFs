@@ -19,7 +19,7 @@ Walkthrough of TryHackMe rooms.
 1. Crack the Hash 2
 1. Year of the Jellyfish
 1. VulnNet - DotJar
-1. Encryption 101
+1. Encryption Crypto 101
 1. Linux Backdoors
 1. OWASP Juice Shop
 1. DNS Manipulation
@@ -35,4 +35,3 @@ Walkthrough of TryHackMe rooms.
 1. [Introductory Researching](https://tryhackme.com/room/introtoresearch)
 1. [The Hacker Methodology](https://tryhackme.com/room/hackermethodology)
 1. [Cryptography for Dummies](https://tryhackme.com/room/cryptographyfordummies)
-1. [Encryption - Crypto 101](https://tryhackme.com/room/encryptioncrypto101)
