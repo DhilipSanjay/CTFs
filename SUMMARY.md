@@ -64,6 +64,7 @@
 ## HackTheBox
 - [HackTheBox Overview](HackTheBox/README.md)
     - [Emdee five for life](HackTheBox/Emdeefiveforlife.md)
+    - [Templated](HackTheBox/Templated.md)
 
 ## HackTheBox Academy
 - [HTB Academy Overview](HackTheBoxAcademy/README.md)
