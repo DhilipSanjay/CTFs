@@ -56,8 +56,9 @@
     - [Crack the Hash 2](TryHackMe/CracktheHash2.md)
     - [Year of the Jellyfish](TryHackMe/YearoftheJellyfish.md)
     - [VulnNet - DotJar](TryHackMe/VulnNet-DotJar.md)
+    - [Encryption - Crypto 101](TryHackMe/EncryptionCrypto101.md)
+    - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
     - [Linux Backdoors](TryHackMe/LinuxBackdoors.md)
-    - [Encryption 101](TryHackMe/Encryption101.md)
     - [OWASP Juice Shop](TryHackMe/OWASPJuiceShop.md)
     - [DNS Manipulation](TryHackMe/DNSManipulation.md)
 
