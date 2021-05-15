@@ -37,3 +37,4 @@ Walkthrough of TryHackMe rooms.
 1. [The Hacker Methodology](https://tryhackme.com/room/hackermethodology)
 1. [Cryptography for Dummies](https://tryhackme.com/room/cryptographyfordummies)
 1. [HTTP in detail](https://tryhackme.com/room/httpindetail)
+1. [DNS in detail](https://tryhackme.com/room/dnsindetail)
