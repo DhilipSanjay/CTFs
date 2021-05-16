@@ -22,8 +22,8 @@ Walkthrough of TryHackMe rooms.
 1. Encryption Crypto 101
 1. CC: Pen Testing
 1. Kenobi
-1. Hacker of the Hill
 1. Linux Backdoors
+1. Hacker of the Hill
 1. OWASP Juice Shop
 1. DNS Manipulation
 

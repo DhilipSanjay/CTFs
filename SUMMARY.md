@@ -59,8 +59,8 @@
     - [Encryption - Crypto 101](TryHackMe/EncryptionCrypto101.md)
     - [CC: Pen Testing](TryHackMe/CCPentesting.md)
     - [Kenobi](TryHackMe/Kenobi.md)
-    - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
     - [Linux Backdoors](TryHackMe/LinuxBackdoors.md)
+    - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
     - [OWASP Juice Shop](TryHackMe/OWASPJuiceShop.md)
     - [DNS Manipulation](TryHackMe/DNSManipulation.md)
 
