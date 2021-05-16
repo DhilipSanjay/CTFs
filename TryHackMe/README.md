@@ -23,6 +23,7 @@ Walkthrough of TryHackMe rooms.
 1. CC: Pen Testing
 1. Kenobi
 1. Linux Backdoors
+1. RootMe
 1. Hacker of the Hill
 1. OWASP Juice Shop
 1. DNS Manipulation

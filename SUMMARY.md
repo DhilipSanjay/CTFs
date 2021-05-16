@@ -60,6 +60,7 @@
     - [CC: Pen Testing](TryHackMe/CCPentesting.md)
     - [Kenobi](TryHackMe/Kenobi.md)
     - [Linux Backdoors](TryHackMe/LinuxBackdoors.md)
+    - [Root Me](TryHackMe/RootMe.md)
     - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
     - [OWASP Juice Shop](TryHackMe/OWASPJuiceShop.md)
     - [DNS Manipulation](TryHackMe/DNSManipulation.md)
