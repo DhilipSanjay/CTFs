@@ -57,6 +57,7 @@
     - [Year of the Jellyfish](TryHackMe/YearoftheJellyfish.md)
     - [VulnNet - DotJar](TryHackMe/VulnNet-DotJar.md)
     - [Encryption - Crypto 101](TryHackMe/EncryptionCrypto101.md)
+    - [CC: Pen Testing](TryHackMe/CCPentesting.md)
     - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
     - [Linux Backdoors](TryHackMe/LinuxBackdoors.md)
     - [OWASP Juice Shop](TryHackMe/OWASPJuiceShop.md)
