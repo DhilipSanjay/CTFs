@@ -65,6 +65,11 @@
 - [GitHack](https://github.com/captain-noob/GitHack)
 - [GitTools](https://github.com/internetwache/GitTools)
 
+## DNS Related Tools
+- [DNS - Exfil - Infil](https://github.com/kleosdc/dns-exfil-infil)
+- [Iodine - Tunnel IPv4 data through a DNS server](https://code.kryo.se/iodine/)
+- [Iodine - Github](https://github.com/yarrick/iodine)
+
 # CVEs
 - [CVE-2014-6271 (Shellshock)](https://nvd.nist.gov/vuln/detail/CVE-2014-6271)
 - [CVE-2019-0232 (Apache Tomcat - CGIServlet enableCmdLineArguments Remote Code Execution)](https://www.exploit-db.com/exploits/47073)
