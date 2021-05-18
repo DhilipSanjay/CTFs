@@ -6,6 +6,8 @@
 
 ---
 
+[Click Here](https://tryhackme.com/room/picklerick) to go to the TryHackMe room.
+
 ## Nmap Enumeration
 
 ```bash
@@ -150,9 +152,9 @@ Vm1wR1UxTnRWa2RUV0d4VFlrZFNjRlV3V2t0alJsWnlWbXQwVkUxV1duaFZNakExVkcxS1NHVkliRmho
 
 ```bash
 grep . clue.txt
-
 (or)
-
+less clue.txt
+(or)
 while read line; do echo $line; done < clue.txt
 
 Look around the file system for the other ingredient.
@@ -168,9 +170,9 @@ Look around the file system for the other ingredient.
 
     ```bash
     grep . Sup3rS3cretPickl3Ingred.txt
-
     (or)
-
+    less Sup3rS3cretPickl3Ingred.txt
+    (or)
     while read line; do echo $line; done < Sup3rS3cretPickl3Ingred.txt
     ```
     
