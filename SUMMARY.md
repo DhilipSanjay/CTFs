@@ -62,8 +62,8 @@
     - [Linux Backdoors](TryHackMe/LinuxBackdoors.md)
     - [Root Me](TryHackMe/RootMe.md)
     - [DNS Manipulation](TryHackMe/DNSManipulation.md)
-    - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
     - [OWASP Juice Shop](TryHackMe/OWASPJuiceShop.md)
+    - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
 
 ## HackTheBox
 - [HackTheBox Overview](HackTheBox/README.md)

@@ -25,8 +25,8 @@ Walkthrough of TryHackMe rooms.
 1. Linux Backdoors
 1. RootMe
 1. DNS Manipulation
-1. Hacker of the Hill
 1. OWASP Juice Shop
+1. Hacker of the Hill
 
 
 ## Solved Basic Rooms (No Walkthrough) 
