@@ -26,8 +26,20 @@ Walkthrough of TryHackMe rooms.
 1. RootMe
 1. DNS Manipulation
 1. OWASP Juice Shop
+1. Pickle Rick
+1. CC: Steganography
 1. Hacker of the Hill
 
+1. CC: Radare2
+1. CC: Ghidra
+1. OverPass
+1. OverPass 2 - Hacked
+1. OverPass 3 - Hosting
+1. VulnNet
+1. VulnNet - Internal
+1. VulnNet - Dotpy
+1. VulnNet - Node
+1. VulnNet - Roasted
 
 ## Solved Basic Rooms (No Walkthrough) 
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)

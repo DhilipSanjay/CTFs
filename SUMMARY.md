@@ -63,6 +63,8 @@
     - [Root Me](TryHackMe/RootMe.md)
     - [DNS Manipulation](TryHackMe/DNSManipulation.md)
     - [OWASP Juice Shop](TryHackMe/OWASPJuiceShop.md)
+    - [Pickle Rick](TryHackMe/PickleRick.md)
+    - [CC: Steganography](TryHackMe/CCSteganography.md)
     - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
 
 ## HackTheBox
