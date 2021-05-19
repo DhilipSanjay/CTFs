@@ -271,8 +271,8 @@ james@overpass-prod:~$ cat .overpass
 [{"name":"System","pass":"saydrawnlyingpicture"}]
 ```
 
-- But unfortunately, james doesn't have any of the sudo permission!
-- We find that by using the command `sudo -l` and using the password we obtained recently.
+- We run the command `sudo -l` and using the password we obtained recently.
+- Unfortunately, james doesn't have any of the sudo permission!
 
 ```bash
 james@overpass-prod:~$ sudo -l
@@ -371,7 +371,7 @@ Serving HTTP on 0.0.0.0 port 8000 ...
 10.10.123.199 - - [20/May/2021 01:14:02] "GET /linpeas.sh HTTP/1.1" 200 -
 ```
 
-- Downlaod and run **linpeas.sh** in the target vulnerable machine.
+- Download and run **linpeas.sh** in the target vulnerable machine.
 - I have included only a small part of linpeas output.
 - Cron jobs!! 
 
@@ -643,5 +643,5 @@ bash-4.4# cat /root/root.txt
 thm{7f336f8c359dbac18d54fdd64ea753bb}
 ```
 
-![Overpass - root.txt](Images/overpass-root.txt)
+![Overpass - root.txt](Images/overpass-root.png)
 
