@@ -338,11 +338,10 @@ b2,bgr,msb,xy       .. file: VISX image file\
 - **Steps to Reproduce:** 
     - It seems like the qrcode cannot be scanned from this image.
     - Initially I tried to scan it using `zbarimg`, which gave the following error:
-
+    
     ```bash
     $ zbarimg qrcode.png 
     scanned 0 barcode symbols from 1 images in 0.02 seconds
-
 
     WARNING: barcode data was not detected in some image(s)
     Things to check:
