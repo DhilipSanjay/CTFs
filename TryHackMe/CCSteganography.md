@@ -338,7 +338,7 @@ b2,bgr,msb,xy       .. file: VISX image file\
 - **Steps to Reproduce:** 
     - It seems like the qrcode cannot be scanned from this image.
     - Initially I tried to scan it using `zbarimg`, which gave the following error:
-
+    
     ```bash
     $ zbarimg qrcode.png 
     scanned 0 barcode symbols from 1 images in 0.02 seconds
@@ -366,7 +366,7 @@ b2,bgr,msb,xy       .. file: VISX image file\
         Due to that, if you want, for example, ISBN-10, you should do:
         $ zbarimg -Sisbn10.enable <files>
     ```
-    
+
     - Remember that **stegoveritas** has color-correction features too?
     - So, we'll run stegoveritas for this final challenge:
 
