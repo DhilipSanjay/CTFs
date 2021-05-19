@@ -65,6 +65,7 @@
     - [OWASP Juice Shop](TryHackMe/OWASPJuiceShop.md)
     - [Pickle Rick](TryHackMe/PickleRick.md)
     - [CC: Steganography](TryHackMe/CCSteganography.md)
+    - [OverPass](TryHackMe/OverPass.md)
     - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
 
 ## HackTheBox
