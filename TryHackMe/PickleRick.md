@@ -108,7 +108,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 
 ### Robots.txt
 
-- The robots.txt file surprisingly didn't contain **Disllow**, instead it had:
+- The robots.txt file surprisingly didn't contain **Disallow**, instead it had:
 
 ```
 Wubbalubbadubdub
@@ -137,6 +137,7 @@ robots.txt
 ```
 
 - Encoded string in `portal.php`:
+    - By repeated base64 decoding it, it turned out to be a **rabbit hole**.
 
 ```bash
 Vm1wR1UxTnRWa2RUV0d4VFlrZFNjRlV3V2t0alJsWnlWbXQwVkUxV1duaFZNakExVkcxS1NHVkliRmhoTVhCb1ZsWmFWMVpWTVVWaGVqQT0==
