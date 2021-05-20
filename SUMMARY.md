@@ -67,6 +67,7 @@
     - [CC: Steganography](TryHackMe/CCSteganography.md)
     - [OverPass](TryHackMe/Overpass.md)
     - [OverPass 2 - Hacked](TryHackMe/Overpass2Hacked.md)
+    - [OverPass 3 - Hosting](TryHackMe/Overpass3Hosting.md)
     - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
 
 ## HackTheBox

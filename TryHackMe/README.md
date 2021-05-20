@@ -30,11 +30,11 @@ Walkthrough of TryHackMe rooms.
 1. CC: Steganography
 1. OverPass
 1. OverPass 2 - Hacked
+1. OverPass 3 - Hosting
 1. Hacker of the Hill
 
 1. CC: Radare2
 1. CC: Ghidra
-1. OverPass 3 - Hosting
 1. VulnNet
 1. VulnNet - Internal
 1. VulnNet - Dotpy
