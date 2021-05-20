@@ -528,7 +528,8 @@ uid=1000(james) gid=1000(james) groups=1000(james),4(adm),24(cdrom),27(sudo),30(
 ### What's the user flag?
 - **Answer:** thm{REDACTED}
 - **Steps to Reproduce:** 
-
+    - The backdoor! It only checks the password.
+    
 ```bash
 james@overpass-production:/home/james/ssh-backdoor$ cd ..
 james@overpass-production:/home/james$ ls
