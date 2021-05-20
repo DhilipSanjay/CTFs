@@ -66,6 +66,7 @@
     - [Pickle Rick](TryHackMe/PickleRick.md)
     - [CC: Steganography](TryHackMe/CCSteganography.md)
     - [OverPass](TryHackMe/Overpass.md)
+    - [OverPass 2 - Hacked](TryHackMe/Overpass2Hacked.md)
     - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
 
 ## HackTheBox
