@@ -31,6 +31,7 @@ Walkthrough of TryHackMe rooms.
 1. OverPass
 1. OverPass 2 - Hacked
 1. OverPass 3 - Hosting
+1. Mr Robot CTF
 1. Hacker of the Hill
 
 1. CC: Radare2
