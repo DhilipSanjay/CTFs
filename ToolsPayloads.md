@@ -17,6 +17,7 @@
 - [Privilege escalation scripts](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/)
 - [Linpeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
 - [LinEnum](https://github.com/rebootuser/LinEnum)
+- [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
 
 ## Hash crackers
 - [John the Ripper](https://www.openwall.com/john/)
