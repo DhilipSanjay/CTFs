@@ -424,7 +424,7 @@ www-data@vulnnet:/dev/shm$ ./linpeas.sh | tee linpeas.out
 ```
 
 - Linpeas gave away two things:
-  1. Cron job running a script `/var/opt/backupsrv.sh`:
+1. Cron job running a script `/var/opt/backupsrv.sh`:
 
   ```bash
   www-data@vulnnet:~$ cat /etc/crontab 
@@ -445,7 +445,7 @@ www-data@vulnnet:/dev/shm$ ./linpeas.sh | tee linpeas.out
   52 6    1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
   ```
     
-  2. SSH backup of **server-management** user is inside `/var/backups/` directory:
+2. SSH backup of **server-management** user is inside `/var/backups/` directory:
 
   ```bash
   www-data@vulnnet:/dev/shm$ cd /var/backups/
