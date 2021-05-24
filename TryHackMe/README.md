@@ -34,6 +34,7 @@ Walkthrough of TryHackMe rooms.
 1. Mr Robot CTF
 1. VulnNet
 1. Linux PrivEsc
+1. Git Happens
 1. Hacker of the Hill
 
 1. CC: Radare2

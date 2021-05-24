@@ -71,6 +71,7 @@
     - [Mr Robot CTF](TryHackMe/MrRobotCTF.md)
     - [VulnNet](TryHackMe/VulnNet.md)
     - [Linux PrivEsc](TryHackMe/LinuxPrivEsc.md)
+    - [Git Happens](TryHackMe/GitHappens.md)
     - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
 
 ## HackTheBox
