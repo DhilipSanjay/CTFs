@@ -5,6 +5,7 @@
 **Author:** Dhilip Sanjay S
 
 ---
+[Click Here](https://tryhackme.com/room/linuxprivesc) to go to the TryHackMe room.
 
 ##  Deploy the Vulnerable Debian VM
 
