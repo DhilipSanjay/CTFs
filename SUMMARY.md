@@ -70,6 +70,7 @@
     - [OverPass 3 - Hosting](TryHackMe/Overpass3Hosting.md)
     - [Mr Robot CTF](TryHackMe/MrRobotCTF.md)
     - [VulnNet](TryHackMe/VulnNet.md)
+    - [Linux PrivEsc](TryHackMe/LinuxPrivEsc.md)
     - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
 
 ## HackTheBox
