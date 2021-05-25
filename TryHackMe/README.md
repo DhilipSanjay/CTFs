@@ -35,6 +35,7 @@ Walkthrough of TryHackMe rooms.
 1. VulnNet
 1. Linux PrivEsc
 1. Git Happens
+1. Buffer Overflow Prep
 1. Hacker of the Hill
 
 1. CC: Radare2

