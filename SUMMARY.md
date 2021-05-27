@@ -79,6 +79,9 @@
         - [Day 04 - Training](TryHackMe/AdventofCyber1/Day04-Training.md)
         - [Day 05 - Ho-Ho-Hosint](TryHackMe/AdventofCyber1/Day05-Ho-Ho-Hosint.md)
         - [Day 06 - Data Elf-iltration](TryHackMe/AdventofCyber1/Day06-DataElf-iltration.md)
+        - [Day 07 - Skilling Up](TryHackMe/AdventofCyber1/Day07-SkillingUp.md)
+        - [Day 08 - SUID Shenanigans](TryHackMe/AdventofCyber1/Day08-SUIDShenanigans.md)
+        - [Day 09 - Requests](TryHackMe/AdventofCyber1/Day09-Requests.md)
     - [Buffer Overflow Prep](TryHackMe/BufferOverflowPrep.md)
     - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
 

@@ -17,14 +17,14 @@ The challenges are designed for beginners and assume no previous knowledge of se
 - Day 04 - Training
 - Day 05 - Ho-Ho-Hosint
 - Day 06 - Data Elf-iltration
-- Day 07 -
-- Day 08 -
-- Day 09 -
-- Day 10 -
+- Day 07 - Skilling Up
+- Day 08 - SUID Shenanigans
+- Day 09 - Requests
+- Day 10 - 
 - Day 11 -
 - Day 12 -
 - Day 13 -
-- Day 14 -
+- Day 14 - Unknown Storage
 - Day 15 -
 - Day 16 -
 - Day 17 -
