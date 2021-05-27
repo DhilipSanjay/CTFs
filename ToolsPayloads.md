@@ -75,6 +75,7 @@
 
 ## Miscellaneous Tools
 - Zbar-tools (for extracting QR code from image `zbarimg`)
+- fcrackzip (for bruteforcing zip file passwords)
 - [Chisel - TCP/UDP tunnel](https://github.com/jpillora/chisel)
 - [SQLMAP](https://github.com/sqlmapproject/sqlmap)
 - [Metasploit](https://www.metasploit.com/)

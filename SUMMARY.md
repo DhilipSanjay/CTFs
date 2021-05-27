@@ -72,6 +72,14 @@
     - [VulnNet](TryHackMe/VulnNet.md)
     - [Linux PrivEsc](TryHackMe/LinuxPrivEsc.md)
     - [Git Happens](TryHackMe/GitHappens.md)
+    - [Advent of Cyber 1](TryHackMe/AdventofCyber1/README.md)
+        - [Day 01 - Inventory Management](TryHackMe/AdventofCyber1/Day01-InventoryManagement.md)
+        - [Day 02 - Arctic Forum](TryHackMe/AdventofCyber1/Day02-ArcticForum.md)
+        - [Day 03 - Evil Elf](TryHackMe/AdventofCyber1/Day03-EvilElf.md)
+        - [Day 04 - Training](TryHackMe/AdventofCyber1/Day04-Training.md)
+        - [Day 05 - Ho-Ho-Hosint](TryHackMe/AdventofCyber1/Day05-Ho-Ho-Hosint.md)
+        - [Day 06 - Data Elf-iltration](TryHackMe/AdventofCyber1/Day06-DataElf-iltration.md)
+    - [Buffer Overflow Prep](TryHackMe/BufferOverflowPrep.md)
     - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
 
 ## HackTheBox
