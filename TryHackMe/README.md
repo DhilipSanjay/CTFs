@@ -1,7 +1,7 @@
 # TryHackMe
 Walkthrough of TryHackMe rooms.
 
-## Solved
+## Solved Rooms (Walkthrough)
 1. Advent of Cyber 2
 1. Web Fundamentals
 1. Anonymous
@@ -39,13 +39,6 @@ Walkthrough of TryHackMe rooms.
 1. Buffer Overflow Prep
 1. Hacker of the Hill
 
-1. CC: Radare2
-1. CC: Ghidra
-1. VulnNet - Internal
-1. VulnNet - Dotpy
-1. VulnNet - Node
-1. VulnNet - Roasted
-
 ## Solved Basic Rooms (No Walkthrough) 
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
 1. [Introductory Networking](https://tryhackme.com/room/introtonetworking)
@@ -59,3 +52,15 @@ Walkthrough of TryHackMe rooms.
 1. [Cryptography for Dummies](https://tryhackme.com/room/cryptographyfordummies)
 1. [HTTP in detail](https://tryhackme.com/room/httpindetail)
 1. [DNS in detail](https://tryhackme.com/room/dnsindetail)
+1. [The Find Command](https://tryhackme.com/room/thefindcommand)
+1. [Linux PrivEsc Arena](https://tryhackme.com/room/linuxprivescarena) (Similar to Linux PrivEsc)
+    - [Extra - Nginx CVE 2016-1247](https://legalhackers.com/advisories/Nginx-Exploit-Deb-Root-PrivEsc-CVE-2016-1247.html)
+1. [Learning CyberSecurity](https://tryhackme.com/room/beginnerpathintro)
+
+
+## Misc
+1. Welcome
+1. Tutorial
+1. OpenVPN
+1. How to Use TryHackMe
+1. Getting Started

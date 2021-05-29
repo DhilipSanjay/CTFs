@@ -72,6 +72,7 @@
     - [VulnNet](TryHackMe/VulnNet.md)
     - [Linux PrivEsc](TryHackMe/LinuxPrivEsc.md)
     - [Git Happens](TryHackMe/GitHappens.md)
+    - [Buffer Overflow Prep](TryHackMe/BufferOverflowPrep.md)
     - [Advent of Cyber 1](TryHackMe/AdventofCyber1/README.md)
         - [Day 01 - Inventory Management](TryHackMe/AdventofCyber1/Day01-InventoryManagement.md)
         - [Day 02 - Arctic Forum](TryHackMe/AdventofCyber1/Day02-ArcticForum.md)
@@ -82,7 +83,11 @@
         - [Day 07 - Skilling Up](TryHackMe/AdventofCyber1/Day07-SkillingUp.md)
         - [Day 08 - SUID Shenanigans](TryHackMe/AdventofCyber1/Day08-SUIDShenanigans.md)
         - [Day 09 - Requests](TryHackMe/AdventofCyber1/Day09-Requests.md)
-    - [Buffer Overflow Prep](TryHackMe/BufferOverflowPrep.md)
+        - [Day 10 - Metasploit-a-ho-ho-ho](TryHackMe/AdventofCyber1/Day10-Metasploit-a-ho-ho-ho.md)
+        - [Day 11 - Elf Applications](TryHackMe/AdventofCyber1/Day11-ElfApplications.md)
+        - [Day 12 - Elfcryption](TryHackMe/AdventofCyber1/Day12-Elfcryption.md)
+        - [Day 13 - Accumulate](TryHackMe/AdventofCyber1/Day13-Accumulate.md)
+        - [Day 14 - Unknown Storage](TryHackMe/AdventofCyber1/Day14-UnknownStorage.md)
     - [Hacker of the Hill](TryHackMe/HackeroftheHill.md)
 
 ## HackTheBox

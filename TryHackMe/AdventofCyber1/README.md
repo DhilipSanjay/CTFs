@@ -20,10 +20,10 @@ The challenges are designed for beginners and assume no previous knowledge of se
 - Day 07 - Skilling Up
 - Day 08 - SUID Shenanigans
 - Day 09 - Requests
-- Day 10 - 
-- Day 11 -
-- Day 12 -
-- Day 13 -
+- Day 10 - Metasploit-a-ho-ho-ho
+- Day 11 - Elf Applications
+- Day 12 - Elfcryption
+- Day 13 - Accumulate
 - Day 14 - Unknown Storage
 - Day 15 -
 - Day 16 -
