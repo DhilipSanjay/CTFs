@@ -6,6 +6,8 @@
 
 ---
 
+[Click Here](https://tryhackme.com/room/ccghidra) to go to the TryHackMe room.
+
 ## Introduction
 
 - GHIDRA is a tool created by the NSA that allows the user to analyze binaries. It is well known for it's incredible de compiler which converts the assembly in the binary to C.
@@ -68,9 +70,9 @@ For general binary analysis, you won't be interested in functions that start wit
 ### If you provide the input "1", when you run the binary, what would the output be.(Note you can just run the binary to find this out, but that would defeat the whole purpose!).
 - **Answer:** nice!
 - **Steps to Reproduce:** 
-    - When you press 1 and press Enter -> "1\n" will be the input
-    - strcmp will compare the two strings and return 0 if true.
-    - If true, then "nice!" will be printed
+    - When you press `1` and press `Enter` -> "1\n" will be the input
+    - `strcmp` will compare the two strings and return 0 if true.
+    - If `true`, then "nice!" will be printed
 
 ```cpp
 undefined8 main(void)
