@@ -111,7 +111,8 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 ===============================================================
 ```
 
-![BrainPan Port 10000](Images/Brainpan-home.png)
+![BrainPan - Port 10000](Images/Brainpan-home.png)
+
 ---
 
 ## Download the executable
