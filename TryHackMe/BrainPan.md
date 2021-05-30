@@ -111,7 +111,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 ===============================================================
 ```
 
-![BrainPan Port 10000](Images/BrainPan-home.png)
+![BrainPan Port 10000](Images/Brainpan-home.png)
 ---
 
 ## Download the executable
@@ -428,7 +428,7 @@ oscp-bof-prep\admin
 ```
 
 {% hint style="info" %}
-We have got the shell only locally, we need to exploit the original server using this final exploit.
+We have got the shell access for the local version only, we need to exploit the original server using this final exploit.
 {% endhint %}
 
 ---
@@ -491,7 +491,7 @@ brainpan
 ```
 
 {% hint style="info" %}
-- There is also another way to gain root access via the binary `/usr/local/bin/validate`
+- There is also another way to gain root access via the binary: `/usr/local/bin/validate`
 - It is an bufferoverflow exploit.
 - Check this writeup for reference: [Infosec Writeup - Brainpan VM](https://resources.infosecinstitute.com/topic/brainpan_virtual_machine/) 
 {% endhint %}
