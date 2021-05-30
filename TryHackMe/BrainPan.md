@@ -6,6 +6,8 @@
 
 ---
 
+[Click Here](https://tryhackme.com/room/brainpan) to go to the TryHackMe room.
+
 ## Enumeration
 
 ### Nmap 
@@ -109,7 +111,12 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 ===============================================================
 ```
 
-- The **brainpan.exe** file can be found in the **/bin** directory found using gobuster.
+![BrainPan Port 10000](Images/BrainPan-home.png)
+---
+
+## Download the executable
+
+- The **brainpan.exe** file can be found in the **/bin** directory (found using gobuster).
 - Download the exe file to analyse it locally:
 
 ```bash
@@ -450,12 +457,6 @@ puck
 - Check for sudo permissions
 
 ```bash
-puck@brainpan:/home/puck$ sudo /home/anansi/bin/anansi_util
-Usage: /home/anansi/bin/anansi_util [action]
-Where [action] is one of:
-  - network
-  - proclist
-  - manual [command]
 puck@brainpan:/home/puck$ sudo -l
 Matching Defaults entries for puck on this host:
     env_reset, mail_badpass,
@@ -488,5 +489,11 @@ WARNING: terminal is not fully functional
 root
 brainpan
 ```
+
+{% hint style="info" %}
+- There is also another way to gain root access via the binary `/usr/local/bin/validate`
+- It is an bufferoverflow exploit.
+- Check this writeup for reference: [Infosec Writeup - Brainpan VM](https://resources.infosecinstitute.com/topic/brainpan_virtual_machine/) 
+{% endhint %}
 
 ---
