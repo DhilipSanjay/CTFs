@@ -59,6 +59,8 @@ Walkthrough of TryHackMe rooms.
 1. [Linux PrivEsc Arena](https://tryhackme.com/room/linuxprivescarena) (Similar to Linux PrivEsc)
     - [Extra - Nginx CVE 2016-1247](https://legalhackers.com/advisories/Nginx-Exploit-Deb-Root-PrivEsc-CVE-2016-1247.html)
 1. [Learning CyberSecurity](https://tryhackme.com/room/beginnerpathintro)
+1. [Bash scripting](https://tryhackme.com/room/bashscripting)
+1. [Tmux](https://tryhackme.com/room/rptmux)
 
 
 ## Misc
