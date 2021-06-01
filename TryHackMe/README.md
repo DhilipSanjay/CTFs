@@ -38,6 +38,7 @@ Walkthrough of TryHackMe rooms.
 1. Buffer Overflow Prep
 1. BrainPan
 1. CC: Ghidra
+1. Intro to x86-64
 1. Advent of Cyber 1
 1. Hacker of the Hill
 

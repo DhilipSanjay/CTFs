@@ -75,6 +75,7 @@
     - [Buffer Overflow Prep](TryHackMe/BufferOverflowPrep.md)
     - [BrainPan](TryHackMe/BrainPan.md)
     - [CC: Ghidra](TryHackMe/CCGhidra.md)
+    - [Intro to x86-64](TryHackMe/Introtox86-64.md)
     - [Advent of Cyber 1](TryHackMe/AdventofCyber1/README.md)
         - [Day 01 - Inventory Management](TryHackMe/AdventofCyber1/Day01-InventoryManagement.md)
         - [Day 02 - Arctic Forum](TryHackMe/AdventofCyber1/Day02-ArcticForum.md)
