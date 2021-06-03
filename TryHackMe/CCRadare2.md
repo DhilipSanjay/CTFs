@@ -390,7 +390,7 @@ nth paddr      vaddr      len size section   type    string
     ```
 
     - Registers having different value (even on entering `youdidit`) as input:
-    
+
     ```bash
     [0x559ffa200873]> px 8 @ 0x559ffa200914
     - offset -       0 1  2 3  4 5  6 7  8 9  A B  C D  E F  0123456789ABCDEF
