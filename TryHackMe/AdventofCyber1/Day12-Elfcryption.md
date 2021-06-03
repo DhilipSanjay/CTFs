@@ -1,4 +1,4 @@
-# Elfcryption
+# Day 12 - Elfcryption
 
 **Date:** 02, June, 2021
 
@@ -63,7 +63,7 @@ I will meet you outside Santa's Grotto at 5pm!
 - **Answer:** 
 - **Steps to Reproduce:** 
     - The passphrase for private.key is `hello`
-    
+
 ```bash
 $ openssl rsautl -decrypt -inkey private.key -in note2_encrypted.txt -out note2.txt 
 Enter pass phrase for private.key:
