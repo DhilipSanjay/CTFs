@@ -62,6 +62,7 @@ Walkthrough of TryHackMe rooms.
 1. [Learning CyberSecurity](https://tryhackme.com/room/beginnerpathintro)
 1. [Bash scripting](https://tryhackme.com/room/bashscripting)
 1. [Tmux](https://tryhackme.com/room/rptmux)
+1. [Retro](https://tryhackme.com/room/retro) (Similar to Advent of Cyber 1 - Day 13 Accumulate)
 
 
 ## Misc
