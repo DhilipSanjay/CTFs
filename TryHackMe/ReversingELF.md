@@ -6,6 +6,8 @@
 
 ---
 
+[Click Here](https://tryhackme.com/room/reverselfiles) to go to the TryHackMe room.
+
 ## Crackme 1
 
 ```bash
@@ -342,7 +344,7 @@ $ r2 -d crackme8 1234
 - Use `signed int, big endian` in struct to decode the hex value.
 - P.S: Unsigned decoded int doesn't work!
 
-``py
+```py
 >>> import struct
 >>> struct.unpack('>i', bytes.fromhex('cafef00d'))
 (-889262067,)
