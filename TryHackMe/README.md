@@ -43,6 +43,7 @@ Walkthrough of TryHackMe rooms.
 1. Linux Forensics
 1. Reverse Engineering
 1. Reversing ELF
+1. Simple CTF
 1. Advent of Cyber 1
 1. Hacker of the Hill
 

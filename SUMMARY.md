@@ -80,6 +80,7 @@
     - [Linux Forensics](TryHackMe/Linux-Forensics.md)
     - [ReverseEngineering](TryHackMe/ReverseEngineering.md)
     - [Reversing ELF](TryHackMe/ReversingELF.md)
+    - [Simple CTF](TryHackMe/SimpleCTF.md)
     - [Advent of Cyber 1](TryHackMe/AdventofCyber1/README.md)
         - [Day 01 - Inventory Management](TryHackMe/AdventofCyber1/Day01-InventoryManagement.md)
         - [Day 02 - Arctic Forum](TryHackMe/AdventofCyber1/Day02-ArcticForum.md)
