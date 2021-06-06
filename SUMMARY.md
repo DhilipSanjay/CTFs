@@ -123,6 +123,6 @@
     - [Gus & Hercules](NahamCon2021/Gus-Hercules.md)
     - [Pollex](NahamCon2021/pollex.md)
 
-## ZH3R0 CTF 2.0
+## ZH3R0 CTF 2.0 2021
 - [ZH3R0 CTF 2.0 Overview](ZH3R0CTF2.0/README.md)
-    - [Small Maniac's Game](ZH3R0CTF2.0/SmallManiac'sgame.md)
+    - [Small Maniac's Game](ZH3R0CTF2.0/SmallManiacsgame.md)
