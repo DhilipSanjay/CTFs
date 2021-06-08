@@ -96,7 +96,7 @@ Shellcodes: No Results
 ### Other ports
 - FTP 21 is filtered
 - SSH 22 was accepting login using private keys!
-- Port 4420 was an internal shell, which also required an password
+- Port 4420 was an internal shell, which also required a password
 - Port 2375 - may be a docker container is there!
 
 
@@ -136,9 +136,10 @@ PORT     STATE    SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 0.63 seconds
 ```
 
-- Port knocking the correct sequence:
+- Port knocking the correct sequence using `nc`:
     - `v` - verbose
     - `z` - zero mode (used for scanning)
+- One can also use `knock` or `nmap -Pn` to do the same.
 
 ```bash
 $ for p in 1111 2222 3333 4444; do nc -vz 10.10.151.249 $p; done;
@@ -174,6 +175,7 @@ Nmap done: 1 IP address (1 host up) scanned in 0.61 seconds
 
 ## Accessing FTP
 
+- Now that the FTP is open, we can access it.
 - We could find a file named `note.txt`:
 
 ```bash
@@ -366,7 +368,7 @@ runme
 ## Inside Docker container
 
 - Login using the private ssh key.
-    - Note: Modify the permission of `id_rsa` to `600`
+    - **Note:** Modify the permission of `id_rsa` to `600`
 
 ```bash
 $ nano id_rsa
@@ -395,7 +397,7 @@ root@7546fa2336d6:/root# cat flag.txt
 ```
 
 - We could find the `flag.txt` here.
-- But it says we are `root` user. It's probable that we are inside the docker container.
+- But it says we are `root` user. Probably we are inside the docker container.
 
 ### Running Linpeas
 
