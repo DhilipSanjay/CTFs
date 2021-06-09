@@ -83,6 +83,7 @@
     - [Simple CTF](TryHackMe/SimpleCTF.md)
     - [c4ptur3-th3-fl4g](TryHackMe/c4ptur3-th3-fl4g.md)
     - [Cat Pictures](TryHackMe/CatPictures.md)
+    - [Bounty Hacker](TryHackMe/BountyHacker.md)
     - [Advent of Cyber 1](TryHackMe/AdventofCyber1/README.md)
         - [Day 01 - Inventory Management](TryHackMe/AdventofCyber1/Day01-InventoryManagement.md)
         - [Day 02 - Arctic Forum](TryHackMe/AdventofCyber1/Day02-ArcticForum.md)

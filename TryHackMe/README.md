@@ -46,6 +46,7 @@ Walkthrough of TryHackMe rooms.
 1. Simple CTF
 1. c4ptur3-th3-fl4g
 1. Cat Pictures
+1. Bounty Hacker
 1. Advent of Cyber 1
 1. Hacker of the Hill
 
