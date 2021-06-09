@@ -110,7 +110,7 @@ $ cat task.txt
 ## What service can you bruteforce with the text file found?
 - **Answer:** ssh
 - **Steps to Reproduce:**
-    - Using `locks.txt`, bruteforce ssh service and check if you any of that is a valid password for `lin`.
+    - Using `locks.txt`, bruteforce ssh service and check if any of that is a valid password for `lin`.
 
 ```bash
 $ nmap -p 22 --script ssh-brute.nse --script-args userdb=users.txt,passdb=locks.txt 10.10.32.142

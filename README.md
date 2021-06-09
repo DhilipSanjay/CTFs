@@ -13,6 +13,7 @@ Hi, I'm **Dhilip Sanjay**. Here you'll find my walkthrough of the various CTF ch
 - PortSwigger Academy
 - VulnCon 2020
 - NahamCon 2021
+- ZH3R0 CTF 2.0 2021
 
 ## Gitbook Link - [dhilipsanjay.gitbook.io/ctfs](https://dhilipsanjay.gitbook.io/ctfs)
 

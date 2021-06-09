@@ -1,6 +1,6 @@
 # Table of Contents
  
-- [Introduction](README.md)
+- [CTF Writeups](README.md)
 - [Tools and Payloads](ToolsPayloads.md)
 
 ## TryHackMe
@@ -113,19 +113,21 @@
 ## PortSwigger Academy
 - [PortSwigger Overview](PortSwiggerAcademy/README.md)
 
-## VulnCon2020
-- [VulnCon2020 Overview](VulnCon2020/README.md)
-    - [Noob Bot Welcomes You!](VulnCon2020/NoobBotWelcomesYou.md)
-    - [Maze](VulnCon2020/Maze.md)
-    - [Pcaped](VulnCon2020/Pcaped.md)
+## 2021
+- [ZH3R0 CTF 2.0 2021](ZH3R0CTF2.0/README.md)
+    - [Small Maniac's Game](ZH3R0CTF2.0/SmallManiacsgame.md)
+    - [bxss](ZH3R0CTF2.0/bxss.md)
+    - [Sparta](ZH3R0CTF2.0/Sparta.md)
+    - [Baby SSRF](ZH3R0CTF2.0/BabySSRF.md)
 
-## NahamCon 2021
-- [NahamCon 2021 Overview](NahamCon2021/README.md)
+- [NahamCon 2021](NahamCon2021/README.md)
     - [esab64](NahamCon2021/esab64.md)
     - [Bionic & Meet the Team](NahamCon2021/bionic-meet_the_team.md)
     - [Gus & Hercules](NahamCon2021/Gus-Hercules.md)
     - [Pollex](NahamCon2021/pollex.md)
 
-## ZH3R0 CTF 2.0 2021
-- [ZH3R0 CTF 2.0 Overview](ZH3R0CTF2.0/README.md)
-    - [Small Maniac's Game](ZH3R0CTF2.0/SmallManiacsgame.md)
+## 2020
+- [VulnCon2020 Overview](VulnCon2020/README.md)
+    - [Noob Bot Welcomes You!](VulnCon2020/NoobBotWelcomesYou.md)
+    - [Maze](VulnCon2020/Maze.md)
+    - [Pcaped](VulnCon2020/Pcaped.md)
