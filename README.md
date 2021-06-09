@@ -3,17 +3,18 @@ description: >-
   Walkthrough of various CTF challenges and boxes.
 ---
 
-
-# Introduction
+# CTF Writeups
 
 Hi, I'm **Dhilip Sanjay**. Here you'll find my walkthrough of the various CTF challenges and boxes solved in the following platforms/CTFs:
-- Tryhackme
-- HackTheBox
-- HackTheBox Academy
-- PortSwigger Academy
-- VulnCon 2020
-- NahamCon 2021
-- ZH3R0 CTF 2.0 2021
+- [Tryhackme](TryHackMe/README.md)
+- [HackTheBox](HackTheBox/README.md)
+- [HackTheBox Academy](HackTheBoxAcademy/README.md)
+- [PortSwigger Academy](PortSwiggerAcademy/README.md)
+- 2021 CTFs
+  - [NahamCon 2021](NahamCon2021/README.md)
+  - [ZH3R0 CTF 2.0 2021](ZH3R0CTF2.0/README.md)
+- 2020 CTFs
+  - [VulnCon 2020](VulnCon2020/README.md)
 
 ## Gitbook Link - [dhilipsanjay.gitbook.io/ctfs](https://dhilipsanjay.gitbook.io/ctfs)
 
@@ -31,6 +32,3 @@ Hi, I'm **Dhilip Sanjay**. Here you'll find my walkthrough of the various CTF ch
 - Almost 20+ teams, 60+ participants participated
 
 ![1337 CTF](./images/1337CTF.png)
-
-
-

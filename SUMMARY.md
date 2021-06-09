@@ -113,7 +113,7 @@
 ## PortSwigger Academy
 - [PortSwigger Overview](PortSwiggerAcademy/README.md)
 
-## 2021
+## 2021 CTFs
 - [ZH3R0 CTF 2.0 2021](ZH3R0CTF2.0/README.md)
     - [Small Maniac's Game](ZH3R0CTF2.0/SmallManiacsgame.md)
     - [bxss](ZH3R0CTF2.0/bxss.md)
@@ -126,7 +126,7 @@
     - [Gus & Hercules](NahamCon2021/Gus-Hercules.md)
     - [Pollex](NahamCon2021/pollex.md)
 
-## 2020
+## 2020 CTFs
 - [VulnCon2020 Overview](VulnCon2020/README.md)
     - [Noob Bot Welcomes You!](VulnCon2020/NoobBotWelcomesYou.md)
     - [Maze](VulnCon2020/Maze.md)
