@@ -3,14 +3,17 @@
 - **Date:** 4th - 6th, July, 2021.
 
 ## Solved Challenges
+
 - Sanity Check (In discord)
-- Small Maniac's Game
-- bxss
-- Sparta
+- [Misc - Small Maniac's Game](SmallManiacsgame.md)
+- [Web - bxss](bxss.md)
+- [Web - Sparta](ZH3R0CTF2.0/Sparta.md)
 
 ## Unsolved challenges (Solved after CTF)
 
-- Baby SSRF
+- [Web - Baby SSRF](BabySSRF.md)
+- [Web - Original Store v1 and v2](OriginalStores.md)
+- [Web - strpos and substr](strposSubstr.md)
 
 ---
 

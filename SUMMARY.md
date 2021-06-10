@@ -117,10 +117,12 @@
 
 ## 2021 CTFs
 - [ZH3R0 CTF 2.0 2021](ZH3R0CTF2.0/README.md)
-    - [Small Maniac's Game](ZH3R0CTF2.0/SmallManiacsgame.md)
-    - [bxss](ZH3R0CTF2.0/bxss.md)
-    - [Sparta](ZH3R0CTF2.0/Sparta.md)
-    - [Baby SSRF](ZH3R0CTF2.0/BabySSRF.md)
+    - [Misc - Small Maniac's Game](ZH3R0CTF2.0/SmallManiacsgame.md)
+    - [Web - bxss](ZH3R0CTF2.0/bxss.md)
+    - [Web - Sparta](ZH3R0CTF2.0/Sparta.md)
+    - [Web - Baby SSRF](ZH3R0CTF2.0/BabySSRF.md)
+    - [Web - Original Store v1 and v2](ZH3R0CTF2.0/OriginalStores.md)
+    - [Web - strpos and substr](ZH3R0CTF2.0/strposSubstr.md)
 
 - [NahamCon 2021](NahamCon2021/README.md)
     - [esab64](NahamCon2021/esab64.md)
