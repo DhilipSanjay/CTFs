@@ -39,6 +39,7 @@ for port in range(5000,10000):
 ```
 
 - Run the exploit
+
 ```bash
 ./exploit.py
 
@@ -67,7 +68,6 @@ for port in range(5000,10000):
 </body>
 </html>
 ```
-
 
 ## Flag
 
