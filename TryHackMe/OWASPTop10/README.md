@@ -10,13 +10,13 @@ This room breaks each OWASP topic down and includes details on what the vulnerab
 [Click Here](https://tryhackme.com/room/owasptop10) to go to the TryHackMe room.
 
 ## Solved
-- Injection
-- Broken Authentication
-- Sensitive Data Exposure
-- XML External Entity
-- Broken Access Control
-- Security Misconfiguration
-- Cross-Site Scripting
-- Insecure Deserialization
-- Components with Known Vulnerabilities
-- Insufficent Logging & Monitoring
+- [Injection](Injection.md)
+- [Broken Authentication](BrokenAuthentication.md)
+- [Sensitive Data Exposure](SensitiveDataExposure.md)
+- [XML External Entity](XMLExternalEntity.md)
+- [Broken Access Control](BrokenAccessControl.md)
+- [Security Misconfiguration](SecurityMisconfiguration.md)
+- [Cross-Site Scripting](Cross-SiteScripting.md)
+- [Insecure Deserialization](InsecureDeserialization.md)
+- [Components with Known Vulnerabilities](ComponentsWithKnownVulnerabilities.md)
+- [Insufficent Logging & Monitoring](InsufficentLoggingMonitoring.md)

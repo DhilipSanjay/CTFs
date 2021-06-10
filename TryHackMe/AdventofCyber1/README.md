@@ -11,20 +11,20 @@ The challenges are designed for beginners and assume no previous knowledge of se
 [Click Here](https://tryhackme.com/room/25daysofchristmas) to go to the TryHackMe room.
 
 ## Solved
-- Day 01 - Inventory Management
-- Day 02 - Arctic Forum
-- Day 03 - Evil Elf
-- Day 04 - Training
-- Day 05 - Ho-Ho-Hosint
-- Day 06 - Data Elf-iltration
-- Day 07 - Skilling Up
-- Day 08 - SUID Shenanigans
-- Day 09 - Requests
-- Day 10 - Metasploit-a-ho-ho-ho
-- Day 11 - Elf Applications
-- Day 12 - Elfcryption
-- Day 13 - Accumulate
-- Day 14 - Unknown Storage
+- [Day 01 - Inventory Management](Day01-InventoryManagement.md)
+- [Day 02 - Arctic Forum](Day02-ArcticForum.md)
+- [Day 03 - Evil Elf](Day03-EvilElf.md)
+- [Day 04 - Training](Day04-Training.md)
+- [Day 05 - Ho-Ho-Hosint](Day05-Ho-Ho-Hosint.md)
+- [Day 06 - Data Elf-iltration](Day06-DataElf-iltration.md)
+- [Day 07 - Skilling Up](Day07-SkillingUp.md)
+- [Day 08 - SUID Shenanigans](Day08-SUIDShenanigans.md)
+- [Day 09 - Requests](Day09-Requests.md)
+- [Day 10 - Metasploit-a-ho-ho-ho](Day10-Metasploit-a-ho-ho-ho.md)
+- [Day 11 - Elf Applications](Day11-ElfApplications.md)
+- [Day 12 - Elfcryption](Day12-Elfcryption.md)
+- [Day 13 - Accumulate](Day13-Accumulate.md)
+- [Day 14 - Unknown Storage](Day14-UnknownStorage.md)
 - Day 15 -
 - Day 16 -
 - Day 17 -

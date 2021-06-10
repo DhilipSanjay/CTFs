@@ -2,53 +2,54 @@
 Walkthrough of TryHackMe rooms.
 
 ## Solved Rooms (Walkthrough)
-1. Advent of Cyber 2
-1. Web Fundamentals
-1. Anonymous
-1. Printer Hacking 101
-1. OWASP Top 10
-1. Vulnversity
-1. Nmap
-1. Google Dorking
-1. Blog
-1. Metasploit
-1. OhSINT
-1. Searchlight - IMINT
-1. Basic Pentesting
-1. Crack the Hash
-1. Crack the Hash 2
-1. Year of the Jellyfish
-1. VulnNet - DotJar
-1. Encryption Crypto 101
-1. CC: Pen Testing
-1. Kenobi
-1. Linux Backdoors
-1. RootMe
-1. DNS Manipulation
-1. OWASP Juice Shop
-1. Pickle Rick
-1. CC: Steganography
-1. OverPass
-1. OverPass 2 - Hacked
-1. OverPass 3 - Hosting
-1. Mr Robot CTF
-1. VulnNet
-1. Linux PrivEsc
-1. Git Happens
-1. Buffer Overflow Prep
-1. BrainPan
-1. CC: Ghidra
-1. Intro to x86-64
-1. CC: Radare2
-1. Linux Forensics
-1. Reverse Engineering
-1. Reversing ELF
-1. Simple CTF
-1. c4ptur3-th3-fl4g
-1. Cat Pictures
-1. Bounty Hacker
-1. Advent of Cyber 1
-1. Hacker of the Hill
+1. [Advent of Cyber 2](AdventofCyber2/README.md)
+1. [Web Fundamentals](WebFundamentals.md)
+1. [Anonymous](Anonymous.md)
+1. [Printer Hacking 101](PrinterHacking101.md)
+1. [OWASP Top 10](OWASPTop10/README.md)
+1. [Vulnversity](Vulnversity.md)
+1. [Nmap](Nmap.md)
+1. [Google Dorking](GoogleDorking.md)
+1. [Blog](Blog.md)
+1. [Metasploit](Metasploit.md)
+1. [OhSINT](OhSINT.md)
+1. [Searchlight 1. IMINT](SearchlightIMINT.md)
+1. [Basic Pentesting](BasicPentesting.md)
+1. [Crack the Hash](CracktheHash.md)
+1. [Crack the Hash 2](CracktheHash2.md)
+1. [Year of the Jellyfish](YearoftheJellyfish.md)
+1. [VulnNet 1. DotJar](VulnNet1.DotJar.md)
+1. [Encryption 1. Crypto 101](EncryptionCrypto101.md)
+1. [CC: Pen Testing](CCPentesting.md)
+1. [Kenobi](Kenobi.md)
+1. [Linux Backdoors](LinuxBackdoors.md)
+1. [Root Me](RootMe.md)
+1. [DNS Manipulation](DNSManipulation.md)
+1. [OWASP Juice Shop](OWASPJuiceShop.md)
+1. [Pickle Rick](PickleRick.md)
+1. [CC: Steganography](CCSteganography.md)
+1. [OverPass](Overpass.md)
+1. [OverPass 2 1. Hacked](Overpass2Hacked.md)
+1. [OverPass 3 1. Hosting](Overpass3Hosting.md)
+1. [Mr Robot CTF](MrRobotCTF.md)
+1. [VulnNet](VulnNet.md)
+1. [Linux PrivEsc](LinuxPrivEsc.md)
+1. [Git Happens](GitHappens.md)
+1. [Buffer Overflow Prep](BufferOverflowPrep.md)
+1. [BrainPan](BrainPan.md)
+1. [CC: Ghidra](CCGhidra.md)
+1. [Intro to x861.64](Introtox861.64.md)
+1. [CC: Radare2](CCRadare2.md)
+1. [Linux Forensics](Linux1.Forensics.md)
+1. [ReverseEngineering](ReverseEngineering.md)
+1. [Reversing ELF](ReversingELF.md)
+1. [Simple CTF](SimpleCTF.md)
+1. [c4ptur31.th31.fl4g](c4ptur31.th31.fl4g.md)
+1. [Cat Pictures](CatPictures.md)
+1. [Bounty Hacker](BountyHacker.md)
+1. [That's the Ticket](ThatstheTicket.md)
+1. [Advent of Cyber 1](AdventofCyber1/README.md)
+1. [Hacker of the Hill](HackeroftheHill.md)
 
 ## Solved Basic Rooms (No Walkthrough) 
 1. [Starting Out in Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
@@ -65,11 +66,11 @@ Walkthrough of TryHackMe rooms.
 1. [DNS in detail](https://tryhackme.com/room/dnsindetail)
 1. [The Find Command](https://tryhackme.com/room/thefindcommand)
 1. [Linux PrivEsc Arena](https://tryhackme.com/room/linuxprivescarena) (Similar to Linux PrivEsc)
-    - [Extra - Nginx CVE 2016-1247](https://legalhackers.com/advisories/Nginx-Exploit-Deb-Root-PrivEsc-CVE-2016-1247.html)
+    1. [Extra 1. Nginx CVE 20161.1247](https://legalhackers.com/advisories/Nginx1.Exploit1.Deb1.Root1.PrivEsc1.CVE1.20161.1247.html)
 1. [Learning CyberSecurity](https://tryhackme.com/room/beginnerpathintro)
 1. [Bash scripting](https://tryhackme.com/room/bashscripting)
 1. [Tmux](https://tryhackme.com/room/rptmux)
-1. [Retro](https://tryhackme.com/room/retro) (Similar to Advent of Cyber 1 - Day 13 Accumulate)
+1. [Retro](https://tryhackme.com/room/retro) (Similar to Advent of Cyber 1 1. Day 13 Accumulate)
 
 
 ## Misc
