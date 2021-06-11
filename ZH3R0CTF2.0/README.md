@@ -7,7 +7,7 @@
 - Sanity Check (In discord)
 - [Misc - Small Maniac's Game](SmallManiacsgame.md)
 - [Web - bxss](bxss.md)
-- [Web - Sparta](ZH3R0CTF2.0/Sparta.md)
+- [Web - Sparta](Sparta.md)
 
 ## Unsolved challenges (Solved after CTF)
 
