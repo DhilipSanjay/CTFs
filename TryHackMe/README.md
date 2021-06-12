@@ -49,7 +49,8 @@ Walkthrough of TryHackMe rooms.
 1. [Bounty Hacker](BountyHacker.md)
 1. [That's the Ticket](ThatstheTicket.md)
 1. [Brute It](BruteIt.md)
-1. [Smag Grotto](SmagGrotto.md)
+1. [Smag Grotto](SmagGrotto.md)1
+1. [Ignite](Ignite.md)
 1. [Advent of Cyber 1](AdventofCyber1/README.md)
 1. [Hacker of the Hill](HackeroftheHill.md)
 
