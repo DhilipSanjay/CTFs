@@ -72,7 +72,11 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 ===============================================================
 ```
 
+### Port 80
+
 ![Mustacchio - Home](Images/Mustacchio.png)
+
+---
 
 ## Users.bak
 
@@ -104,7 +108,6 @@ sqlite> SELECT * FROM users;
 admin|REDACTED
 ```
 
-
 ### Cracking Admin's hash
 
 - Use `john` to crack the admin's hash
@@ -127,11 +130,15 @@ Use the "--show --format=Raw-SHA1" options to display all of the cracked passwor
 Session completed
 ```
 
+- May be this is the password for the admin panel at Port 8765
+
+---
 
 ## Admin Panel
 
-![Mustacchio - Admin](Images/Mustacchio-Admin.png)
+### Port 8765
 
+![Mustacchio - Admin](Images/Mustacchio-Admin.png)
 
 ### Don't Forget 
 
@@ -147,6 +154,8 @@ $ cat dontforget.bak
   <com>his paragraph was a waste of time and space. If you had not read this and I had not typed this you and I could’ve done something more productive than reading this mindlessly and carelessly as if you did not have anything else to do in life. Life is so precious because it is short and you are being so careless that you do not realize it until now since this void paragraph mentions that you are doing something so mindless, so stupid, so careless that you realize that you are not using your time wisely. You could’ve been playing with your dog, or eating your cat, but no. You want to read this barren paragraph and expect something marvelous and terrific at the end. But since you still do not realize that you are wasting precious time, you still continue to read the null paragraph. If you had not noticed, you have wasted an estimated time of 20 seconds.</com>
 </comment>
 ```
+
+- Waste of time!!!
 
 ### Add Comment
 - The admin panel comment box was accepting only XML
@@ -167,6 +176,8 @@ $ cat dontforget.bak
   <com>Hi</com>
 </comment>
 ```
+
+- The Output of the XXE:
 
 ![Mustacchio - XXE](Images/Mustacchio-XXE.png)
 
