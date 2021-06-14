@@ -53,6 +53,7 @@ Walkthrough of TryHackMe rooms.
 1. [Ignite](Ignite.md)
 1. [Ninja Skills](NinjaSkills.md)
 1. [Break It](BreakIt.md)
+1. [Mustacchio](Mustacchio.md)
 1. [Advent of Cyber 1](AdventofCyber1/README.md)
 1. [Hacker of the Hill](HackeroftheHill.md)
 
