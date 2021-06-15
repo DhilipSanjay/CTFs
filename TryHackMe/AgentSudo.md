@@ -212,6 +212,7 @@ Area51
 ### Who is the other agent (in full name)?
 - **Answer:** James
 - **Steps to Reproduce:** 
+    - Use the passphrase to extract the contents from `cute-alient.jpg`
 
 ```bash
 $ steghide extract -sf cute-alien.jpg 
@@ -295,7 +296,7 @@ User james may run the following commands on agent-sudo:
 ```
 
 - Google this `(ALL, !root) /bin/bash`
-- Confirm that the sudo version is exploitable: (Sudo <1.2.28)
+- Confirm that the sudo version is exploitable: (Sudo version before 1.8.28)
 
 ```bash
 james@agent-sudo:~$ sudo --version
