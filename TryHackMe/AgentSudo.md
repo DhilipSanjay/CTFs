@@ -212,7 +212,7 @@ Area51
 ### Who is the other agent (in full name)?
 - **Answer:** James
 - **Steps to Reproduce:** 
-    - Use the passphrase to extract the contents from `cute-alient.jpg`
+    - Use the passphrase to extract the contents from `cute-alient.jpg` using `steg-hide`:
 
 ```bash
 $ steghide extract -sf cute-alien.jpg 
