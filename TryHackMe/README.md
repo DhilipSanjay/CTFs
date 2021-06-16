@@ -55,6 +55,7 @@ Walkthrough of TryHackMe rooms.
 1. [Break It](BreakIt.md)
 1. [Mustacchio](Mustacchio.md)
 1. [Agent Sudo](AgentSudo.md)
+1. [Poster](Poster.md)
 1. [Advent of Cyber 1](AdventofCyber1/README.md)
 1. [Hacker of the Hill](HackeroftheHill.md)
 

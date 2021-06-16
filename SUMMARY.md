@@ -92,6 +92,7 @@
     - [Break It](TryHackMe/BreakIt.md)
     - [Mustacchio](TryHackMe/Mustacchio.md)
     - [Agent Sudo](TryHackMe/AgentSudo.md)
+    - [Poster](TryHackMe/Poster.md)
     - [Advent of Cyber 1](TryHackMe/AdventofCyber1/README.md)
         - [Day 01 - Inventory Management](TryHackMe/AdventofCyber1/Day01-InventoryManagement.md)
         - [Day 02 - Arctic Forum](TryHackMe/AdventofCyber1/Day02-ArcticForum.md)
