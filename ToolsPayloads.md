@@ -47,6 +47,11 @@
 - [Stegoveritas](https://github.com/bannsec/stegoVeritas) (For JPG and PNG)
 - [Sonic visualizer](https://www.sonicvisualiser.org/download.html) (Spectrogram stegonography)
 
+## Zero width Steg
+- [Steganographr](https://neatnik.net/steganographr/)
+- [Unicode Steganography](https://330k.github.io/misc_tools/unicode_steganography.html)
+- [Zero width Fingerprinting](https://github.com/vedhavyas/zwfp)
+
 ## Git Related Tools
 - [GitHacker](https://github.com/captain-noob/GitHacker)
 - [GitHack](https://github.com/captain-noob/GitHack)

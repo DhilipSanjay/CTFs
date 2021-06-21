@@ -58,6 +58,7 @@ Walkthrough of TryHackMe rooms.
 1. [Poster](Poster.md)
 1. [Fowsniff CTF](FowsniffCTF.md)
 1. [Juicy Details](JuicyDetails.md)
+1. [The Impossible Challenge](TheImpossibleChallenge.md)
 1. [Advent of Cyber 1](AdventofCyber1/README.md)
 1. [Hacker of the Hill](HackeroftheHill.md)
 
