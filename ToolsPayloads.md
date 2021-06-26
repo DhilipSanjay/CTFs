@@ -28,6 +28,7 @@
     - [CrackStation](https://crackstation.net/)
     - [MD5 Decrypt](https://md5decrypt.net/en/)
     - [Hashkiller](https://hashkiller.io/listmanager)
+    - [Online Hash Cracker](https://www.onlinehashcrack.com/)
     - [Hashes](https://hashes.com/en/decrypt/hash)
 - Hash Identification Tools
     - Haiti

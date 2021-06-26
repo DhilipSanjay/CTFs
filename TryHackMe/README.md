@@ -59,6 +59,7 @@ Walkthrough of TryHackMe rooms.
 1. [Fowsniff CTF](FowsniffCTF.md)
 1. [Juicy Details](JuicyDetails.md)
 1. [The Impossible Challenge](TheImpossibleChallenge.md)
+1. [Golden Eye](GoldenEye.md)
 1. [Advent of Cyber 1](AdventofCyber1/README.md)
 1. [Hacker of the Hill](HackeroftheHill.md)
 
@@ -82,6 +83,7 @@ Walkthrough of TryHackMe rooms.
 1. [Bash scripting](https://tryhackme.com/room/bashscripting)
 1. [Tmux](https://tryhackme.com/room/rptmux)
 1. [Retro](https://tryhackme.com/room/retro) (Similar to Advent of Cyber 1 1. Day 13 Accumulate)
+1. [Windows Fundamentals 1](https://tryhackme.com/room/windowsfundamentals1xbx)
 
 
 ## Misc
