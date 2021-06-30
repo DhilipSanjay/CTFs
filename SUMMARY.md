@@ -97,6 +97,7 @@
     - [Juicy Details](TryHackMe/JuicyDetails.md)
     - [The Impossible Challenge](TryHackMe/TheImpossibleChallenge.md)
     - [Golden Eye](TryHackMe/GoldenEye.md)
+    - [Lian_Yu](TryHackMe/Lian_Yu.md)
     - [Advent of Cyber 1](TryHackMe/AdventofCyber1/README.md)
         - [Day 01 - Inventory Management](TryHackMe/AdventofCyber1/Day01-InventoryManagement.md)
         - [Day 02 - Arctic Forum](TryHackMe/AdventofCyber1/Day02-ArcticForum.md)

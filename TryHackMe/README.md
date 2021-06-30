@@ -60,6 +60,7 @@ Walkthrough of TryHackMe rooms.
 1. [Juicy Details](JuicyDetails.md)
 1. [The Impossible Challenge](TheImpossibleChallenge.md)
 1. [Golden Eye](GoldenEye.md)
+1. [Lian_Yu](Lian_Yu.md)
 1. [Advent of Cyber 1](AdventofCyber1/README.md)
 1. [Hacker of the Hill](HackeroftheHill.md)
 

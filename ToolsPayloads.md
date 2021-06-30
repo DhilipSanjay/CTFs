@@ -47,6 +47,10 @@
 - [ExifTool - Web](http://exif.regex.info/exif.cgi)
 - [Stegoveritas](https://github.com/bannsec/stegoVeritas) (For JPG and PNG)
 - [Sonic visualizer](https://www.sonicvisualiser.org/download.html) (Spectrogram stegonography)
+- [Steganography Tools](http://www.jjtc.com/Steganography/tools.html)
+- Crack the passpharse for jpg files:
+    - [StegCracker](https://github.com/Paradoxis/StegCracker)
+    - [Stegseek](https://github.com/RickdeJager/stegseek)
 
 ## Zero width Steg
 - [Steganographr](https://neatnik.net/steganographr/)
