@@ -129,6 +129,14 @@
 - [PortSwigger Overview](PortSwiggerAcademy/README.md)
 
 ## 2021 CTFs
+- [Gurugram Cyber Heist 2021 CTF](GurugramCyberHeist/README.md)
+    - [All About Web](GurugramCyberHeist/AllAboutWeb.md)
+    - [Not Just SQL](GurugramCyberHeist/NotJustSQL.md)
+    - [Are You Web Expert](GurugramCyberHeist/AreYouWebExpert.md)
+    - [Mobile Phones are Bad](GurugramCyberHeist/MobilePhonesAreBad.md)
+    - [The Last Step](GurugramCyberHeist/TheLastStep.md)
+    - [Social Media Havoc](GurugramCyberHeist/SocialMediaHavoc.md)
+
 - [ZH3R0 CTF 2.0 2021](ZH3R0CTF2.0/README.md)
     - [Misc - Small Maniac's Game](ZH3R0CTF2.0/SmallManiacsgame.md)
     - [Web - bxss](ZH3R0CTF2.0/bxss.md)

@@ -44,7 +44,7 @@ Walkthrough of TryHackMe rooms.
 1. [ReverseEngineering](ReverseEngineering.md)
 1. [Reversing ELF](ReversingELF.md)
 1. [Simple CTF](SimpleCTF.md)
-1. [c4ptur31.th31.fl4g](c4ptur31.th31.fl4g.md)
+1. [c4ptur3-th3-fl4g](c4ptur3-th3-fl4g.md)
 1. [Cat Pictures](CatPictures.md)
 1. [Bounty Hacker](BountyHacker.md)
 1. [That's the Ticket](ThatstheTicket.md)
@@ -86,7 +86,9 @@ Walkthrough of TryHackMe rooms.
 1. [Tmux](https://tryhackme.com/room/rptmux)
 1. [Retro](https://tryhackme.com/room/retro) (Similar to Advent of Cyber 1 1. Day 13 Accumulate)
 1. [Windows Fundamentals 1](https://tryhackme.com/room/windowsfundamentals1xbx)
-
+1. [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x)
+1. [What is Networking?](https://tryhackme.com/room/whatisnetworking)
+1. [Intro to LAN](https://tryhackme.com/room/introtolan)
 
 ## Misc
 1. Welcome
@@ -94,3 +96,4 @@ Walkthrough of TryHackMe rooms.
 1. OpenVPN
 1. How to Use TryHackMe
 1. Getting Started
+1. Learn and win prizes
