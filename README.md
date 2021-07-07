@@ -11,6 +11,7 @@ Hi, I'm **Dhilip Sanjay**. Here you'll find my walkthrough of the various CTF ch
 - [HackTheBox Academy](HackTheBoxAcademy/README.md)
 - [PortSwigger Academy](PortSwiggerAcademy/README.md)
 - 2021 CTFs
+  - [Gurugram Cyber Heist CTF 2021](GurugramCyberHeist/README.md)
   - [ZH3R0 CTF 2.0 2021](ZH3R0CTF2.0/README.md)
   - [NahamCon 2021](NahamCon2021/README.md)
 - 2020 CTFs

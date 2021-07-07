@@ -129,7 +129,7 @@
 - [PortSwigger Overview](PortSwiggerAcademy/README.md)
 
 ## 2021 CTFs
-- [Gurugram Cyber Heist 2021 CTF](GurugramCyberHeist/README.md)
+- [Gurugram Cyber Heist CTF 2021](GurugramCyberHeist/README.md)
     - [All About Web](GurugramCyberHeist/AllAboutWeb.md)
     - [Not Just SQL](GurugramCyberHeist/NotJustSQL.md)
     - [Are You Web Expert](GurugramCyberHeist/AreYouWebExpert.md)

@@ -1,4 +1,10 @@
-# Gurugram Cyber Heist 2021 CTF
+# Gurugram Cyber Heist CTF 2021
+
+## CTF conducted by Hackershala for GPCSSI-2021
+
+![Challenges](Images/Challenges.png)
+
+## Solutions for the Challenges
 
 - [All About Web](AllAboutWeb.md)
 - [Not Just SQL](NotJustSQL.md)
