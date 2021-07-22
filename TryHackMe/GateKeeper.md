@@ -236,6 +236,7 @@ $ /usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -l 500 -q 3965
 - Use `!mona modules` to find the right module (no memory protection)
 
 - Find the `JMP ESP` address using the command `!mona jmp -r esp -m gatekeeper.exe -cpb '\x00\x0a'`
+
 ![EIP](Images/GateKeeper-JMPESP.png)
 
 ### Generating shell code
