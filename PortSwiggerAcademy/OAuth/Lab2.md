@@ -11,7 +11,7 @@
 - This lab gives you the option to attach a social media profile to your account so that you can log in via OAuth instead of using the normal username and password. 
 - Due to the **insecure implementation of the OAuth flow** by the client application, an attacker can manipulate this functionality to obtain access to other users' accounts.
 
-- To solve the lab, use a CSRF attack to attach your own social media profile to the **admin user's account** on the blog website, then *access the admin panel and delete Carlos*.
+- To solve the lab, use a **CSRF attack** to attach your own social media profile to the **admin user's account** on the blog website, then *access the admin panel and delete Carlos*.
 
 - The admin user will open anything you send from the exploit server and they always have an active session on the blog website.
 
@@ -24,7 +24,7 @@
 - Click on the `Add social media account` button.
 - After the OAuth authenitication `/auth?...`, you can see a link `/oauth-linking?code=...` which links the user account with the social media profile:
 
-![OAuth Linking](../Images/Lab2-linking.png)]
+![OAuth Linking](../Images/Lab2-linking.png)
 
 - Copy the URL and drop the request.
 - Note that there is no state parameter or any kind of CSRF token attached in this request.
@@ -54,9 +54,9 @@ window.location = 'https://ac031fee1e9ea877801e43f100040097.web-security-academy
 
 ![Admin Panel](../Images/Lab2-solved.png)
 
-- Delete the carlos user to finish the lab!!
+- Delete the `carlos` user to finish the lab!!
 
 ---
 
 ## Key Takeaway
-- If the `code` or `key` value is useable only once, then make sure not to use it!
+- If the `code` or `key` value is usable only once, then make sure not to use it!
