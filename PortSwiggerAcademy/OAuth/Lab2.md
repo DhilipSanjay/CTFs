@@ -20,6 +20,8 @@
 - Blog website account: `wiener:peter`
 - Social media profile: `peter.wiener:hotdog`
 
+---
+
 ## Solution
 - Click on the `Add social media account` button.
 - After the OAuth authenitication `/auth?...`, you can see a link `/oauth-linking?code=...` which links the user account with the social media profile:
@@ -60,3 +62,5 @@ window.location = 'https://ac031fee1e9ea877801e43f100040097.web-security-academy
 
 ## Key Takeaway
 - If the `code` or `key` value is usable only once, then make sure not to use it!
+
+---

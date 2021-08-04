@@ -14,6 +14,8 @@
 
 - You can log in with your own social media account using the following credentials: `wiener:peter`.
 
+---
+
 ## Solution
 
 - Modify the email address in the POST request to `/authenticate` endpoint:
@@ -24,3 +26,5 @@
 - If you go to `My account`, you can see that you are logged in as Carlos.
 
 ![Solved](../Images/Lab1-solved.png)
+
+---
