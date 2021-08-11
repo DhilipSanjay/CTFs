@@ -84,4 +84,4 @@ window.location = "https://oauth-ac501fb51e75aa5a804f0e74022b0046.web-security-a
 - Now in the OAuth flow - `/me` request, replace the **Bearer** token with admin's token.
 - You'll get the API key. Submit it to solve the lab!
 
-![Access Token](../Images/Lab4-solved.png)
+![API Key](../Images/Lab4-solved.png)

@@ -74,7 +74,7 @@ fetch("/" + encodeURIComponent(e.data.data))
 - Now in the OAuth flow - `/me` request, replace the **Bearer** token with admin's token.
 - You'll get the API key. Submit it to solve the lab!
 
-![Access Token](../Images/Lab5-solved.png)
+![API Key](../Images/Lab5-solved.png)
 
 ---
 
