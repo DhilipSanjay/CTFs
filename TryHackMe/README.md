@@ -63,6 +63,7 @@ Walkthrough of TryHackMe rooms.
 1. [Lian_Yu](Lian_Yu.md)
 1. [Couch](Couch.md)
 1. [GateKeeper](GateKeeper.md)
+1. [WebAppSec 101](TryHackMe/WebAppSec101.md)
 1. [Advent of Cyber 1](AdventofCyber1/README.md)
 1. [Hacker of the Hill](HackeroftheHill.md)
 
