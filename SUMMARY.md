@@ -132,6 +132,7 @@
     - [Forced Oauth Profile Linking](PortSwiggerAcademy/OAuth/Lab2.md)
     - [OAuth account hijacking via redirect_uri](PortSwiggerAcademy/OAuth/Lab3.md)
     - [Stealing OAuth access tokens via an open redirect](PortSwiggerAcademy/OAuth/Lab4.md)
+    - [Stealing OAuth access tokens via a proxy page](PortSwiggerAcademy/OAuth/Lab5.md)
 
 ## 2021 CTFs
 - [Gurugram Cyber Heist CTF 2021](GurugramCyberHeist/README.md)

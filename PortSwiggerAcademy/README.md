@@ -6,3 +6,4 @@ Write-ups of PortSwigger Academy Labs
 - [Forced Oauth Profile Linking](OAuth/Lab2.md)
 - [OAuth account hijacking via redirect_uri](OAuth/Lab3.md)
 - [Stealing OAuth access tokens via an open redirect](OAuth/Lab4.md)
+- [Stealing OAuth access tokens via a proxy page](OAuth/Lab5.md)
